@@ -10,9 +10,9 @@ module.exports = function (grunt) {
                 files: [
                     {
                         expand: true,
-                        cwd: 'scss',
+                        cwd: 'src/scss',
                         src: ['*.scss'],
-                        dest: 'css',
+                        dest: 'src/css',
                         ext: '.css',
                         extDot: 'last'
                     }
@@ -37,7 +37,14 @@ module.exports = function (grunt) {
                     'scss/*.scss', 'scss/**/*.scss', 'scss/**/**/*.scss', 'scss/**/**/**/*.scss',
                     'scss/**/**/**/**/*.scss'
                 ],
-                tasks: ['sass']
+                tasks: ['sass', 'copy']
+            },
+
+            others: {
+                files: [
+                    '*.php', '**/.php', '**/**/.php', '*.js', '**/*.js', '**/**/*.js'
+                ],
+                tasks: ['copy']
             }
         },
 
@@ -49,13 +56,23 @@ module.exports = function (grunt) {
                         expand: true,
                         cwd: 'src',
                         src: '**',
-                        dest: 'release/',
+                        dest: '../../Sites/templates/joomboot',
+                    }
+                ]
+            },
+            materialize: {
+                files: [
+                    {
+                        expand: true,
+                        cwd: 'src/materialize',
+                        src: "*",
+                        dest: '../../Sites/templates/joomboot/css'
                     }
                 ]
             }
         },
 
-        clean: ["css/**/**", "css/**"]
+        clean: ["src/css/**/**", "src/css/**", "release/*"]
     });
 
     grunt.loadNpmTasks('grunt-contrib-watch');

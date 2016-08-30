@@ -18,7 +18,7 @@
 		<filename>template_thumbnail.png</filename>
 		<filename>templateDetails.xml</filename>
 		<folder>css</folder>
-		<folder>font</folder>
+		<folder>fonts</folder>
 		<folder>html</folder>
 		<folder>img</folder>
 		<folder>js</folder>
@@ -27,6 +27,11 @@
 	</files>
 	<positions>
 		<position>language</position>
+		<position>navbar</position>
+		<position>search-pos</position>
+
+		<position>banner</position>
+		<position>footer</position>
 	</positions>
 	<languages folder="language">
 		<language tag="en-GB">en-GB/en-GB.tpl_joomboot.ini</language>

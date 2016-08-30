@@ -4,5 +4,8 @@
 
 		console.log("Page loaded");
 
+		$(".button-collapse").sideNav();
+
+
 	})
 })(jQuery);
