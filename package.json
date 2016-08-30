@@ -1,0 +1,24 @@
+{
+	"name": "joomboot",
+	"description": "Just setting up a quick local grunt install for anyone willing to keep their SCSS compilation separate from Joomla",
+	"version": "1.0.0",
+	"license": "UNLICENSED",
+
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/radoslavpetranov/joomboot.git"
+	},
+
+	"author": {
+		"name": "First Last",
+		"email": "first.last@emxaple.com"
+	},
+
+	"dependencies": {
+		"grunt": "1.0.1",
+		"grunt-contrib-clean"	: 	"gruntjs/grunt-contrib-clean",
+		"grunt-contrib-sass"	: 	"gruntjs/grunt-contrib-sass",
+		"grunt-contrib-watch"	: 	"gruntjs/grunt-contrib-watch",
+		"grunt-newer"			: 	"tschaub/grunt-newer"
+	}
+}
