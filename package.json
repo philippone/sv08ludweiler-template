@@ -1,17 +1,12 @@
 {
-	"name": "joomboot",
-	"description": "Just setting up a quick local grunt install for anyone willing to keep their SCSS compilation separate from Joomla",
+	"name": "sv08ludweiler_template",
+	"description": "Football Club template",
 	"version": "1.0.0",
 	"license": "UNLICENSED",
 
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/radoslavpetranov/joomboot.git"
-	},
-
 	"author": {
-		"name": "First Last",
-		"email": "first.last@emxaple.com"
+		"name": "Philipp Schardt",
+		"email": "philipp.schardt@sv08ludweiler.de"
 	},
 
 	"dependencies": {
@@ -19,6 +14,7 @@
 		"grunt-contrib-clean"	: 	"gruntjs/grunt-contrib-clean",
 		"grunt-contrib-sass"	: 	"gruntjs/grunt-contrib-sass",
 		"grunt-contrib-watch"	: 	"gruntjs/grunt-contrib-watch",
-		"grunt-newer"			: 	"tschaub/grunt-newer"
+		"grunt-newer"			: 	"tschaub/grunt-newer",
+		"grunt-contrib-copy": "1.0.0"
 	}
 }

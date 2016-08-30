@@ -3,10 +3,10 @@
 <extension version="2.5" type="template" client="site">
 	<name>JoomBoot</name>
 	<version>1.0</version>
-	<creationDate>10/8/2016</creationDate>
-	<author>Name Surname</author>
-	<authorEmail>name.surname@example.com</authorEmail>
-	<copyright>Copyright (C) 2016 YourCompany, LLC. All rights reserved.</copyright>
+	<creationDate>30/8/2016</creationDate>
+	<author>Philipp Schardt</author>
+	<authorEmail>philipp.schardt@sv08ludweiler.de</authorEmail>
+	<copyright>Copyright (C) 2016 SV 08 Ludweiler, LLC. All rights reserved.</copyright>
 	<description>TPL_JOOMBOOT_XML_DESCRIPTION</description>
 	<files>
 		<filename>component.php</filename>
@@ -18,6 +18,7 @@
 		<filename>template_thumbnail.png</filename>
 		<filename>templateDetails.xml</filename>
 		<folder>css</folder>
+		<folder>font</folder>
 		<folder>html</folder>
 		<folder>img</folder>
 		<folder>js</folder>

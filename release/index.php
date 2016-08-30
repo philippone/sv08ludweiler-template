@@ -22,10 +22,19 @@ $task     = $app->input->getCmd('task', '');
 $itemid   = $app->input->getCmd('Itemid', '');
 $sitename = $app->get('sitename');
 
+// Add JavaScript Frameworks
+JHtml::_('bootstrap.framework');
+JHtml::_('jquery.framework');
+
 $doc->addScriptVersion($this->baseurl . '/templates/' . $this->template . '/js/template.js');
+$doc->addScriptVersion($this->baseurl . '/templates/' . $this->template . '/js/materialize.min.js');
 
 // Add Stylesheets
 $doc->addStyleSheetVersion($this->baseurl . '/templates/' . $this->template . '/css/template.css');
+$doc->addStyleSheetVersion($this->baseurl . '/templates/' . $this->template . '/css/materialize.css');
+
+// Load optional RTL Bootstrap CSS
+JHtml::_('bootstrap.loadCss', false, $this->direction);
 
 ?>
 <!DOCTYPE html>
@@ -34,7 +43,14 @@ $doc->addStyleSheetVersion($this->baseurl . '/templates/' . $this->template . '/
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<jdoc:include type="head" />
 	</head>
-	<body>
+	<body class="site <?php echo $option
+		. ' view-' . $view
+		. ($layout ? ' layout-' . $layout : ' no-layout')
+		. ($task ? ' task-' . $task : ' no-task')
+		. ($itemid ? ' itemid-' . $itemid : '')
+		. ($params->get('fluidContainer') ? ' fluid' : '');
+		echo ($this->direction == 'rtl' ? ' rtl' : '');
+	?>">
 		<!-- Body -->
 		<?php  require_once 'html/body.php';?>
 
