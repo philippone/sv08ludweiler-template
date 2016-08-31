@@ -54,9 +54,7 @@ $doc->addStyleSheetVersion($this->baseurl . '/templates/' . $this->template . '/
 	echo($this->direction == 'rtl' ? ' rtl' : '');
 	?>">
 		<!-- Body -->
-		<div class="container">
-			<?php require_once 'html/body.php'; ?>
-		</div>
+		<?php require_once 'html/body.php'; ?>
 
 		<jdoc:include type="modules"
 					  name="debug"

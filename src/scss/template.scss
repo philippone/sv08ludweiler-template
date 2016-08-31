@@ -3,9 +3,71 @@ body, .site {
 }
 
 .container {
-    background-color: red;
+    background-color: white;
+    border:           1px solid black;
 }
 
 .nav-wrapper {
-   background-color: green;
+    background-color: green;
+}
+
+.teaser-big {
+    min-height:       350px;
+    background-color: yellow;
+
+    p {
+        margin:  0;
+        padding: 0;
+    }
+}
+
+.parallax-container {
+    height: 350px;
+}
+
+.navbar .nav-wrapper ul li ul.nav > li {
+    position: relative;
+
+    a {
+        white-space: nowrap;
+    }
+}
+
+.navbar .nav-wrapper ul > li > ul.nav > li:hover > a + ul {
+    display: flex;
+}
+
+.navbar .nav-wrapper ul > li > ul.nav > li > a + ul {
+    display:          none;
+    position:         absolute;
+    right:            0;
+    background-color: green;
+
+    > li + a {
+        text-decoration: underline;
+        color:           red;
+    }
+}
+
+//.navbar .nav-wrapper ul li ul li:hover > ul li {
+//    display: flex;
+//}
+
+//ul.nav-child.unstyled.small {
+//    display: none;
+//}
+
+.content {
+    display:        flex;
+    flex-direction: row;
+
+    .row-middle {
+        flex: 1;
+    }
+
+    .row-right, .row-left {
+        flex:             1;
+        max-width:        30%;
+        background-color: grey;
+    }
 }

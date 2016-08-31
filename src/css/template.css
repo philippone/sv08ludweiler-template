@@ -1,5 +1,22 @@
 body, .site { background-color: white; }
 
-.container { background-color: red; }
+.container { background-color: white; border: 1px solid black; }
 
 .nav-wrapper { background-color: green; }
+
+.teaser-big { min-height: 350px; background-color: yellow; }
+.teaser-big p { margin: 0; padding: 0; }
+
+.parallax-container { height: 350px; }
+
+.navbar .nav-wrapper ul li ul.nav > li { position: relative; }
+.navbar .nav-wrapper ul li ul.nav > li a { white-space: nowrap; }
+
+.navbar .nav-wrapper ul > li > ul.nav > li:hover > a + ul { display: flex; }
+
+.navbar .nav-wrapper ul > li > ul.nav > li > a + ul { display: none; position: absolute; right: 0; background-color: green; }
+.navbar .nav-wrapper ul > li > ul.nav > li > a + ul > li + a { text-decoration: underline; color: red; }
+
+.content { display: flex; flex-direction: row; }
+.content .row-middle { flex: 1; }
+.content .row-right, .content .row-left { flex: 1; max-width: 30%; background-color: grey; }

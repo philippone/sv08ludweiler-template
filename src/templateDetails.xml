@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "https://www.joomla.org/xml/dtd/2.5/template-install.dtd">
-<extension version="2.5" type="template" client="site">
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+
+<extension version="3.3" type="template" client="site">
 	<name>JoomBoot</name>
 	<version>1.0</version>
 	<creationDate>30/8/2016</creationDate>
@@ -29,7 +30,13 @@
 		<position>language</position>
 		<position>navbar</position>
 		<position>search-pos</position>
-
+		<position>teaser-big</position>
+		<position>sub-navbar</position>
+		<position>teaser-small</position>
+		<position>sub-component-top</position>
+		<position>sub-component-bottom</position>
+		<position>left</position>
+		<position>right</position>
 		<position>banner</position>
 		<position>footer</position>
 	</positions>
@@ -40,7 +47,7 @@
 	<config>
 		<fields name="params">
 			<fieldset name="advanced">
-				
+
 			</fieldset>
 		</fields>
 	</config>
