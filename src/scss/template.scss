@@ -2,15 +2,6 @@ body, .site {
     background-color: white;
 }
 
-.container {
-    background-color: white;
-    border:           1px solid black;
-}
-
-.nav-wrapper {
-    background-color: green;
-}
-
 .teaser-big {
     min-height:       350px;
     background-color: yellow;
@@ -70,4 +61,31 @@ body, .site {
         max-width:        30%;
         background-color: grey;
     }
+}
+
+.custom-sv08-section, .sv08-section {
+    padding: 50px 15%;
+    margin:  0;
+}
+
+// suffix
+
+.custom-sv08-teaser-big {
+    height:              500px;
+    background-position: center top;
+    background-size:     cover;
+    background-repeat:   no-repeat;
+
+    * {
+        display: none
+    }
+}
+
+a.section-anchor {
+    padding-top: 128px;
+    margin-top:  -128px;
+    display:     inline-block;
+    visibility:  hidden;
+    height:      0;
+    position:    absolute;
 }

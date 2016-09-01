@@ -27,7 +27,7 @@ $sitename = $app->get('sitename');
 JHtml::_('jquery.framework');
 
 $doc->addScriptVersion($this->baseurl . '/templates/' . $this->template . '/js/template.js');
-$doc->addScriptVersion($this->baseurl . '/templates/' . $this->template . '/js/materialize.min.js');
+$doc->addScriptVersion($this->baseurl . '/templates/' . $this->template . '/js/materialize.js');
 
 // Add Stylesheets
 $doc->addStyleSheetVersion($this->baseurl . '/templates/' . $this->template . '/css/template.css');

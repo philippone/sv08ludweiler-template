@@ -11,10 +11,18 @@
 
         $('.sub-navigation').pushpin({
             top: $('.navbar').height() + $('.teaser-big').height(),
-            offset: $('.navbar').height()
+            offset: $('.navbar').height(),
+            pinCallback: function() {
+                $('main').css({'margin-top':'64px'})
+            },
+            releaseCallback: function() {
+                $('main').css({'margin-top':'0px'})
+            }
         });
 
         $('.parallax').parallax();
+
+        $('.scrollspy').scrollSpy();
 
     })
 })(jQuery);
