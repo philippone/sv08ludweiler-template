@@ -17,7 +17,7 @@ body, .site { background-color: white; }
 .content .row-middle { flex: 1; }
 .content .row-right, .content .row-left { flex: 1; max-width: 30%; background-color: grey; }
 
-.custom-sv08-section, .sv08-section { padding: 50px 15%; margin: 0; }
+.custom-sv08-section, .sv08-section { padding: 20px 15% 50px 15%; margin: 0; }
 
 .custom-sv08-teaser-big { height: 500px; background-position: center top; background-size: cover; background-repeat: no-repeat; }
 .custom-sv08-teaser-big * { display: none; }

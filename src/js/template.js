@@ -24,5 +24,7 @@
 
         $('.scrollspy').scrollSpy();
 
+        $('ul.tabs').tabs();
+
     })
 })(jQuery);

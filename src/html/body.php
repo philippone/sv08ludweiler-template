@@ -46,7 +46,7 @@
 <?php if ($this->countModules('teaser-big')) : ?>
 <div class="parallax-container">
 	<div class="teaser-big col s12 parallax">
-		<jdoc:include type="modules" name="teaser-big" style="none"/>
+		<jdoc:include type="modules" name="teaser-big"/>
 	</div>
 </div>
 <?php endif; ?>
