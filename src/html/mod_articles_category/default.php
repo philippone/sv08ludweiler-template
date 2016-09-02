@@ -86,67 +86,69 @@ defined('_JEXEC') or die;
 		<div class="row-flex-wrap">
 			<?php foreach ($list as $item) : ?>
 				<div class="col s12 m6">
-					<div class="card">
+					<div class="card hoverable">
 						<div class="card-content">
 							<?php if ($params->get('link_titles') == 1) : ?>
-								<a class="mod-articles-category-title card-title <?php echo $item->active; ?>"
-								   href="<?php echo $item->link; ?>">
-									<?php echo $item->title; ?>
-								</a>
+								<div class="article-title-container">
+									<a class="article-title <?php echo $item->active; ?>"
+									   href="<?php echo $item->link; ?>">
+										<?php echo $item->title; ?>
+									</a>
+								</div>
 							<?php else : ?>
 								<span class="card-title">
 								<?php echo $item->title; ?>
 							</span>
 							<?php endif; ?>
 
-							<?php if ($item->displayHits) : ?>
-								<span class="mod-articles-category-hits">
+							<div class="article-info-container">
+								<?php if ($item->displayHits) : ?>
+									<p class="mod-articles-category-hits">
 						(<?php echo $item->displayHits; ?>)
-					</span>
-							<?php endif; ?>
+					</p>
+								<?php endif; ?>
 
-							<?php if ($params->get('show_author')) : ?>
-								<span class="mod-articles-category-writtenby">
+								<?php if ($params->get('show_author')) : ?>
+									<p class="mod-articles-category-writtenby">
 						<?php echo $item->displayAuthorName; ?>
-					</span>
-							<?php endif; ?>
+					</p>
+								<?php endif; ?>
 
-							<?php if ($item->displayCategoryTitle) : ?>
-								<span class="mod-articles-category-category">
+								<?php if ($item->displayCategoryTitle) : ?>
+									<p class="mod-articles-category-category">
 						(<?php echo $item->displayCategoryTitle; ?>)
-					</span>
-							<?php endif; ?>
+					</p>
+								<?php endif; ?>
 
-							<?php if ($item->displayDate) : ?>
-								<span class="mod-articles-category-date">
+								<?php if ($item->displayDate) : ?>
+									<p class="mod-articles-category-date">
 						<?php echo $item->displayDate; ?>
-					</span>
-							<?php endif; ?>
-
+					</p>
+								<?php endif; ?>
+							</div>
 
 							<?php if ($params->get('show_introtext')) : ?>
 								<p class="mod-articles-category-introtext">
 									<?php echo $item->displayIntrotext; ?>
 								</p>
 							<?php endif; ?>
-
+						</div>
+						<div class="card-action">
 							<?php if ($params->get('show_readmore')) : ?>
-								<p class="mod-articles-category-readmore">
-									<a class="mod-articles-category-title waves-effect waves-light btn green darken-4 <?php echo $item->active; ?>"
-									   href="<?php echo $item->link; ?>">
-										<?php if ($item->params->get('access-view') == false) : ?>
-											<?php echo JText::_('MOD_ARTICLES_CATEGORY_REGISTER_TO_READ_MORE'); ?>
-										<?php elseif ($readmore = $item->alternative_readmore) : ?>
-											<?php echo $readmore; ?>
-											<?php echo JHtml::_('string.truncate', $item->title, $params->get('readmore_limit')); ?>
-										<?php elseif ($params->get('show_readmore_title', 0) == 0) : ?>
-											<?php echo JText::sprintf('MOD_ARTICLES_CATEGORY_READ_MORE_TITLE'); ?>
-										<?php else : ?>
-											<?php echo JText::_('MOD_ARTICLES_CATEGORY_READ_MORE'); ?>
-											<?php echo JHtml::_('string.truncate', $item->title, $params->get('readmore_limit')); ?>
-										<?php endif; ?>
-									</a>
-								</p>
+								<a class="mod-articles-category-title waves-effect waves-light btn green darken-4 <?php echo $item->active; ?>"
+								   href="<?php echo $item->link; ?>">
+									<?php if ($item->params->get('access-view') == false) : ?>
+										<?php echo JText::_('MOD_ARTICLES_CATEGORY_REGISTER_TO_READ_MORE'); ?>
+									<?php elseif ($readmore = $item->alternative_readmore) : ?>
+										<?php echo $readmore; ?>
+										<?php echo JHtml::_('string.truncate', $item->title, $params->get('readmore_limit')); ?>
+									<?php elseif ($params->get('show_readmore_title', 0) == 0) : ?>
+										<?php echo JText::sprintf('MOD_ARTICLES_CATEGORY_READ_MORE_TITLE'); ?>
+									<?php else : ?>
+										<?php echo JText::_('MOD_ARTICLES_CATEGORY_READ_MORE'); ?>
+										<?php echo JHtml::_('string.truncate', $item->title, $params->get('readmore_limit')); ?>
+									<?php endif; ?>
+								</a>
 							<?php endif; ?>
 						</div>
 					</div>
@@ -156,7 +158,8 @@ defined('_JEXEC') or die;
 		<?php if ($params->get('category_show_all') == 1) : ?>
 			<div class="row center">
 				<a class="waves-effect waves-light btn-large green darken-4"
-				href="<?php echo JURI::root(); ?>index.php?option=com_content&view=category&layout=blog&id=<?php echo $params->get('catid')[0]; ?>">Zeige alle Artikel</a>
+				   href="<?php echo JURI::root(); ?>index.php?option=com_content&view=category&layout=blog&id=<?php echo $params->get('catid')[0]; ?>">Zeige
+					alle Artikel</a>
 			</div>
 		<?php endif; ?>
 	<?php endif; ?>

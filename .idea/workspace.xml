@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="82a5ee48-caa3-4e8b-a34c-6cb6c9493c22" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/body.php" afterPath="$PROJECT_DIR$/src/html/body.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/template.css" afterPath="$PROJECT_DIR$/src/css/template.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/mod_articles_category/default.php" afterPath="$PROJECT_DIR$/src/html/mod_articles_category/default.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/template.scss" afterPath="$PROJECT_DIR$/src/scss/template.scss" />
     </list>
     <ignored path="sv08ludweiler-template.iws" />
@@ -24,7 +25,7 @@
     <favorites_list name="sv08ludweiler-template" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.37429538">
+    <splitter split-orientation="horizontal" split-proportion="0.54227734">
       <split-first>
         <leaf>
           <file leaf-file-name="materialize.css" pinned="false" current-in-tab="false">
@@ -72,21 +73,21 @@
           <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/html/mod_articles_category/default.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="40">
-                  <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                <state relative-caret-position="615">
+                  <caret line="131" column="70" selection-start-line="131" selection-start-column="54" selection-end-line="131" selection-end-column="70" />
                   <folding>
                     <element signature="e#377#3092#0#PHP" expanded="false" />
-                    <marker date="1472816694000" expanded="true" signature="5828:5839" ph="..." />
+                    <marker date="1472828535000" expanded="true" signature="5889:5903" ph="..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="helper.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="helper.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/modules/mod_latestarticles/helper.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+                <state relative-caret-position="262">
+                  <caret line="153" column="23" selection-start-line="153" selection-start-column="14" selection-end-line="153" selection-end-column="23" />
                   <folding>
                     <element signature="e#7#137#0#PHP" expanded="true" />
                   </folding>
@@ -104,11 +105,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="body.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="body.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/html/body.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="398">
-                  <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+                <state relative-caret-position="83">
+                  <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
                   <folding />
                 </state>
               </provider>
@@ -121,8 +122,8 @@
           <file leaf-file-name="template.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/scss/template.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="678">
-                  <caret line="85" column="29" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
+                <state relative-caret-position="708">
+                  <caret line="196" column="27" selection-start-line="196" selection-start-column="27" selection-end-line="196" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -243,11 +244,11 @@
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/modules/mod_latestarticles/mod_latestarticles.xml" />
         <option value="$PROJECT_DIR$/modules/mod_latestarticles/tmpl/default.php" />
-        <option value="$PROJECT_DIR$/src/html/mod_articles_category/default.php" />
         <option value="$PROJECT_DIR$/src/html/com_content/category/blog.php" />
         <option value="$PROJECT_DIR$/src/js/template.js" />
         <option value="$PROJECT_DIR$/src/html/modules.php" />
         <option value="$PROJECT_DIR$/src/html/body.php" />
+        <option value="$PROJECT_DIR$/src/html/mod_articles_category/default.php" />
         <option value="$PROJECT_DIR$/src/scss/template.scss" />
       </list>
     </option>
@@ -439,7 +440,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mod_menu" />
+              <option name="myItemId" value="mod_articles_category" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -494,28 +495,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tmpl" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sv08ludweiler-template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sv08ludweiler-template" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mod_latestarticles" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="language" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -606,12 +585,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1472560552399</updated>
-      <workItem from="1472560554297" duration="50684000" />
+      <workItem from="1472560554297" duration="55411000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50684000" />
+    <option name="totallyTimeSpent" value="55411000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="24" width="2127" height="1382" extended-state="0" />
@@ -624,7 +603,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32945737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32945737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -953,16 +932,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mod_latestarticles/helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#137#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/mod_latestarticles/mod_latestarticles.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
@@ -1047,25 +1016,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/com_content/category/blog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/mod_articles_category/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#377#3092#0#PHP" expanded="false" />
-            <marker date="1472816694000" expanded="true" signature="5828:5839" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/html/modules.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1076,19 +1026,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/com_content/category/blog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/html/body.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        <state relative-caret-position="83">
+          <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/template.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="85" column="29" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
+        <state relative-caret-position="708">
+          <caret line="196" column="27" selection-start-line="196" selection-start-column="27" selection-end-line="196" selection-end-column="27" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/mod_articles_category/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="131" column="70" selection-start-line="131" selection-start-column="54" selection-end-line="131" selection-end-column="70" />
+          <folding>
+            <element signature="e#377#3092#0#PHP" expanded="false" />
+            <marker date="1472828535000" expanded="true" signature="5889:5903" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_latestarticles/helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="153" column="23" selection-start-line="153" selection-start-column="14" selection-end-line="153" selection-end-column="23" />
+          <folding>
+            <element signature="e#7#137#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

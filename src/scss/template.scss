@@ -1,5 +1,6 @@
 @import "../../bower_components/breakpoint-sass/stylesheets/breakpoint";
 @import "../../bower_components/breakpoint-slicer-scss/src/breakpoint-slicer";
+@import "../materialize/materialize.min.css";
 
 $slicer-breakpoints: 0 600px 601px 992px;
 $slicer-breakpoint-names: 'small' 'medium-up' 'medium' 'large';
@@ -30,27 +31,58 @@ body, .site {
     }
 }
 
-.navbar .nav-wrapper ul li ul.nav > li {
-    position: relative;
+.navbar .nav-wrapper ul li ul.nav.menu {
 
-    a {
-        white-space: nowrap;
+    > li {
+        position: relative;
+
+        a {
+            white-space: nowrap;
+        }
     }
-}
 
-.navbar .nav-wrapper ul > li > ul.nav > li:hover > a + ul {
-    display: flex;
-}
+    > li:hover > a + ul {
+        display: flex;
+        //padding: 10%;
+    }
 
-.navbar .nav-wrapper ul > li > ul.nav > li > a + ul {
-    display:          none;
-    position:         absolute;
-    right:            0;
-    background-color: green;
+    // extended menu
+    > li > a + ul {
+        display:          none;
+        //display:          flex;
+        position:         absolute;
+        right:            0;
+        background-color: green;
+        // shadow
+        box-shadow:       0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);
+        // hoverable
+        transition:       box-shadow .25s;
+        box-shadow:       0;
 
-    > li + a {
-        text-decoration: underline;
-        color:           red;
+        // aktive list
+        > li {
+            //padding:   2% 0;
+            width:     100%;
+            min-width: 150px;
+
+            // aktive
+            > a {
+                text-decoration: underline;
+                width:           100%;
+            }
+
+            // 1. Mannschaft li
+            > ul > li {
+                width: 100%;
+
+                > a {
+                    padding: 0 15% 0 25%;
+                    width:   100%;
+                }
+            }
+
+        }
+
     }
 }
 
@@ -145,4 +177,28 @@ a.section-anchor {
     display:        flex;
     flex-direction: row;
     flex-wrap:      wrap;
+    margin:         50px 0;
+}
+
+// article
+.card {
+
+    .article-title-container {
+        padding-bottom: 10px;
+
+        .article-title {
+            line-height: 24px;
+            font-size:   24px;
+            font-weight: 300;
+            color:       #1B5E20;
+        }
+
+        p {
+            font-size: 15px;
+        }
+    }
+    .article-info-container {
+        padding: 10px 0;
+    }
+
 }
