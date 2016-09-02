@@ -15,8 +15,8 @@ function modChrome_sv08section( $module, &$params, &$attribs )
 }
 
 
-function modChrome_teaserbig( $module, &$params, &$attribs )
-{
+//function modChrome_teaserbig( $module, &$params, &$attribs )
+//{
 
 //	echo '<div class="parallax-container"><div class="parallax">';
 	// section-anchor
@@ -28,5 +28,17 @@ function modChrome_teaserbig( $module, &$params, &$attribs )
 
 	// ohne parallax
 	//echo 'div class="custom-sv08-teaser-big" style="background-image:'.$params->get('backgroundimage').'"></div';
+//}
+
+function modChrome_navmobile( $module, &$params, &$attribs )
+{
+
+	echo '<div class="nav-mobile">';
+
+	echo $module->content;
+
+	echo '</div>';
+
 }
+
 ?>

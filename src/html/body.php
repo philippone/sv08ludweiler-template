@@ -24,9 +24,7 @@
 					</ul>
 					<ul class="side-nav"
 						id="mobile-demo">
-						<li>
-							<jdoc:include type="modules" name="navbar" />
-						</li>
+							<jdoc:include type="modules" name="navbar"/>
 					</ul>
 				</div>
 			</div>
