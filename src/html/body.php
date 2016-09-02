@@ -52,11 +52,9 @@
 <?php if ($this->countModules('sub-navbar')) : ?>
 	<nav class="sub-navigation col s12 green darken-3">
 		<div class="container">
-			<ul class="left">
-				<li>
-					<jdoc:include type="modules" name="sub-navbar" style="none"/>
-				</li>
-			</ul>
+<!--			<ul class="left">-->
+				 <jdoc:include type="modules" name="sub-navbar" style="none"/>
+<!--			</ul>-->
 		</div>
 	</nav>
 <?php endif; ?>

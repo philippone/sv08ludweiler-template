@@ -54,8 +54,8 @@ body, .site {
     }
 }
 
+// mobile navigation
 .navbar .nav-wrapper .side-nav .nav.menu li {
-
     //background-color: violet;
 
     > ul > li {
@@ -78,6 +78,13 @@ body, .site {
 
 .sub-navigation {
     z-index: 10;
+    height:  auto;
+
+    .nav.menu {
+        display:        flex;
+        flex-direction: row;
+        flex-wrap:      wrap;
+    }
 }
 
 //.navbar .nav-wrapper ul li ul li:hover > ul li {
