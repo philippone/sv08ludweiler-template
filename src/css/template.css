@@ -15,13 +15,18 @@ body, .site { background-color: white; }
 .navbar .nav-wrapper ul > li > ul.nav > li > a + ul { display: none; position: absolute; right: 0; background-color: green; }
 .navbar .nav-wrapper ul > li > ul.nav > li > a + ul > li + a { text-decoration: underline; color: red; }
 
+.sub-navigation { z-index: 10; }
+
 .content { display: flex; flex-direction: row; }
 .content .row-middle { flex: 1; }
 .content .row-right, .content .row-left { flex: 1; max-width: 30%; background-color: grey; }
 
 .custom-sv08-section, .sv08-section { padding: 20px 15% 50px 15%; margin: 0; }
+@media (max-width: 992px) { .custom-sv08-section, .sv08-section { padding: 20px 10% 50px 10%; } }
 
 .custom-sv08-teaser-big, .sv08-teaser-big { height: 500px; background-position: center top; background-size: cover; background-repeat: no-repeat; }
 .custom-sv08-teaser-big *, .sv08-teaser-big * { display: none; }
 
 a.section-anchor { padding-top: 128px; margin-top: -128px; display: inline-block; visibility: hidden; height: 0; position: absolute; }
+
+.row-flex-wrap { display: flex; flex-direction: row; flex-wrap: wrap; }

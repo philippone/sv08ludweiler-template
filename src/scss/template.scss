@@ -18,7 +18,7 @@ body, .site {
 }
 
 .teaser-big-container {
-    height: 450px;
+    height:   450px;
     overflow: hidden;
 
     @include at('medium') {
@@ -54,6 +54,10 @@ body, .site {
     }
 }
 
+.sub-navigation {
+    z-index: 10;
+}
+
 //.navbar .nav-wrapper ul li ul li:hover > ul li {
 //    display: flex;
 //}
@@ -80,6 +84,10 @@ body, .site {
 .custom-sv08-section, .sv08-section {
     padding: 20px 15% 50px 15%;
     margin:  0;
+
+    @include to('medium') {
+        padding: 20px 10% 50px 10%;
+    }
 }
 
 // suffix
@@ -102,4 +110,10 @@ a.section-anchor {
     visibility:  hidden;
     height:      0;
     position:    absolute;
+}
+
+.row-flex-wrap {
+    display:        flex;
+    flex-direction: row;
+    flex-wrap:      wrap;
 }

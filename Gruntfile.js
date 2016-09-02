@@ -69,10 +69,22 @@ module.exports = function (grunt) {
                         dest: '../../Sites/templates/joomboot/css'
                     }
                 ]
+            },
+            module: {
+                files: [
+                    // includes files within path
+                    {
+                        expand: true,
+                        cwd: 'modules/',
+                        src: '**',
+                        dest: '../../Sites/modules'
+                    }
+                ]
             }
         },
 
         clean: ["src/css/**/**", "src/css/**", "release/*"]
+
     });
 
     grunt.loadNpmTasks('grunt-contrib-watch');
@@ -82,6 +94,8 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-copy');
 
     grunt.registerTask('default', ['clean', 'sass']);
-    grunt.registerTask('release', ['default', 'copy'])
+    grunt.registerTask('release', ['default', 'copy:main', 'copy:materialize']);
+
+    grunt.registerTask('module', ['copy:module']);
 
 };
