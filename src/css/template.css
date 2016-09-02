@@ -1,9 +1,11 @@
 body, .site { background-color: white; }
 
-.teaser-big { min-height: 350px; background-color: yellow; }
+.teaser-big { min-height: 350px; }
 .teaser-big p { margin: 0; padding: 0; }
 
-.parallax-container { height: 350px; }
+.teaser-big-container { height: 450px; overflow: hidden; }
+@media (min-width: 602px) and (max-width: 992px) { .teaser-big-container { height: 350px; } }
+@media (max-width: 601px) { .teaser-big-container { height: 300px; } }
 
 .navbar .nav-wrapper ul li ul.nav > li { position: relative; }
 .navbar .nav-wrapper ul li ul.nav > li a { white-space: nowrap; }
@@ -19,7 +21,7 @@ body, .site { background-color: white; }
 
 .custom-sv08-section, .sv08-section { padding: 20px 15% 50px 15%; margin: 0; }
 
-.custom-sv08-teaser-big { height: 500px; background-position: center top; background-size: cover; background-repeat: no-repeat; }
-.custom-sv08-teaser-big * { display: none; }
+.custom-sv08-teaser-big, .sv08-teaser-big { height: 500px; background-position: center top; background-size: cover; background-repeat: no-repeat; }
+.custom-sv08-teaser-big *, .sv08-teaser-big * { display: none; }
 
 a.section-anchor { padding-top: 128px; margin-top: -128px; display: inline-block; visibility: hidden; height: 0; position: absolute; }

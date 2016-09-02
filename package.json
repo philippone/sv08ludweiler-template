@@ -1,20 +1,18 @@
 {
-	"name": "sv08ludweiler_template",
-	"description": "Football Club template",
-	"version": "1.0.0",
-	"license": "UNLICENSED",
-
-	"author": {
-		"name": "Philipp Schardt",
-		"email": "philipp.schardt@sv08ludweiler.de"
-	},
-
-	"dependencies": {
-		"grunt": "1.0.1",
-		"grunt-contrib-clean"	: 	"gruntjs/grunt-contrib-clean",
-		"grunt-contrib-sass"	: 	"gruntjs/grunt-contrib-sass",
-		"grunt-contrib-watch"	: 	"gruntjs/grunt-contrib-watch",
-		"grunt-newer"			: 	"tschaub/grunt-newer",
-		"grunt-contrib-copy": "1.0.0"
-	}
+  "name": "sv08ludweiler_template",
+  "description": "Football Club template",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "author": {
+    "name": "Philipp Schardt",
+    "email": "philipp.schardt@sv08ludweiler.de"
+  },
+  "dependencies": {
+    "grunt": "1.0.1",
+    "grunt-contrib-clean": "gruntjs/grunt-contrib-clean",
+    "grunt-contrib-sass": "gruntjs/grunt-contrib-sass",
+    "grunt-contrib-watch": "gruntjs/grunt-contrib-watch",
+    "grunt-newer": "tschaub/grunt-newer",
+    "grunt-contrib-copy": "1.0.0"
+  }
 }

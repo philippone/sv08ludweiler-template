@@ -1,10 +1,15 @@
+@import "../../bower_components/breakpoint-sass/stylesheets/breakpoint";
+@import "../../bower_components/breakpoint-slicer-scss/src/breakpoint-slicer";
+
+$slicer-breakpoints: 0 600px 601px 992px;
+$slicer-breakpoint-names: 'small' 'medium-up' 'medium' 'large';
+
 body, .site {
     background-color: white;
 }
 
 .teaser-big {
-    min-height:       350px;
-    background-color: yellow;
+    min-height: 350px;
 
     p {
         margin:  0;
@@ -12,8 +17,17 @@ body, .site {
     }
 }
 
-.parallax-container {
-    height: 350px;
+.teaser-big-container {
+    height: 450px;
+    overflow: hidden;
+
+    @include at('medium') {
+        height: 350px;
+    }
+
+    @include to('medium-up') {
+        height: 300px;
+    }
 }
 
 .navbar .nav-wrapper ul li ul.nav > li {
@@ -70,7 +84,7 @@ body, .site {
 
 // suffix
 
-.custom-sv08-teaser-big {
+.custom-sv08-teaser-big, .sv08-teaser-big {
     height:              500px;
     background-position: center top;
     background-size:     cover;

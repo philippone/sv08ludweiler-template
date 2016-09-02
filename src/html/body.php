@@ -44,8 +44,8 @@
 <jdoc:include type="message"/>
 <!-- teaser-big -->
 <?php if ($this->countModules('teaser-big')) : ?>
-<div class="parallax-container">
-	<div class="teaser-big col s12 parallax">
+<div class="teaser-big-container">
+	<div class="teaser-big col s12">
 		<jdoc:include type="modules" name="teaser-big"/>
 	</div>
 </div>

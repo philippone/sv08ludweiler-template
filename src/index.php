@@ -31,7 +31,18 @@ $doc->addScriptVersion($this->baseurl . '/templates/' . $this->template . '/js/m
 
 // Add Stylesheets
 $doc->addStyleSheetVersion($this->baseurl . '/templates/' . $this->template . '/css/template.css');
-$doc->addStyleSheetVersion($this->baseurl . '/templates/' . $this->template . '/css/materialize.min.css');
+$doc->addStyleSheetVersion($this->baseurl . '/templates/' . $this->template . '/css/materialize.css');
+$doc->addStyleSheetVersion('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+// Use of Google Font
+if ($this->params->get('googleFont'))
+{
+	$doc->addStyleSheet('//fonts.googleapis.com/css?family=' . $this->params->get('googleFontName'));
+	$doc->addStyleDeclaration("
+	h1, h2, h3, h4, h5, h6, .site-title {
+		font-family: '" . str_replace('+', ' ', $this->params->get('googleFontName')) . "', sans-serif;
+	}");
+}
 
 // Load optional RTL Bootstrap CSS
 //JHtml::_('bootstrap.loadCss', false, $this->direction);

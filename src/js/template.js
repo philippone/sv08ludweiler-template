@@ -20,11 +20,9 @@
             }
         });
 
-        $('.parallax').parallax();
+        //$('.parallax').parallax();
 
         $('.scrollspy').scrollSpy();
-
-        $('ul.tabs').tabs();
 
     })
 })(jQuery);
