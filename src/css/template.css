@@ -37,6 +37,10 @@ a.section-anchor { padding-top: 128px; margin-top: -128px; display: inline-block
 
 .row-flex-wrap { display: flex; flex-direction: row; flex-wrap: wrap; margin: 50px 0; }
 
+.row-col-wrap { margin: 20px -1% 50px -1%; -webkit-column-count: 2; /* Chrome, Safari, Opera */ -moz-column-count: 2; /* Firefox */ column-count: 2; column-fill: balance; -moz-column-fill: balance; -webkit-column-fill: balance; }
+@media (max-width: 992px) { .row-col-wrap { -webkit-column-count: 1; /* Chrome, Safari, Opera */ -moz-column-count: 1; /* Firefox */ column-count: 1; } }
+.row-col-wrap .col { -webkit-column-break-inside: avoid; page-break-inside: avoid; /* Firefox is dumb */ break-inside: avoid; }
+
 .card .article-image-container { width: 100%; height: 200px; }
 .card .article-image-container img { width: 100%; height: 100%; object-fit: cover; }
 .card .article-title-container { padding-bottom: 10px; }

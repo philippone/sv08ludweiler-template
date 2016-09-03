@@ -21,7 +21,24 @@
 	<config>
 		<fields name="params">
 			<fieldset name="basic">
-
+				<field
+						name="module_title"
+						type="text"
+						label="Module Title"
+						description="MOD_ARTICLES_CATEGORY_FIELD_COUNT_DESC"
+						default="News"
+				/>
+				<field
+						name="module_title_displayed"
+						type="radio"
+						label="Module Titel anzeigen"
+						description="MOD_ARTICLES_CATEGORY_FIELD_CATFILTERINGTYPE_DESC"
+						class="btn-group btn-group-yesno"
+						default="1"
+				>
+					<option value="1">Ja</option>
+					<option value="0">Nein</option>
+				</field>
 			</fieldset>
 
 

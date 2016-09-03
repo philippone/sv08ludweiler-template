@@ -25,7 +25,7 @@
 
         }
 
-        //$('.parallax').parallax();
+        $('.parallax').parallax();
 
         // subnavigation scrolling
         $('.scrollspy').scrollSpy();

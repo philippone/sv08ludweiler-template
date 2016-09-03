@@ -180,6 +180,28 @@ a.section-anchor {
     margin:         50px 0;
 }
 
+.row-col-wrap {
+    margin:               20px -1% 50px -1%;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count:    2; /* Firefox */
+    column-count:         2;
+    column-fill:          balance;
+    -moz-column-fill:     balance;
+    -webkit-column-fill:  balance;
+
+    @include to('medium') {
+        -webkit-column-count: 1; /* Chrome, Safari, Opera */
+        -moz-column-count:    1; /* Firefox */
+        column-count:         1;
+    }
+
+    .col {
+        -webkit-column-break-inside: avoid;
+        page-break-inside:           avoid; /* Firefox is dumb */
+        break-inside:                avoid;
+    }
+}
+
 // article
 .card {
 

@@ -44,7 +44,7 @@
 <?php if ($this->countModules('teaser-big')) : ?>
 <div class="teaser-big-container">
 	<div class="teaser-big col s12">
-		<jdoc:include type="modules" name="teaser-big"/>
+		<jdoc:include type="modules" name="teaser-big" style="teaserbig"/>
 	</div>
 </div>
 <?php endif; ?>

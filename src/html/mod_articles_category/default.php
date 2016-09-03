@@ -12,6 +12,10 @@ defined('_JEXEC') or die;
 ?>
 
 <ul class="category-module<?php echo $moduleclass_sfx; ?>">
+	<?php if ($params->get('module_title_displayed', 0)):
+			echo "<h4>" . $params->get('module_title', 0) . "</h4>";
+		endif;
+	?>
 	<?php if ($grouped) : ?>
 		<?php foreach ($list as $group_name => $group) : ?>
 			<li>
@@ -83,9 +87,9 @@ defined('_JEXEC') or die;
 			</li>
 		<?php endforeach; ?>
 	<?php else : ?>
-		<div class="row-flex-wrap">
+		<div class="row-col-wrap">
 			<?php foreach ($list as $item) : ?>
-				<div class="col s12 m6">
+				<div class="col s12">
 					<div class="card hoverable">
 						<?php if ($item->images && json_decode($item->images)->image_intro): ?>
 							<div class="article-image-container">
