@@ -22,11 +22,11 @@ JHtml::_('behavior.caption');
 	<?php endif; ?>
 
 	<?php if ($this->params->get('show_category_title', 1) or $this->params->get('page_subheading')) : ?>
-		<h2> <?php echo $this->escape($this->params->get('page_subheading')); ?>
+		<h3> <?php echo $this->escape($this->params->get('page_subheading')); ?>
 			<?php if ($this->params->get('show_category_title')) : ?>
 				<span class="subheading-category"><?php echo $this->category->title; ?></span>
 			<?php endif; ?>
-		</h2>
+		</h3>
 	<?php endif; ?>
 
 	<?php if ($this->params->get('show_cat_tags', 1) && !empty($this->category->tags->itemTags)) : ?>
@@ -53,9 +53,9 @@ JHtml::_('behavior.caption');
 
 	<?php $leadingcount = 0; ?>
 	<?php if (!empty($this->lead_items)) : ?>
-		<div class="items-leading clearfix col s12 m6">
+		<div class="items-leading clearfix">
 			<?php foreach ($this->lead_items as &$item) : ?>
-				<div class="card leading-<?php echo $leadingcount; ?><?php echo $item->state == 0 ? ' system-unpublished' : null; ?>"
+				<div class="leading-<?php echo $leadingcount; ?><?php echo $item->state == 0 ? ' system-unpublished' : null; ?>"
 					itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
 					<?php
 					$this->item = & $item;

@@ -47,12 +47,25 @@ a.section-anchor { padding-top: 128px; margin-top: -128px; display: inline-block
 @media (max-width: 992px) { .row-col-wrap { -webkit-column-count: 1; /* Chrome, Safari, Opera */ -moz-column-count: 1; /* Firefox */ column-count: 1; } }
 .row-col-wrap .col { -webkit-column-break-inside: avoid; page-break-inside: avoid; /* Firefox is dumb */ break-inside: avoid; }
 
+.main.row { margin: 0; }
+
 .card .article-image-container { width: 100%; height: 200px; }
 .card .article-image-container img { width: 100%; height: 100%; object-fit: cover; }
-.card .article-title-container { padding-bottom: 10px; }
-.card .article-title-container .article-title { line-height: 24px; font-size: 24px; font-weight: 300; color: #1B5E20; }
-.card .article-title-container p { font-size: 15px; }
-.card .article-info-container { padding: 10px 0; }
+.card .card-content .article-title-container { padding-bottom: 10px; }
+.card .card-content .article-title-container .article-title { line-height: 24px; font-size: 24px; font-weight: 300; color: #1B5E20; }
+.card .card-content .article-title-container p { font-size: 15px; }
+.card .card-content p.article-category { margin-top: -10px; }
+.card .card-content p.article-category a { color: rgba(0, 0, 0, 0.87); }
+.card .card-content .article-info-container { padding: 10px 0; }
 
 footer .wappen { width: 200px; }
 footer a { color: white; }
+
+.blog img { max-width: 100%; }
+.blog .card .card-content { margin-top: 0; }
+.blog .card .card-content .page-header h2 { margin: 0 0 10px 0; font-size: 2rem; }
+.blog .card .card-content .page-header h2 a { color: green; }
+.blog .card .card-action dl { column-count: 2; margin: 0; }
+@media (max-width: 600px) { .blog .card .card-action dl { column-count: 1; } }
+.blog .card .card-action dl dd { display: block; margin: 0; }
+.blog .card .card-action dl dd a { color: green; }

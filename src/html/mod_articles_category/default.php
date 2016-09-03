@@ -111,22 +111,22 @@ defined('_JEXEC') or die;
 							</span>
 							<?php endif; ?>
 
+							<?php if ($item->displayCategoryTitle) : ?>
+								<p class="article-category">
+									<?php echo $item->displayCategoryTitle; ?>
+								</p>
+							<?php endif; ?>
+
 							<div class="article-info-container">
 								<?php if ($item->displayHits) : ?>
 									<p class="mod-articles-category-hits">
-						(<?php echo $item->displayHits; ?>)
+						Aufrufe: <?php echo $item->displayHits; ?>
 					</p>
 								<?php endif; ?>
 
 								<?php if ($params->get('show_author')) : ?>
 									<p class="mod-articles-category-writtenby">
 						<?php echo $item->displayAuthorName; ?>
-					</p>
-								<?php endif; ?>
-
-								<?php if ($item->displayCategoryTitle) : ?>
-									<p class="mod-articles-category-category">
-						(<?php echo $item->displayCategoryTitle; ?>)
 					</p>
 								<?php endif; ?>
 

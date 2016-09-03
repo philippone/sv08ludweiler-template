@@ -1,0 +1,49 @@
+.blog {
+    img {
+        max-width: 100%;
+    }
+
+    .card {
+
+        .card-intro {
+
+        }
+
+        .card-content {
+            margin-top: 0;
+
+            .page-header h2 {
+                margin:    0 0 10px 0;
+                font-size: 2rem;
+                a {
+                    color: green
+                }
+
+            }
+
+        }
+
+        .card-action {
+            dl {
+                //display:         flex;
+                //flex-direction:  row;
+                //flex-wrap:       wrap;
+                //justify-content: space-between;
+                column-count: 2;
+                margin:       0;
+
+                @include to('small') {
+                    column-count: 1;
+                }
+                dd {
+                    display: block;
+                    margin:  0;
+                    //flex:    1 1 auto;
+                    a {
+                        color: green;
+                    }
+                }
+            }
+        }
+    }
+}

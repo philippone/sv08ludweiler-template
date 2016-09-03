@@ -94,7 +94,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-copy');
 
     grunt.registerTask('default', ['clean', 'sass']);
-    grunt.registerTask('release', ['default', 'copy:main', 'copy:materialize']);
+    grunt.registerTask('release', ['default', 'copy:main']);
 
     grunt.registerTask('module', ['copy:module']);
 

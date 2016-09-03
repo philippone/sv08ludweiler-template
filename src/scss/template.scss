@@ -224,6 +224,10 @@ a.section-anchor {
     }
 }
 
+.main.row {
+    margin: 0;
+}
+
 // article
 .card {
 
@@ -236,22 +240,33 @@ a.section-anchor {
             object-fit: cover;
         }
     }
-    .article-title-container {
-        padding-bottom: 10px;
+    .card-content {
+        .article-title-container {
+            padding-bottom: 10px;
 
-        .article-title {
-            line-height: 24px;
-            font-size:   24px;
-            font-weight: 300;
-            color:       #1B5E20;
+            .article-title {
+                line-height: 24px;
+                font-size:   24px;
+                font-weight: 300;
+                color:       #1B5E20;
+            }
+
+            p {
+                font-size: 15px;
+            }
         }
 
-        p {
-            font-size: 15px;
+        p.article-category {
+            margin-top: -10px;
+
+            a {
+                color: rgba(0, 0, 0, 0.87);
+            }
         }
-    }
-    .article-info-container {
-        padding: 10px 0;
+
+        .article-info-container {
+            padding: 10px 0;
+        }
     }
 
 }
@@ -265,3 +280,5 @@ footer {
         color: white;
     }
 }
+
+@import "blog";
