@@ -8,6 +8,8 @@ body, .site { background-color: white; }
 @media (min-width: 602px) and (max-width: 992px) { .teaser-big-container { height: 350px; } }
 @media (max-width: 601px) { .teaser-big-container { height: 300px; } }
 
+.navbar .nav-wrapper .wappen { width: 45px; margin: 5px 10px; }
+
 .navbar .nav-wrapper ul li ul.nav.menu > li { position: relative; }
 .navbar .nav-wrapper ul li ul.nav.menu > li a { white-space: nowrap; }
 .navbar .nav-wrapper ul li ul.nav.menu > li:hover > a + ul { display: flex; }
@@ -47,3 +49,5 @@ a.section-anchor { padding-top: 128px; margin-top: -128px; display: inline-block
 .card .article-title-container .article-title { line-height: 24px; font-size: 24px; font-weight: 300; color: #1B5E20; }
 .card .article-title-container p { font-size: 15px; }
 .card .article-info-container { padding: 10px 0; }
+
+footer .wappen { width: 200px; }

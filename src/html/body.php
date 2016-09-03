@@ -11,6 +11,7 @@
 		 	role="navigation">
 			<div class="container">
 				<div class="nav-wrapper">
+					<img class="wappen" src="<?php echo JURI::base(); ?>/templates/<?php echo JFactory::getApplication()->getTemplate(); ?>/img/wappen.png" alt="wappen"/>
 					<a href="#!"
 					   class="brand-logo">SV 08 Ludweiler</a>
 					<a href="#"
@@ -96,6 +97,7 @@
 			<div class="row">
 				<div class="col l6 s12">
 					<h5 class="white-text">SV 08 Ludweiler</h5>
+					<img class="wappen" src="<?php echo JURI::base(); ?>/templates/<?php echo JFactory::getApplication()->getTemplate(); ?>/img/wappen.png" alt="wappen"/>
 					<p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
 				</div>
 				<div class="col l4 offset-l2 s12">

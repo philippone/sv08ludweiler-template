@@ -31,6 +31,13 @@ body, .site {
     }
 }
 
+// logo
+.navbar .nav-wrapper .wappen {
+    width:  45px;
+    margin: 5px 10px;
+
+}
+
 .navbar .nav-wrapper ul li ul.nav.menu {
 
     > li {
@@ -232,4 +239,10 @@ a.section-anchor {
         padding: 10px 0;
     }
 
+}
+
+footer {
+    .wappen {
+        width: 200px;
+    }
 }
