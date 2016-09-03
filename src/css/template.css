@@ -37,6 +37,8 @@ a.section-anchor { padding-top: 128px; margin-top: -128px; display: inline-block
 
 .row-flex-wrap { display: flex; flex-direction: row; flex-wrap: wrap; margin: 50px 0; }
 
+.card .article-image-container { width: 100%; height: 200px; }
+.card .article-image-container img { width: 100%; height: 100%; object-fit: cover; }
 .card .article-title-container { padding-bottom: 10px; }
 .card .article-title-container .article-title { line-height: 24px; font-size: 24px; font-weight: 300; color: #1B5E20; }
 .card .article-title-container p { font-size: 15px; }

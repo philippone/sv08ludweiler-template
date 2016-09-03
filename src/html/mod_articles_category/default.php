@@ -87,7 +87,13 @@ defined('_JEXEC') or die;
 			<?php foreach ($list as $item) : ?>
 				<div class="col s12 m6">
 					<div class="card hoverable">
+						<?php if ($item->images && json_decode($item->images)->image_intro): ?>
+							<div class="article-image-container">
+								<img src="<?php echo json_decode($item->images)->image_intro; ?>" alt="<?php echo $item->title; ?>"/>
+							</div>
+						<?php endif; ?>
 						<div class="card-content">
+
 							<?php if ($params->get('link_titles') == 1) : ?>
 								<div class="article-title-container">
 									<a class="article-title <?php echo $item->active; ?>"
