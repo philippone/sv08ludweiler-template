@@ -64,7 +64,7 @@
 <?php endif; ?>
 </header>
 
-<main class="content row">
+<main >
 	<?php if ($this->countModules('left')) : ?>
 		<div class="row-left"">
 			<jdoc:include type="modules" name="left"/>

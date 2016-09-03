@@ -2,58 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82a5ee48-caa3-4e8b-a34c-6cb6c9493c22" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/com_content/article/default-20160903-144216.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/com_content/article/default.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/com_content/article/default_links-20160903-144216.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/com_content/article/default_links.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/layouts/joomla/content/info_block/author.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/layouts/joomla/content/info_block/block.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/_blog.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_cards.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_carousel.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_chips.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_collapsible.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_color.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_dropdown.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_global.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_icons-material-design.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_materialbox.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_modal.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_navbar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_normalize.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_prefixer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_preloader.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_roboto.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_sideNav.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_slider.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_table_of_contents.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_tabs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_toast.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_tooltip.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_typography.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_waves.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/date_picker/_default.date.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/date_picker/_default.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/date_picker/_default.time.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/forms/_checkboxes.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/forms/_file-input.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/forms/_forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/forms/_input-fields.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/forms/_radio-buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/forms/_range.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/forms/_select.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/forms/_switches.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/materialize.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/template.css" afterPath="$PROJECT_DIR$/src/css/template.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/com_content/category/blog.php" afterPath="$PROJECT_DIR$/src/html/com_content/category/blog.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/com_content/category/blog_item.php" afterPath="$PROJECT_DIR$/src/html/com_content/category/blog_item.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/mod_articles_category/default.php" afterPath="$PROJECT_DIR$/src/html/mod_articles_category/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/body.php" afterPath="$PROJECT_DIR$/src/html/body.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/com_content/article/default.php" afterPath="$PROJECT_DIR$/src/html/com_content/article/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/_blog.scss" afterPath="$PROJECT_DIR$/src/scss/_blog.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/template.scss" afterPath="$PROJECT_DIR$/src/scss/template.scss" />
     </list>
     <ignored path="sv08ludweiler-template.iws" />
@@ -127,11 +80,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/scss/components/_variables.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="40" column="11" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="52" />
+                <state relative-caret-position="-1725">
+                  <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -160,18 +113,18 @@
           <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/html/com_content/article/default.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="465">
-                  <caret line="107" column="6" selection-start-line="107" selection-start-column="6" selection-end-line="107" selection-end-column="6" />
+                <state relative-caret-position="336">
+                  <caret line="176" column="40" selection-start-line="176" selection-start-column="40" selection-end-line="176" selection-end-column="40" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="blog_children.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/html/com_content/category/blog_children.php">
+          <file leaf-file-name="body.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/html/body.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="450">
+                  <caret line="66" column="6" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
                   <folding />
                 </state>
               </provider>
@@ -181,21 +134,21 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="template.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="template.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/scss/template.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="693">
-                  <caret line="281" column="1" selection-start-line="281" selection-start-column="1" selection-end-line="281" selection-end-column="1" />
+                <state relative-caret-position="-2865">
+                  <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_blog.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_blog.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/scss/_blog.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="630">
-                  <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+                <state relative-caret-position="765">
+                  <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -307,15 +260,16 @@
         <option value="$PROJECT_DIR$/src/js/template.js" />
         <option value="$PROJECT_DIR$/src/html/modules.php" />
         <option value="$PROJECT_DIR$/modules/mod_latestarticles/mod_latestarticles.xml" />
-        <option value="$PROJECT_DIR$/src/html/body.php" />
         <option value="$PROJECT_DIR$/src/html/mod_articles_category/default.php" />
-        <option value="$PROJECT_DIR$/src/scss/template.scss" />
         <option value="$PROJECT_DIR$/src/html/com_content/category/blog.php" />
         <option value="$PROJECT_DIR$/src/html/layouts/joomla/content/info_block/block.php" />
         <option value="$PROJECT_DIR$/src/html/com_content/category/blog_item.php" />
-        <option value="$PROJECT_DIR$/src/scss/_blog.scss" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/src/scss/components/_variables.scss" />
+        <option value="$PROJECT_DIR$/src/scss/_blog.scss" />
+        <option value="$PROJECT_DIR$/src/html/com_content/article/default.php" />
+        <option value="$PROJECT_DIR$/src/scss/template.scss" />
+        <option value="$PROJECT_DIR$/src/html/body.php" />
       </list>
     </option>
   </component>
@@ -370,7 +324,7 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-6" />
+    <option name="x" value="-4" />
     <option name="y" value="23" />
     <option name="width" value="2127" />
     <option name="height" value="1382" />
@@ -448,46 +402,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scss" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sv08ludweiler-template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sv08ludweiler-template" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scss" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sv08ludweiler-template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sv08ludweiler-template" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="materialize" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -507,40 +421,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sv08ludweiler-template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sv08ludweiler-template" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joomla" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="info_block" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -735,25 +615,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1472560552399</updated>
-      <workItem from="1472560554297" duration="68922000" />
+      <workItem from="1472560554297" duration="72722000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68922000" />
+    <option name="totallyTimeSpent" value="72722000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="23" width="2127" height="1382" extended-state="0" />
-    <editor active="true" />
+    <frame x="-4" y="23" width="2127" height="1382" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14916067" sideWeight="0.49595377" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14916067" sideWeight="0.50404626" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Grunt " active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14916067" sideWeight="0.50404626" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32945737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32945737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -1080,22 +960,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/body.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#jdoc:include#0;n#div#0;n#div#1;n#header#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/mod_latestarticles/helper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
           <caret line="217" column="30" selection-start-line="217" selection-start-column="19" selection-end-line="217" selection-end-column="30" />
           <folding>
-            <element signature="e#7#137#0#PHP" expanded="true" />
+            <element signature="e#7#137#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1137,22 +1007,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/template.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="281" column="1" selection-start-line="281" selection-start-column="1" selection-end-line="281" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/com_content/article/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="107" column="6" selection-start-line="107" selection-start-column="6" selection-end-line="107" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/html/com_content/category/blog.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1173,14 +1027,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
           <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/_blog.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -1227,8 +1073,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/components/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="40" column="11" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="52" />
+        <state relative-caret-position="-1725">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/_blog.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/template.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2865">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/com_content/article/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="176" column="40" selection-start-line="176" selection-start-column="40" selection-end-line="176" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/body.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="66" column="6" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
           <folding />
         </state>
       </provider>

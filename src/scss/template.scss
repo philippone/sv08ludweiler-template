@@ -7,6 +7,13 @@ $slicer-breakpoint-names: 'small' 'medium-up' 'medium' 'large';
 
 body, .site {
     background-color: white;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
 }
 
 .teaser-big {
