@@ -54,13 +54,15 @@ JHtml::_('behavior.caption');
 	<?php if (isset($images->image_fulltext) && !empty($images->image_fulltext)) : ?>
 		<?php $imgfloat = (empty($images->float_fulltext)) ? $params->get('float_fulltext') : $images->float_fulltext; ?>
 		<div class="fulltext-container">
-			<div class="pull-<?php echo htmlspecialchars($imgfloat); ?> item-image"><img
+<!--			<div class="pull---><?php //echo htmlspecialchars($imgfloat); ?><!-- item-image">-->
+				<img
 					<?php if ($images->image_fulltext_caption):
 						echo 'class="caption"' . ' title="' . htmlspecialchars($images->image_fulltext_caption) . '"';
 					endif; ?>
 					src="<?php echo htmlspecialchars($images->image_fulltext); ?>"
 					alt="<?php echo htmlspecialchars($images->image_fulltext_alt); ?>"
-					itemprop="image"/></div>
+					itemprop="image"/>
+<!--		</div>-->
 		</div>
 	<?php else: ?>
 		<div class="fulltext-container fulltext-container-dummy">
@@ -74,9 +76,9 @@ JHtml::_('behavior.caption');
 				<?php if ($params->get('show_title') || $params->get('show_author')) : ?>
 					<div class="page-header">
 						<?php if ($params->get('show_title')) : ?>
-							<h3 itemprop="name">
+							<h4 itemprop="name">
 								<?php echo $this->escape($this->item->title); ?>
-							</h3>
+							</h4>
 						<?php endif; ?>
 						<?php if ($this->item->state == 0) : ?>
 							<span class="label label-warning"><?php echo JText::_('JUNPUBLISHED'); ?></span>
