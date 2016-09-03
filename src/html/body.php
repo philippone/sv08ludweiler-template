@@ -11,7 +11,7 @@
 		 	role="navigation">
 			<div class="container">
 				<div class="nav-wrapper">
-					<img class="wappen" src="<?php echo JURI::base(); ?>/templates/<?php echo JFactory::getApplication()->getTemplate(); ?>/img/wappen.png" alt="wappen"/>
+					<img class="wappen-desktop" src="<?php echo JURI::base(); ?>/templates/<?php echo JFactory::getApplication()->getTemplate(); ?>/img/wappen.png" alt="wappen"/>
 					<a href="#!"
 					   class="brand-logo">SV 08 Ludweiler</a>
 					<a href="#"
@@ -25,7 +25,10 @@
 					</ul>
 					<ul class="side-nav"
 						id="mobile-demo">
-							<jdoc:include type="modules" name="navbar"/>
+						<div class="wappen-mobile-container">
+							<img class="wappen-mobile" src="<?php echo JURI::base(); ?>/templates/<?php echo JFactory::getApplication()->getTemplate(); ?>/img/wappen.png" alt="wappen"/>
+						</div>
+						<jdoc:include type="modules" name="navbar"/>
 					</ul>
 				</div>
 			</div>
@@ -98,7 +101,7 @@
 				<div class="col l6 s12">
 					<h5 class="white-text">SV 08 Ludweiler</h5>
 					<img class="wappen" src="<?php echo JURI::base(); ?>/templates/<?php echo JFactory::getApplication()->getTemplate(); ?>/img/wappen.png" alt="wappen"/>
-					<p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+					<p class="grey-text text-lighten-4">Der Traditionsverein aus dem Warndt.</p>
 				</div>
 				<div class="col l4 offset-l2 s12">
 					<h5 class="white-text">Menu</h5>

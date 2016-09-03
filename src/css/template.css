@@ -8,7 +8,11 @@ body, .site { background-color: white; }
 @media (min-width: 602px) and (max-width: 992px) { .teaser-big-container { height: 350px; } }
 @media (max-width: 601px) { .teaser-big-container { height: 300px; } }
 
-.navbar .nav-wrapper .wappen { width: 45px; margin: 5px 10px; }
+.navbar .nav-wrapper .wappen-desktop { width: 45px; margin: 5px 10px; }
+@media (max-width: 992px) { .navbar .nav-wrapper .wappen-desktop { display: none; } }
+
+.navbar .nav-wrapper .wappen-mobile-container { display: flex; justify-content: center; align-items: center; }
+.navbar .nav-wrapper .wappen-mobile-container .wappen-mobile { width: 80px; margin: 2.5%; }
 
 .navbar .nav-wrapper ul li ul.nav.menu > li { position: relative; }
 .navbar .nav-wrapper ul li ul.nav.menu > li a { white-space: nowrap; }
@@ -51,3 +55,4 @@ a.section-anchor { padding-top: 128px; margin-top: -128px; display: inline-block
 .card .article-info-container { padding: 10px 0; }
 
 footer .wappen { width: 200px; }
+footer a { color: white; }

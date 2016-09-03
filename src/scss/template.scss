@@ -32,12 +32,27 @@ body, .site {
 }
 
 // logo
-.navbar .nav-wrapper .wappen {
+.navbar .nav-wrapper .wappen-desktop {
     width:  45px;
     margin: 5px 10px;
-
+    @include to('medium') {
+        display: none;
+    }
 }
 
+//logo mobile
+.navbar .nav-wrapper .wappen-mobile-container {
+    display:         flex;
+    justify-content: center;
+    align-items:     center;
+
+    .wappen-mobile {
+        width:  80px;
+        margin: 2.5%;
+    }
+}
+
+//navbar
 .navbar .nav-wrapper ul li ul.nav.menu {
 
     > li {
@@ -244,5 +259,9 @@ a.section-anchor {
 footer {
     .wappen {
         width: 200px;
+    }
+
+    a {
+        color: white;
     }
 }
