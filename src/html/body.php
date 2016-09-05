@@ -62,6 +62,13 @@
 		</div>
 	</nav>
 <?php endif; ?>
+
+<?php if ($this->countModules('sub-navbar') == 0 && $this->countModules('highlight-top'))  : ?>
+	<div class="highlight-top container">
+		<jdoc:include type="modules" name="highlight-top"/>
+	</div>
+<?php endif;?>
+
 </header>
 
 <main >
