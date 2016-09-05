@@ -1,17 +1,22 @@
 <?php
-function modChrome_sv08section( $module, &$params, &$attribs )
+function modChrome_sv08section($module, &$params, &$attribs)
 {
+
+	$moduleclass_sfx = htmlspecialchars($params->get('moduleclass_sfx'), ENT_COMPAT, 'UTF-8');
 
 	echo '<div>';
 	// section-anchor
-	echo '<a id="'. $module->title .'" class="scrollspy" ></a>';
-//	if ($module->showtitle)
-//	{
-//		echo '<h3>' .$module->title .'</h3>';
+	echo '<a id="' . $module->title . '" class="scrollspy" ></a>';
+//	if ($module->showtitle) {
+//		echo '<div class="sv08-section'. $moduleclass_sfx .'">';
+//		echo '<h4>' . $module->title . '</h4>';
+//		echo '</div>';
 //	}
 
 	echo $module->content;
 	echo '</div>';
+
+
 }
 
 
@@ -30,7 +35,7 @@ function modChrome_sv08section( $module, &$params, &$attribs )
 //	//echo 'div class="custom-sv08-teaser-big" style="background-image:'.$params->get('backgroundimage').'"></div';
 //}
 
-function modChrome_navmobile( $module, &$params, &$attribs )
+function modChrome_navmobile($module, &$params, &$attribs)
 {
 
 	echo '<div class="nav-mobile">';

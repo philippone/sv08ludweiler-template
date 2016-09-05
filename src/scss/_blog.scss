@@ -73,12 +73,21 @@ dl.article-info.muted {
     //flex-direction:  row;
     //flex-wrap:       wrap;
     //justify-content: space-between;
-    column-count: 2;
     margin:       0;
 
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count:    2; /* Firefox */
+    column-count:         2;
+    column-fill:          balance;
+    -moz-column-fill:     balance;
+    -webkit-column-fill:  balance;
+
     @include to('small') {
-        column-count: 1;
+        -webkit-column-count: 1; /* Chrome, Safari, Opera */
+        -moz-column-count:    1; /* Firefox */
+        column-count:         1;
     }
+
     dd {
         display: block;
         margin:  0;

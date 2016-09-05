@@ -168,8 +168,9 @@ defined('_JEXEC') or die;
 		<?php if ($params->get('category_show_all') == 1) : ?>
 			<div class="row center">
 				<a class="waves-effect waves-light btn-large green darken-4"
-				   href="<?php echo JURI::root(); ?>index.php?option=com_content&view=category&layout=blog&id=<?php echo $params->get('catid')[0]; ?>">Zeige
+				   href="<?php echo JURI::root(); ?>index.php/<?php echo $params->get('category_link'); ?>">Zeige
 					alle Artikel</a>
+
 			</div>
 		<?php endif; ?>
 	<?php endif; ?>

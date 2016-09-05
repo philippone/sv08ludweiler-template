@@ -1,15 +1,16 @@
 @import "../../bower_components/breakpoint-sass/stylesheets/breakpoint";
 @import "../../bower_components/breakpoint-slicer-scss/src/breakpoint-slicer";
 @import "../materialize/materialize.min.css";
+@import "_mixins";
 
 $slicer-breakpoints: 0 600px 601px 992px;
 $slicer-breakpoint-names: 'small' 'medium-up' 'medium' 'large';
 
 body, .site {
     background-color: white;
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+    display:          flex;
+    min-height:       100vh;
+    flex-direction:   column;
 }
 
 main {
@@ -35,6 +36,25 @@ main {
 
     @include to('medium-up') {
         height: 300px;
+    }
+}
+
+.custom-sv08-teaser-big, .sv08-teaser-big {
+    background-position: center top;
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    height:              450px;
+
+    @include at('medium') {
+        height: 350px;
+    }
+
+    @include to('medium-up') {
+        height: 300px;
+    }
+
+    * {
+        display: none
     }
 }
 
@@ -180,19 +200,6 @@ main {
     }
 }
 
-// suffix
-
-.custom-sv08-teaser-big, .sv08-teaser-big {
-    height:              500px;
-    background-position: center top;
-    background-size:     cover;
-    background-repeat:   no-repeat;
-
-    * {
-        display: none
-    }
-}
-
 a.section-anchor {
     padding-top: 128px;
     margin-top:  -128px;
@@ -210,24 +217,31 @@ a.section-anchor {
 }
 
 .row-col-wrap {
-    margin:               20px -1% 50px -1%;
-    -webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count:    2; /* Firefox */
-    column-count:         2;
-    column-fill:          balance;
-    -moz-column-fill:     balance;
-    -webkit-column-fill:  balance;
+    margin:              20px -1% 50px -1%;
+    @include column-count(2);
+
+    column-fill:         balance;
+    -moz-column-fill:    balance;
+    -webkit-column-fill: balance;
 
     @include to('medium') {
-        -webkit-column-count: 1; /* Chrome, Safari, Opera */
-        -moz-column-count:    1; /* Firefox */
-        column-count:         1;
+        @include column-count(1);
     }
 
     .col {
         -webkit-column-break-inside: avoid;
         page-break-inside:           avoid; /* Firefox is dumb */
         break-inside:                avoid;
+
+        -moz-column-break-inside:    avoid;
+        -webkit-column-break-inside: avoid;
+        column-break-inside:         avoid;
+
+        //display: inline-block;
+
+        > .card {
+            margin-top: 0;
+        }
     }
 }
 
@@ -279,6 +293,11 @@ a.section-anchor {
 }
 
 footer {
+
+    &.page-footer {
+        margin-top: 0;
+    }
+
     .wappen {
         width: 200px;
     }

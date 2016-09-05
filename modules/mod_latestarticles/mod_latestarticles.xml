@@ -110,6 +110,14 @@
 				</field>
 
 				<field
+						name="category_link"
+						type="text"
+						label="link zur Kategory (Blog-Alias)"
+						description="MOD_ARTICLES_CATEGORY_FIELD_COUNT_DESC"
+						default="0"
+				/>
+
+				<field
 						name="show_child_category_articles"
 						type="radio"
 						label="MOD_ARTICLES_CATEGORY_FIELD_SHOWCHILDCATEGORYARTICLES_LABEL"
