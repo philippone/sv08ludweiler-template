@@ -50,7 +50,6 @@ if ($currentPage >= $step)
 ?>
 
 <div class="pagination pagination-toolbar clearfix" style="text-align: center;">
-
 	<?php if ($showLimitBox) : ?>
 		<div class="limit pull-right">
 			<?php echo JText::_('JGLOBAL_DISPLAY_NUM') . $list['limitfield']; ?>

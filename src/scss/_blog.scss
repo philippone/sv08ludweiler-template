@@ -73,7 +73,7 @@ dl.article-info.muted {
     //flex-direction:  row;
     //flex-wrap:       wrap;
     //justify-content: space-between;
-    margin:       0;
+    margin:               0;
 
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count:    2; /* Firefox */
@@ -96,4 +96,9 @@ dl.article-info.muted {
             color: green;
         }
     }
+}
+
+// weiterlesen button in article blog layout
+p.readmore {
+    margin-top: 10px;
 }
