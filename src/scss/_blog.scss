@@ -102,3 +102,9 @@ dl.article-info.muted {
 p.readmore {
     margin-top: 10px;
 }
+
+// weiter zurueck unter einem category article
+ul.pager.pagenav {
+    display: flex;
+    justify-content: space-between;
+}

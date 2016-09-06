@@ -95,3 +95,5 @@ dl.article-info.muted dd { display: block; margin: 0; }
 dl.article-info.muted dd a { color: green; }
 
 p.readmore { margin-top: 10px; }
+
+ul.pager.pagenav { display: flex; justify-content: space-between; }
