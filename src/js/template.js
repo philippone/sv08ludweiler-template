@@ -30,5 +30,7 @@
         // subnavigation scrolling
         $('.scrollspy').scrollSpy();
 
+        $('.materialboxed').materialbox();
+
     })
 })(jQuery);

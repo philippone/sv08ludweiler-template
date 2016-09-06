@@ -55,9 +55,9 @@ JHtml::_('behavior.caption');
 		<?php $imgfloat = (empty($images->float_fulltext)) ? $params->get('float_fulltext') : $images->float_fulltext; ?>
 		<div class="fulltext-container">
 <!--			<div class="pull---><?php //echo htmlspecialchars($imgfloat); ?><!-- item-image">-->
-				<img
+				<img class="materialboxed"
 					<?php if ($images->image_fulltext_caption):
-						echo 'class="caption"' . ' title="' . htmlspecialchars($images->image_fulltext_caption) . '"';
+						echo 'data-caption="="caption materialboxed"' . ' title="' . htmlspecialchars($images->image_fulltext_caption) . '"';
 					endif; ?>
 					src="<?php echo htmlspecialchars($images->image_fulltext); ?>"
 					alt="<?php echo htmlspecialchars($images->image_fulltext_alt); ?>"

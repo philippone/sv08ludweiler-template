@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="82a5ee48-caa3-4e8b-a34c-6cb6c9493c22" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/materialize.css" afterPath="$PROJECT_DIR$/src/css/materialize.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/template.css" afterPath="$PROJECT_DIR$/src/css/template.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/_blog.scss" afterPath="$PROJECT_DIR$/src/scss/_blog.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/com_content/article/default.php" afterPath="$PROJECT_DIR$/src/html/com_content/article/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/pagination.php" afterPath="$PROJECT_DIR$/src/html/pagination.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/template.js" afterPath="$PROJECT_DIR$/src/js/template.js" />
     </list>
     <ignored path="sv08ludweiler-template.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,7 +25,7 @@
     <favorites_list name="sv08ludweiler-template" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5281849">
+    <splitter split-orientation="horizontal" split-proportion="0.54227734">
       <split-first>
         <leaf>
           <file leaf-file-name="body.php" pinned="false" current-in-tab="false">
@@ -70,7 +70,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="default.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/html/mod_articles_category/default.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="405">
@@ -86,11 +86,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="pagination.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="pagination.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/html/pagination.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="723">
-                  <caret line="229" column="0" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
+                <state relative-caret-position="203">
+                  <caret line="154" column="57" selection-start-line="154" selection-start-column="57" selection-end-line="154" selection-end-column="57" />
                   <folding />
                 </state>
               </provider>
@@ -133,8 +133,8 @@
           <file leaf-file-name="default.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/html/com_content/article/default.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-102">
-                  <caret line="154" column="19" selection-start-line="154" selection-start-column="19" selection-end-line="154" selection-end-column="19" />
+                <state relative-caret-position="570">
+                  <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -175,8 +175,8 @@
           <file leaf-file-name="template.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/js/template.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="405">
-                  <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+                <state relative-caret-position="480">
+                  <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
                   <folding />
                 </state>
               </provider>
@@ -229,12 +229,10 @@
         <option value="$PROJECT_DIR$/src/html/mod_articles_categories/tmpl/default.php" />
         <option value="$PROJECT_DIR$/modules/mod_latestarticles/mod_latestarticles.php" />
         <option value="$PROJECT_DIR$/modules/mod_latestarticles/tmpl/default.php" />
-        <option value="$PROJECT_DIR$/src/js/template.js" />
         <option value="$PROJECT_DIR$/src/html/layouts/joomla/content/info_block/block.php" />
         <option value="$PROJECT_DIR$/src/html/com_content/category/blog_item.php" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/src/scss/components/_variables.scss" />
-        <option value="$PROJECT_DIR$/src/html/com_content/article/default.php" />
         <option value="$PROJECT_DIR$/modules/mod_latestarticles/helper.php" />
         <option value="$PROJECT_DIR$/modules/mod_latestarticles/mod_latestarticles.xml" />
         <option value="$PROJECT_DIR$/src/html/modules.php" />
@@ -245,10 +243,12 @@
         <option value="$PROJECT_DIR$/src/scss/template.scss" />
         <option value="$PROJECT_DIR$/src/html/layouts/joomla/pagination/link.php" />
         <option value="$PROJECT_DIR$/src/html/layouts/joomla/pagination/links.php" />
-        <option value="$PROJECT_DIR$/src/html/pagination.php" />
         <option value="$PROJECT_DIR$/src/html/com_content/category/blog.php" />
         <option value="$PROJECT_DIR$/src/html/mod_articles_category/default.php" />
         <option value="$PROJECT_DIR$/src/scss/_blog.scss" />
+        <option value="$PROJECT_DIR$/src/js/template.js" />
+        <option value="$PROJECT_DIR$/src/html/com_content/article/default.php" />
+        <option value="$PROJECT_DIR$/src/html/pagination.php" />
       </list>
     </option>
   </component>
@@ -694,12 +694,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1472560552399</updated>
-      <workItem from="1472560554297" duration="86534000" />
+      <workItem from="1472560554297" duration="87931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86534000" />
+    <option name="totallyTimeSpent" value="87931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="23" width="2127" height="1382" extended-state="0" />
@@ -923,14 +923,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/template.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/mod_latestarticles/mod_latestarticles.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1137,14 +1129,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/pagination.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="723">
-          <caret line="229" column="0" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/html/com_content/category/blog.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1175,10 +1159,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/template.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/html/com_content/article/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="154" column="19" selection-start-line="154" selection-start-column="19" selection-end-line="154" selection-end-column="19" />
+        <state relative-caret-position="570">
+          <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/pagination.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="154" column="57" selection-start-line="154" selection-start-column="57" selection-end-line="154" selection-end-column="57" />
           <folding />
         </state>
       </provider>
