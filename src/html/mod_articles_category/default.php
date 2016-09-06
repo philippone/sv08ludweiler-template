@@ -90,7 +90,7 @@ defined('_JEXEC') or die;
 		<div class="row-col-wrap">
 			<?php foreach ($list as $item) : ?>
 				<div class="col s12">
-					<div class="card hoverable waves-effect waves-brown waves-ripple" >
+					<div class="card hoverable waves-effect waves-brown waves-ripple" onclick="window.location='<?php echo $item->link; ?>'">
 						<?php if ($item->images && json_decode($item->images)->image_intro): ?>
 							<div class="article-image-container">
 								<img src="<?php echo json_decode($item->images)->image_intro; ?>" alt="<?php echo $item->title; ?>"/>
