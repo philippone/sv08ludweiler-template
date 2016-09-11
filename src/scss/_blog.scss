@@ -52,7 +52,12 @@
             height: 270px;
         }
 
-        > img {
+        .material-placeholder {
+            width:  100%;
+            height: 100%;
+        }
+
+        img {
             width:      100%;
             height:     100%;
             object-fit: cover;
@@ -105,6 +110,6 @@ p.readmore {
 
 // weiter zurueck unter einem category article
 ul.pager.pagenav {
-    display: flex;
+    display:         flex;
     justify-content: space-between;
 }

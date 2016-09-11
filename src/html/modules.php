@@ -4,7 +4,7 @@ function modChrome_sv08section($module, &$params, &$attribs)
 
 	$moduleclass_sfx = htmlspecialchars($params->get('moduleclass_sfx'), ENT_COMPAT, 'UTF-8');
 
-	echo '<div>';
+	echo '<section><div class="sv08-section">';
 	// section-anchor
 	echo '<a id="' . $module->title . '" class="scrollspy" ></a>';
 //	if ($module->showtitle) {
@@ -14,7 +14,7 @@ function modChrome_sv08section($module, &$params, &$attribs)
 //	}
 
 	echo $module->content;
-	echo '</div>';
+	echo '</div></section>';
 
 
 }

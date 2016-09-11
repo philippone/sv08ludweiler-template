@@ -1,7 +1,7 @@
+@import "_mixins";
 @import "../../bower_components/breakpoint-sass/stylesheets/breakpoint";
 @import "../../bower_components/breakpoint-slicer-scss/src/breakpoint-slicer";
-@import "../materialize/materialize.min.css";
-@import "_mixins";
+@import "materialize";
 
 $slicer-breakpoints: 0 600px 601px 992px;
 $slicer-breakpoint-names: 'small' 'medium-up' 'medium' 'large';
@@ -176,28 +176,40 @@ main {
 //    display: none;
 //}
 
-.content {
-    display:        flex;
-    flex-direction: row;
+//.content {
+//    display:        flex;
+//    flex-direction: row;
 
-    .row-middle {
-        flex: 1;
+.row-middle {
+    flex: 1;
+
+    > section:nth-child(even) {
+        background-color: #E8F5E9 !important;
     }
 
-    .row-right, .row-left {
-        flex:             1;
-        max-width:        30%;
-        background-color: grey;
+    > section:nth-child(odd) {
+        background-color: white !important;
     }
+
+    //> div {
+    //    @extend .sv08-section;
+    //}
 }
 
-.custom-sv08-section, .sv08-section {
-    padding: 20px 15% 50px 15%;
-    margin:  0;
+//.row-right, .row-left {
+//    flex:             1;
+//    max-width:        30%;
+//    background-color: grey;
+//}
+//}
 
-    @include to('medium') {
-        padding: 20px 10% 50px 10%;
-    }
+.custom-sv08-section, .sv08-section {
+    //padding: 20px 15% 50px 15%;
+    @extend .container;
+    //margin:  0;
+    padding: 20px 0;
+
+
 }
 
 a.section-anchor {
@@ -318,8 +330,9 @@ footer {
 // hightlight-top
 .highlight-top {
 
-    background-color: #E8F5E9;
+    //background-color: #E8F5E9;
     display:          flex;
+    margin-top:       -70px;
     @include to('medium') {
         flex-wrap: wrap;
     }
@@ -327,7 +340,7 @@ footer {
     > div {
         flex:          1 1 auto;
         min-height:    200px;
-        margin-top:    -70px;
+
         transition:    box-shadow .25s;
         border-radius: 2px;
     }
@@ -338,8 +351,9 @@ footer {
     }
 }
 
-header {
-    background-color: #E8F5E9;
-}
+//header {
+//    background-color: #E8F5E9;
+//}
 
 @import "blog";
+

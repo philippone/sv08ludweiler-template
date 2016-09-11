@@ -26,12 +26,12 @@ $sitename = $app->get('sitename');
 //JHtml::_('bootstrap.framework');
 JHtml::_('jquery.framework');
 
-$doc->addScriptVersion($this->baseurl . '/templates/' . $this->template . '/js/template.js');
 $doc->addScriptVersion($this->baseurl . '/templates/' . $this->template . '/js/materialize.js');
+$doc->addScriptVersion($this->baseurl . '/templates/' . $this->template . '/js/template.js');
 
 // Add Stylesheets
-$doc->addStyleSheetVersion($this->baseurl . '/templates/' . $this->template . '/css/template.css');
 $doc->addStyleSheetVersion($this->baseurl . '/templates/' . $this->template . '/css/materialize.css');
+$doc->addStyleSheetVersion($this->baseurl . '/templates/' . $this->template . '/css/template.css');
 $doc->addStyleSheetVersion('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 // Use of Google Font

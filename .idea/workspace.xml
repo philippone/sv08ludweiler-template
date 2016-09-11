@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82a5ee48-caa3-4e8b-a34c-6cb6c9493c22" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/mod_latestarticles.zip" afterPath="$PROJECT_DIR$/modules/mod_latestarticles.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/com_content/article/default.php" afterPath="$PROJECT_DIR$/src/html/com_content/article/default.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/pagination.php" afterPath="$PROJECT_DIR$/src/html/pagination.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/template.js" afterPath="$PROJECT_DIR$/src/js/template.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/template.css" afterPath="$PROJECT_DIR$/src/css/template.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/body.php" afterPath="$PROJECT_DIR$/src/html/body.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/modules.php" afterPath="$PROJECT_DIR$/src/html/modules.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.php" afterPath="$PROJECT_DIR$/src/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/_blog.scss" afterPath="$PROJECT_DIR$/src/scss/_blog.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/template.scss" afterPath="$PROJECT_DIR$/src/scss/template.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templateDetails.xml" afterPath="$PROJECT_DIR$/src/templateDetails.xml" />
     </list>
     <ignored path="sv08ludweiler-template.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +37,8 @@
           <file leaf-file-name="body.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/html/body.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="548">
-                  <caret line="78" column="19" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
+                <state relative-caret-position="243">
+                  <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
                   <folding>
                     <element signature="n#style#0;n#jdoc:include#0;n#div#0;n#!!top" expanded="true" />
                   </folding>
@@ -40,11 +46,21 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="materialize.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/css/materialize.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="519">
-                  <caret line="1703" column="26" selection-start-line="1703" selection-start-column="26" selection-end-line="1703" selection-end-column="26" />
+                <state relative-caret-position="-114">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -53,8 +69,8 @@
           <file leaf-file-name="templateDetails.xml" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/templateDetails.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+                <state relative-caret-position="60">
+                  <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -65,6 +81,16 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="285">
                   <caret line="25" column="41" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="41" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/html/com_content/article/default.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="465">
+                  <caret line="57" column="41" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="41" />
                   <folding />
                 </state>
               </provider>
@@ -86,7 +112,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="pagination.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="pagination.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/html/pagination.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="203">
@@ -103,58 +129,18 @@
           <file leaf-file-name="template.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/scss/template.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="742">
-                  <caret line="252" column="5" selection-start-line="252" selection-start-column="5" selection-end-line="252" selection-end-column="5" />
+                <state relative-caret-position="262">
+                  <caret line="307" column="20" selection-start-line="307" selection-start-column="19" selection-end-line="307" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_mixins.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/scss/_mixins.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="19" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="19" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_blog.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="_blog.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/scss/_blog.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="636">
-                  <caret line="105" column="46" selection-start-line="105" selection-start-column="46" selection-end-line="105" selection-end-column="46" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="default.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/html/com_content/article/default.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="570">
-                  <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="link.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/html/layouts/joomla/pagination/link.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1065">
-                  <caret line="77" column="38" selection-start-line="77" selection-start-column="38" selection-end-line="77" selection-end-column="38" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="links.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/html/layouts/joomla/pagination/links.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="638">
-                  <caret line="51" column="80" selection-start-line="51" selection-start-column="80" selection-end-line="51" selection-end-column="80" />
+                <state relative-caret-position="547">
+                  <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
@@ -163,31 +149,11 @@
           <file leaf-file-name="modules.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/html/modules.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" column="0" selection-start-line="9" selection-start-column="2" selection-end-line="13" selection-end-column="5" />
+                <state relative-caret-position="78">
+                  <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
                   <folding>
-                    <marker date="1473089101000" expanded="true" signature="260:359" ph="..." />
+                    <marker date="1473253954000" expanded="true" signature="290:389" ph="..." />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="template.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/js/template.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="480">
-                  <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="default_component.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/html/mod_menu/default_component.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -223,7 +189,6 @@
         <option value="$PROJECT_DIR$/src/html/com_content/featured/default_item.php" />
         <option value="$PROJECT_DIR$/src/materialize/materialize.js" />
         <option value="$PROJECT_DIR$/src/js/materialize.js" />
-        <option value="$PROJECT_DIR$/src/index.php" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/modules/mod_latestarticles/tmpl/index.html" />
         <option value="$PROJECT_DIR$/src/html/mod_articles_categories/tmpl/default.php" />
@@ -231,24 +196,25 @@
         <option value="$PROJECT_DIR$/modules/mod_latestarticles/tmpl/default.php" />
         <option value="$PROJECT_DIR$/src/html/layouts/joomla/content/info_block/block.php" />
         <option value="$PROJECT_DIR$/src/html/com_content/category/blog_item.php" />
-        <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/src/scss/components/_variables.scss" />
         <option value="$PROJECT_DIR$/modules/mod_latestarticles/helper.php" />
         <option value="$PROJECT_DIR$/modules/mod_latestarticles/mod_latestarticles.xml" />
-        <option value="$PROJECT_DIR$/src/html/modules.php" />
         <option value="$PROJECT_DIR$/src/scss/_mixins.scss" />
-        <option value="$PROJECT_DIR$/src/templateDetails.xml" />
-        <option value="$PROJECT_DIR$/src/html/body.php" />
         <option value="$PROJECT_DIR$/src/css/materialize.css" />
-        <option value="$PROJECT_DIR$/src/scss/template.scss" />
         <option value="$PROJECT_DIR$/src/html/layouts/joomla/pagination/link.php" />
         <option value="$PROJECT_DIR$/src/html/layouts/joomla/pagination/links.php" />
         <option value="$PROJECT_DIR$/src/html/com_content/category/blog.php" />
         <option value="$PROJECT_DIR$/src/html/mod_articles_category/default.php" />
-        <option value="$PROJECT_DIR$/src/scss/_blog.scss" />
         <option value="$PROJECT_DIR$/src/js/template.js" />
         <option value="$PROJECT_DIR$/src/html/com_content/article/default.php" />
         <option value="$PROJECT_DIR$/src/html/pagination.php" />
+        <option value="$PROJECT_DIR$/src/index.php" />
+        <option value="$PROJECT_DIR$/src/html/body.php" />
+        <option value="$PROJECT_DIR$/src/html/modules.php" />
+        <option value="$PROJECT_DIR$/src/scss/template.scss" />
+        <option value="$PROJECT_DIR$/src/templateDetails.xml" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/src/scss/_blog.scss" />
       </list>
     </option>
   </component>
@@ -382,24 +348,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="scss" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sv08ludweiler-template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sv08ludweiler-template" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="materialize" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -694,12 +642,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1472560552399</updated>
-      <workItem from="1472560554297" duration="87931000" />
+      <workItem from="1472560554297" duration="93421000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87931000" />
+    <option name="totallyTimeSpent" value="93421000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="23" width="2127" height="1382" extended-state="0" />
@@ -741,7 +689,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/src/html/body.php</url>
-          <line>93</line>
+          <line>95</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/modules/mod_latestarticles/tmpl/default.php</url>
@@ -965,14 +913,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/materialize/materialize.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="7797" column="42" selection-start-line="7797" selection-start-column="41" selection-end-line="7797" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/materialize/components/forms/_forms.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -989,26 +929,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="96" column="57" selection-start-line="96" selection-start-column="57" selection-end-line="96" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/components/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1725">
           <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -1061,16 +985,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/modules.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="2" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <marker date="1473089101000" expanded="true" signature="260:359" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1079,37 +993,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templateDetails.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/materialize.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="1703" column="26" selection-start-line="1703" selection-start-column="26" selection-end-line="1703" selection-end-column="26" />
+        <state relative-caret-position="-114">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/template.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="742">
-          <caret line="252" column="5" selection-start-line="252" selection-start-column="5" selection-end-line="252" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/body.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="78" column="19" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
-          <folding>
-            <element signature="n#style#0;n#jdoc:include#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1129,14 +1017,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/com_content/category/blog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="25" column="41" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/html/mod_articles_category/default.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1151,10 +1031,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/_blog.scss">
+    <entry file="file://$PROJECT_DIR$/src/html/pagination.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="105" column="46" selection-start-line="105" selection-start-column="46" selection-end-line="105" selection-end-column="46" />
+        <state relative-caret-position="203">
+          <caret line="154" column="57" selection-start-line="154" selection-start-column="57" selection-end-line="154" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="91" selection-start-line="32" selection-start-column="91" selection-end-line="32" selection-end-column="91" />
           <folding />
         </state>
       </provider>
@@ -1167,18 +1055,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/com_content/article/default.php">
+    <entry file="file://$PROJECT_DIR$/src/materialize/materialize.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+        <state relative-caret-position="-1026">
+          <caret line="3410" column="0" selection-start-line="3410" selection-start-column="0" selection-end-line="3410" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/pagination.php">
+    <entry file="file://$PROJECT_DIR$/src/html/modules.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="154" column="57" selection-start-line="154" selection-start-column="57" selection-end-line="154" selection-end-column="57" />
+        <state relative-caret-position="78">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+          <folding>
+            <marker date="1473253954000" expanded="true" signature="290:389" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/body.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
+          <folding>
+            <element signature="n#style#0;n#jdoc:include#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templateDetails.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/com_content/category/blog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" column="41" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/com_content/article/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="57" column="41" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/template.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="307" column="20" selection-start-line="307" selection-start-column="19" selection-end-line="307" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/_blog.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>

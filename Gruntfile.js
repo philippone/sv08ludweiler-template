@@ -1,6 +1,7 @@
 module.exports = function (grunt) {
 
-    var dest = "release";
+    var dest = "../../Sites/templates/joomboot";
+    // var dest = "release";
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
@@ -56,7 +57,7 @@ module.exports = function (grunt) {
                         expand: true,
                         cwd: 'src',
                         src: '**',
-                        dest: '../../Sites/templates/joomboot',
+                        dest: dest,
                     }
                 ]
             },
@@ -66,7 +67,7 @@ module.exports = function (grunt) {
                         expand: true,
                         cwd: 'src/materialize',
                         src: "*",
-                        dest: '../../Sites/templates/joomboot/css'
+                        dest: dest + '/css'
                     }
                 ]
             },

@@ -42,8 +42,7 @@
 				  style="none"
 				  title="<?php echo JText::_('TPL_JOOMBOOT_CHOOSE_LANGUAGE'); ?>"/>
 <?php } ?>
-<!-- Messages module -->
-<jdoc:include type="message"/>
+
 <!-- teaser-big -->
 <?php if ($this->countModules('teaser-big')) : ?>
 <div class="teaser-big-container">
@@ -70,6 +69,9 @@
 <?php endif;?>
 
 </header>
+
+<!-- Messages module -->
+<jdoc:include type="message"/>
 
 <main >
 	<?php if ($this->countModules('left')) : ?>
@@ -122,6 +124,7 @@
 			<div class="container">
 				<jdoc:include type="modules" name="footer" />
 <!--				<a class="grey-text text-lighten-4 right" href="#!">More Links</a>-->
+				<jdoc:include type="modules" name="footer-menu"/>
 			</div>
 		</div>
 	</footer>
