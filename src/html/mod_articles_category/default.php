@@ -13,8 +13,8 @@ defined('_JEXEC') or die;
 
 <ul class="category-module<?php echo $moduleclass_sfx; ?>">
 	<?php if ($params->get('module_title_displayed', 0)):
-			echo "<h4>" . $params->get('module_title', 0) . "</h4>";
-		endif;
+		echo "<h4>" . $params->get('module_title', 0) . "</h4>";
+	endif;
 	?>
 	<?php if ($grouped) : ?>
 		<?php foreach ($list as $group_name => $group) : ?>
@@ -89,80 +89,82 @@ defined('_JEXEC') or die;
 	<?php else : ?>
 		<div class="row-col-wrap">
 			<?php foreach ($list as $item) : ?>
-				<div class="col s12">
-					<div class="card hoverable waves-effect waves-brown waves-ripple" onclick="window.location='<?php echo $item->link; ?>'">
-						<?php if ($item->images && json_decode($item->images)->image_intro): ?>
-							<div class="article-image-container">
-								<img src="<?php echo json_decode($item->images)->image_intro; ?>" alt="<?php echo $item->title; ?>"/>
-							</div>
-						<?php endif; ?>
-						<div class="card-content">
+				<!--				<div class="col s12">-->
+				<div class="card hoverable waves-effect waves-brown waves-ripple"
+					 onclick="window.location='<?php echo $item->link; ?>'">
+					<?php if ($item->images && json_decode($item->images)->image_intro): ?>
+						<div class="article-image-container">
+							<img src="<?php echo json_decode($item->images)->image_intro; ?>"
+								 alt="<?php echo $item->title; ?>"/>
+						</div>
+					<?php endif; ?>
+					<div class="card-content">
 
-							<?php if ($params->get('link_titles') == 1) : ?>
-								<div class="article-title-container">
-									<a class="article-title <?php echo $item->active; ?>"
-									   href="<?php echo $item->link; ?>">
-										<?php echo $item->title; ?>
-									</a>
-								</div>
-							<?php else : ?>
-								<span class="card-title">
+						<?php if ($params->get('link_titles') == 1) : ?>
+							<div class="article-title-container">
+								<a class="article-title <?php echo $item->active; ?>"
+								   href="<?php echo $item->link; ?>">
+									<?php echo $item->title; ?>
+								</a>
+							</div>
+						<?php else : ?>
+							<span class="card-title">
 								<?php echo $item->title; ?>
 							</span>
-							<?php endif; ?>
+						<?php endif; ?>
 
-							<?php if ($item->displayCategoryTitle) : ?>
-								<p class="article-category">
-									<?php echo $item->displayCategoryTitle; ?>
+						<?php if ($item->displayCategoryTitle) : ?>
+							<p class="article-category">
+								<?php echo $item->displayCategoryTitle; ?>
+							</p>
+						<?php endif; ?>
+
+						<div class="article-info-container">
+							<?php if ($item->displayHits) : ?>
+								<p class="mod-articles-category-hits">
+									Aufrufe: <?php echo $item->displayHits; ?>
 								</p>
 							<?php endif; ?>
 
-							<div class="article-info-container">
-								<?php if ($item->displayHits) : ?>
-									<p class="mod-articles-category-hits">
-						Aufrufe: <?php echo $item->displayHits; ?>
-					</p>
-								<?php endif; ?>
+							<?php if ($params->get('show_author')) : ?>
+								<p class="mod-articles-category-writtenby">
+									<?php echo $item->displayAuthorName; ?>
+								</p>
+							<?php endif; ?>
 
-								<?php if ($params->get('show_author')) : ?>
-									<p class="mod-articles-category-writtenby">
-						<?php echo $item->displayAuthorName; ?>
-					</p>
-								<?php endif; ?>
-
-								<?php if ($item->displayDate) : ?>
-									<p class="mod-articles-category-date">
-						<?php echo $item->displayDate; ?>
-					</p>
-								<?php endif; ?>
-							</div>
-
-							<?php if ($params->get('show_introtext')) : ?>
-								<p class="mod-articles-category-introtext">
-									<?php echo $item->displayIntrotext; ?>
+							<?php if ($item->displayDate) : ?>
+								<p class="mod-articles-category-date">
+									<?php echo $item->displayDate; ?>
 								</p>
 							<?php endif; ?>
 						</div>
-						<div class="card-action">
-							<?php if ($params->get('show_readmore')) : ?>
-								<a class="mod-articles-category-title waves-effect waves-light btn green darken-4 <?php echo $item->active; ?>"
-								   href="<?php echo $item->link; ?>">
-									<?php if ($item->params->get('access-view') == false) : ?>
-										<?php echo JText::_('MOD_ARTICLES_CATEGORY_REGISTER_TO_READ_MORE'); ?>
-									<?php elseif ($readmore = $item->alternative_readmore) : ?>
-										<?php echo $readmore; ?>
-										<?php echo JHtml::_('string.truncate', $item->title, $params->get('readmore_limit')); ?>
-									<?php elseif ($params->get('show_readmore_title', 0) == 0) : ?>
-										<?php echo JText::sprintf('MOD_ARTICLES_CATEGORY_READ_MORE_TITLE'); ?>
-									<?php else : ?>
-										<?php echo JText::_('MOD_ARTICLES_CATEGORY_READ_MORE'); ?>
-										<?php echo JHtml::_('string.truncate', $item->title, $params->get('readmore_limit')); ?>
-									<?php endif; ?>
-								</a>
-							<?php endif; ?>
-						</div>
+
+						<?php if ($params->get('show_introtext')) : ?>
+							<p class="mod-articles-category-introtext">
+								<?php echo $item->displayIntrotext; ?>
+							</p>
+						<?php endif; ?>
+					</div>
+					<div class="card-action">
+						<?php if ($params->get('show_readmore')) : ?>
+							<a class="mod-articles-category-title btn green darken-4 <?php echo $item->active; ?>"
+							   href="<?php echo $item->link; ?>">
+								<?php if ($item->params->get('access-view') == false) : ?>
+									<?php echo JText::_('MOD_ARTICLES_CATEGORY_REGISTER_TO_READ_MORE'); ?>
+								<?php elseif ($readmore = $item->alternative_readmore) : ?>
+									<?php echo $readmore; ?>
+									<?php echo JHtml::_('string.truncate', $item->title, $params->get('readmore_limit')); ?>
+								<?php elseif ($params->get('show_readmore_title', 0) == 0) : ?>
+									<?php echo JText::sprintf('MOD_ARTICLES_CATEGORY_READ_MORE_TITLE'); ?>
+								<?php else : ?>
+									<?php echo JText::_('MOD_ARTICLES_CATEGORY_READ_MORE'); ?>
+									<?php echo JHtml::_('string.truncate', $item->title, $params->get('readmore_limit')); ?>
+								<?php endif; ?>
+							</a>
+						<?php endif; ?>
 					</div>
 				</div>
+				<!--			</div>-->
 			<?php endforeach; ?>
 		</div>
 		<?php if ($params->get('category_show_all') == 1) : ?>

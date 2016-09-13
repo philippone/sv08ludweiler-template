@@ -12,7 +12,7 @@
 			<div class="container">
 				<div class="nav-wrapper">
 					<img class="wappen-desktop" src="<?php echo JURI::base(); ?>/templates/<?php echo JFactory::getApplication()->getTemplate(); ?>/img/wappen.png" alt="wappen"/>
-					<a href="#!"
+					<a href="<?php echo JURI::base(); ?>index.php"
 					   class="brand-logo">SV 08 Ludweiler</a>
 					<a href="#"
 					   data-activates="mobile-demo"
@@ -89,7 +89,6 @@
 
 		<!-- Main Content -->
 		<jdoc:include type="component"/>
-
 		<!-- sub-component-bottom -->
 		<?php if ($this->countModules('sub-component-bottom')) : ?>
 			<jdoc:include type="modules" name="sub-component-bottom"/>

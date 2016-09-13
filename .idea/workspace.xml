@@ -2,133 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82a5ee48-caa3-4e8b-a34c-6cb6c9493c22" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/_fupa.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/component.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/css/materialize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/css/offline.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/css/print.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/css/template.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/error.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/material-design-icons/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/material-design-icons/Material-Design-Icons.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/material-design-icons/Material-Design-Icons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/material-design-icons/Material-Design-Icons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/material-design-icons/Material-Design-Icons.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Bold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Bold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Bold.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Light.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Light.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Light.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Medium.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Medium.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Medium.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Medium.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Thin.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Thin.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Thin.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Thin.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/body.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/article/default-20160903-144216.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/article/default.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/article/default_links-20160903-144216.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/article/default_links.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/category/blog.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/category/blog_children.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/category/blog_item.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/category/blog_links.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/category/default.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/category/default_articles.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/category/default_children.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/featured/default.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/featured/default_item.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/featured/default_links.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/featured/metadata.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/featured/tmpl/default.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/featured/tmpl/default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/featured/tmpl/default_items.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/featured/view.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/layouts/joomla/content/info_block/author.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/layouts/joomla/content/info_block/block.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/layouts/joomla/pagination/link.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/layouts/joomla/pagination/links.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/mod_articles_category/default.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/mod_menu/default.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/mod_menu/default_component.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/mod_menu/default_heading.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/mod_menu/default_separator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/mod_menu/default_url.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/modules.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/pagination.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/img/wappen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/js/application.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/js/materialize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/js/materialize.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/js/template.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/language/en-GB/en-GB.tpl_joomboot.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/language/en-GB/en-GB.tpl_joomboot.sys.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/materialize/materialize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/materialize/materialize.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/offline.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/_blog.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_cards.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_carousel.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_chips.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_collapsible.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_color.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_dropdown.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_global.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_icons-material-design.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_materialbox.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_modal.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_navbar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_normalize.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_prefixer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_preloader.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_roboto.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_sideNav.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_slider.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_table_of_contents.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_tabs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_toast.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_tooltip.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_typography.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_waves.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/date_picker/_default.date.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/date_picker/_default.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/date_picker/_default.time.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/forms/_checkboxes.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/forms/_file-input.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/forms/_forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/forms/_input-fields.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/forms/_radio-buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/forms/_range.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/forms/_select.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/forms/_switches.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/materialize.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/offline.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/print.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/template.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/templateDetails.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/template_preview.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/template_thumbnail.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/release.zip" afterPath="$PROJECT_DIR$/release.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/template.css" afterPath="$PROJECT_DIR$/src/css/template.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/body.php" afterPath="$PROJECT_DIR$/src/html/body.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/mod_articles_category/default.php" afterPath="$PROJECT_DIR$/src/html/mod_articles_category/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/_fupa.scss" afterPath="$PROJECT_DIR$/src/scss/_fupa.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/template.scss" afterPath="$PROJECT_DIR$/src/scss/template.scss" />
     </list>
     <ignored path="sv08ludweiler-template.iws" />
@@ -155,8 +34,8 @@
           <file leaf-file-name="body.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/html/body.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="405">
-                  <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
+                <state relative-caret-position="210">
+                  <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
                   <folding>
                     <element signature="n#style#0;n#jdoc:include#0;n#div#0;n#!!top" expanded="true" />
                   </folding>
@@ -167,8 +46,8 @@
           <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Gruntfile.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+                <state relative-caret-position="600">
+                  <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
                   <folding />
                 </state>
               </provider>
@@ -263,9 +142,25 @@
           <file leaf-file-name="template.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/scss/template.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="277">
-                  <caret line="235" column="38" selection-start-line="235" selection-start-column="38" selection-end-line="235" selection-end-column="38" />
+                <state relative-caret-position="517">
+                  <caret line="262" column="20" selection-start-line="262" selection-start-column="20" selection-end-line="262" selection-end-column="20" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/html/mod_articles_category/default.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="465">
+                  <caret line="149" column="65" selection-start-line="149" selection-start-column="65" selection-end-line="149" selection-end-column="65" />
+                  <folding>
+                    <element signature="e#503#3218#0#PHP" expanded="false" />
+                    <marker date="1473775514000" expanded="true" signature="4396:4605" ph="..." />
+                    <marker date="1473775514000" expanded="true" signature="5173:5203" ph="..." />
+                    <marker date="1473775514000" expanded="true" signature="5320:5402" ph="..." />
+                    <marker date="1473775514000" expanded="true" signature="6339:6353" ph="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -283,8 +178,8 @@
           <file leaf-file-name="_fupa.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/scss/_fupa.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="540">
+                  <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
                   <folding />
                 </state>
               </provider>
@@ -293,10 +188,10 @@
           <file leaf-file-name="modules.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/html/modules.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="168">
-                  <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+                <state relative-caret-position="90">
+                  <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="43" />
                   <folding>
-                    <marker date="1473253954000" expanded="true" signature="290:389" ph="..." />
+                    <marker date="1473775704000" expanded="true" signature="290:389" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -348,12 +243,10 @@
         <option value="$PROJECT_DIR$/src/html/layouts/joomla/pagination/link.php" />
         <option value="$PROJECT_DIR$/src/html/layouts/joomla/pagination/links.php" />
         <option value="$PROJECT_DIR$/src/html/com_content/category/blog.php" />
-        <option value="$PROJECT_DIR$/src/html/mod_articles_category/default.php" />
         <option value="$PROJECT_DIR$/src/js/template.js" />
         <option value="$PROJECT_DIR$/src/html/com_content/article/default.php" />
         <option value="$PROJECT_DIR$/src/html/pagination.php" />
         <option value="$PROJECT_DIR$/src/index.php" />
-        <option value="$PROJECT_DIR$/src/html/modules.php" />
         <option value="$PROJECT_DIR$/src/scss/_blog.scss" />
         <option value="$PROJECT_DIR$/src/templateDetails.xml" />
         <option value="$PROJECT_DIR$/modules/mod_fussball_de/tmpl/default.php" />
@@ -361,8 +254,10 @@
         <option value="$PROJECT_DIR$/modules/mod_fussball_de/mod_fussball_de.xml" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/src/scss/_fupa.scss" />
-        <option value="$PROJECT_DIR$/src/html/body.php" />
+        <option value="$PROJECT_DIR$/src/html/mod_articles_category/default.php" />
+        <option value="$PROJECT_DIR$/src/html/modules.php" />
         <option value="$PROJECT_DIR$/src/scss/template.scss" />
+        <option value="$PROJECT_DIR$/src/html/body.php" />
       </list>
     </option>
   </component>
@@ -536,36 +431,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mod_articles_category" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sv08ludweiler-template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sv08ludweiler-template" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joomla" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pagination" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -852,12 +717,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1472560552399</updated>
-      <workItem from="1472560554297" duration="101650000" />
+      <workItem from="1472560554297" duration="105056000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101650000" />
+    <option name="totallyTimeSpent" value="105056000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="25" width="2127" height="1382" extended-state="0" />
@@ -899,7 +764,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/src/html/body.php</url>
-          <line>95</line>
+          <line>94</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/modules/mod_latestarticles/tmpl/default.php</url>
@@ -1148,20 +1013,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/mod_articles_category/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-          <folding>
-            <element signature="e#505#3220#0#PHP" expanded="false" />
-            <marker date="1473147381000" expanded="true" signature="4395:4602" ph="..." />
-            <marker date="1473147381000" expanded="true" signature="5171:5202" ph="..." />
-            <marker date="1473147381000" expanded="true" signature="5345:5429" ph="..." />
-            <marker date="1473147381000" expanded="true" signature="6370:6384" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/html/pagination.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -1215,16 +1066,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/modules.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding>
-            <marker date="1473253954000" expanded="true" signature="290:389" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1304,35 +1145,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/_fupa.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="540">
+          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+        <state relative-caret-position="600">
+          <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/body.php">
+    <entry file="file://$PROJECT_DIR$/src/html/mod_articles_category/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
+        <state relative-caret-position="465">
+          <caret line="149" column="65" selection-start-line="149" selection-start-column="65" selection-end-line="149" selection-end-column="65" />
           <folding>
-            <element signature="n#style#0;n#jdoc:include#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#503#3218#0#PHP" expanded="false" />
+            <marker date="1473775514000" expanded="true" signature="4396:4605" ph="..." />
+            <marker date="1473775514000" expanded="true" signature="5173:5203" ph="..." />
+            <marker date="1473775514000" expanded="true" signature="5320:5402" ph="..." />
+            <marker date="1473775514000" expanded="true" signature="6339:6353" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/modules.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="43" />
+          <folding>
+            <marker date="1473775704000" expanded="true" signature="290:389" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/template.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="235" column="38" selection-start-line="235" selection-start-column="38" selection-end-line="235" selection-end-column="38" />
+        <state relative-caret-position="517">
+          <caret line="262" column="20" selection-start-line="262" selection-start-column="20" selection-end-line="262" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/body.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+          <folding>
+            <element signature="n#style#0;n#jdoc:include#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

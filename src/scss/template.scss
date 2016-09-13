@@ -188,7 +188,8 @@ main {
     }
 
     > section:nth-child(odd) {
-        @extend .grey, .lighten-5;
+        background-color: white !important;
+        //@extend .grey, .lighten-5;
         //background-color: grey lighten-5 !important;
     }
 
@@ -233,7 +234,7 @@ a.section-anchor {
 }
 
 .row-col-wrap {
-    margin:              20px 0 50px 0;
+    margin:              20px -5px 50px -5px;
     @include column-count(2);
 
     column-fill:         balance;
@@ -244,7 +245,7 @@ a.section-anchor {
         @include column-count(1);
     }
 
-    .col {
+    .card {
         -webkit-column-break-inside: avoid;
         page-break-inside:           avoid; /* Firefox is dumb */
         break-inside:                avoid;
@@ -253,18 +254,16 @@ a.section-anchor {
         -webkit-column-break-inside: avoid;
         column-break-inside:         avoid;
         transform:                   translateZ(0);
-        padding:                     0.5rem 0 1rem 0;
+        //padding:                     0.5rem 0 1rem 0;
+        margin-left:                 5px;
+        margin-right:                5px;
 
-        //display: inline-block;
+        //margin:  0;
+        display:                     inline-block;
+        width: 100%;
 
-        > .card {
-            //margin-top: 0;
-            margin:  0;
-            display: block;
-
-            .card-action {
-                background-color: unset;
-            }
+        .card-action {
+            background-color: unset;
         }
     }
 }
@@ -349,15 +348,16 @@ footer {
         width: 90%;
     }
 
-    > div {
+    > * {
         @extend .card;
-        margin-left:   5px;
-        margin-right:  5px;
-        flex:          1 1 auto;
-        min-height:    200px;
+        background-color: white;
+        margin-left:      5px;
+        margin-right:     5px;
+        flex:             1 1 auto;
+        min-height:       200px;
 
-        transition:    box-shadow .25s;
-        border-radius: 2px;
+        transition:       box-shadow .25s;
+        border-radius:    2px;
     }
 
     p {

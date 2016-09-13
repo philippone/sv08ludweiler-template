@@ -4,6 +4,11 @@
         height: 100%;
     }
     .fupa_widget {
+
+        a, a:hover {
+            color: green;
+        }
+
         height: 100%;
         > * {
             display: none;
@@ -29,6 +34,7 @@
 
             .spielbericht_header #ergebnis {
                 font-size: 30px;
+                color:     green;
             }
 
             .live_uhrzeit input, .liveticker_uhr_doppelpunkt, .navileiste, .navileiste_zusatz {
