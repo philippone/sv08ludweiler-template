@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+	<name>Fussball.de Integration</name>
+	<author>Philipp Schardt</author>
+	<version>1.0.0</version>
+	<description>Fussball.de Modul</description>
+	<files>
+		<folder>language</folder>
+		<filename>mod_fussball_de.xml</filename>
+		<filename module="mod_fussball_de">mod_fussball_de.php</filename>
+		<filename>index.html</filename>
+		<filename>tmpl/default.php</filename>
+		<filename>tmpl/index.html</filename>
+	</files>
+
+	<help key="JHELP_EXTENSIONS_MODULE_MANAGER_ARTICLES_CATEGORY"/>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+						name="module_title"
+						type="text"
+						label="Module Title"
+						description="Modul Titel"
+						default=""
+				/>
+				<field
+						name="module_title_displayed"
+						type="radio"
+						label="Module Titel anzeigen"
+						description="Titel des Modules anzeigen"
+						class="btn-group btn-group-yesno"
+						default="1"
+				>
+					<option value="1">Ja</option>
+					<option value="0">Nein</option>
+				</field>
+
+
+				<field
+						name="module_comp_id"
+						type="text"
+						label="Wettbewerbs ID"
+						description="Wettbewerbs ID von Fußball.de"
+						default=""
+				/>
+
+				<field
+						name="module_comp_counter"
+						type="text"
+						label="Id des Widgets"
+						description="Das wievielte Widget ist es auf der Seite?"
+						default="1"
+				/>
+			</fieldset>
+
+		</fields>
+	</config>
+</extension>
