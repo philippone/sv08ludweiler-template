@@ -233,7 +233,7 @@ a.section-anchor {
 }
 
 .row-col-wrap {
-    margin:              20px -1% 50px -1%;
+    margin:              20px 0 50px 0;
     @include column-count(2);
 
     column-fill:         balance;
@@ -335,13 +335,24 @@ footer {
 .highlight-top {
 
     //background-color: #E8F5E9;
-    display:    flex;
-    margin-top: -70px;
+    display:   flex;
+    // card style
+    width:     85%;
+    max-width: 1280px;
+    margin:    -90px auto 0 auto;
+
     @include to('medium') {
         flex-wrap: wrap;
     }
 
+    @include to('small') {
+        width: 90%;
+    }
+
     > div {
+        @extend .card;
+        margin-left:   5px;
+        margin-right:  5px;
         flex:          1 1 auto;
         min-height:    200px;
 
@@ -360,4 +371,6 @@ footer {
 //}
 
 @import "blog";
+@import "fupa";
+
 
