@@ -1,7 +1,7 @@
 module.exports = function (grunt) {
 
-    var dest = "../../Sites/templates/joomboot";
-    // var dest = "release";
+    // var dest = "../../Sites/templates/joomboot";
+    var dest = "release";
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
