@@ -2,11 +2,132 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82a5ee48-caa3-4e8b-a34c-6cb6c9493c22" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/release.zip" afterPath="$PROJECT_DIR$/release.zip" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/component.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/css/materialize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/css/offline.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/css/print.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/css/template.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/error.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/material-design-icons/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/material-design-icons/Material-Design-Icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/material-design-icons/Material-Design-Icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/material-design-icons/Material-Design-Icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/material-design-icons/Material-Design-Icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Bold.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Bold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Bold.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Light.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Light.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Light.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Medium.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Medium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Medium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Medium.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Thin.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Thin.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Thin.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Thin.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/body.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/article/default-20160903-144216.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/article/default.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/article/default_links-20160903-144216.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/article/default_links.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/category/blog.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/category/blog_children.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/category/blog_item.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/category/blog_links.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/category/default.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/category/default_articles.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/category/default_children.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/featured/default.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/featured/default_item.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/featured/default_links.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/featured/metadata.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/featured/tmpl/default.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/featured/tmpl/default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/featured/tmpl/default_items.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/featured/view.html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/layouts/joomla/content/info_block/author.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/layouts/joomla/content/info_block/block.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/layouts/joomla/pagination/link.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/layouts/joomla/pagination/links.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/mod_articles_category/default.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/mod_menu/default.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/mod_menu/default_component.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/mod_menu/default_heading.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/mod_menu/default_separator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/mod_menu/default_url.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/modules.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/img/wappen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/js/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/js/materialize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/js/materialize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/js/template.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/language/en-GB/en-GB.tpl_joomboot.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/language/en-GB/en-GB.tpl_joomboot.sys.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/materialize/materialize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/materialize/materialize.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/offline.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/_blog.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/_fupa.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_cards.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_carousel.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_chips.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_collapsible.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_color.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_dropdown.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_global.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_icons-material-design.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_materialbox.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_modal.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_navbar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_normalize.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_prefixer.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_preloader.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_roboto.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_sideNav.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_slider.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_table_of_contents.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_tabs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_toast.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_tooltip.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_typography.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_waves.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/date_picker/_default.date.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/date_picker/_default.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/date_picker/_default.time.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/forms/_checkboxes.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/forms/_file-input.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/forms/_forms.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/forms/_input-fields.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/forms/_radio-buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/forms/_range.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/forms/_select.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/forms/_switches.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/materialize.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/offline.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/print.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/template.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/templateDetails.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/template_preview.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/template_thumbnail.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/template.css" afterPath="$PROJECT_DIR$/src/css/template.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/modules.php" afterPath="$PROJECT_DIR$/src/html/modules.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/template.scss" afterPath="$PROJECT_DIR$/src/scss/template.scss" />
     </list>
     <ignored path="sv08ludweiler-template.iws" />
@@ -45,8 +166,8 @@
           <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Gruntfile.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+                <state relative-caret-position="45">
+                  <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
@@ -141,8 +262,8 @@
           <file leaf-file-name="template.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/scss/template.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="367">
-                  <caret line="347" column="18" selection-start-line="347" selection-start-column="18" selection-end-line="347" selection-end-column="18" />
+                <state relative-caret-position="412">
+                  <caret line="252" column="32" selection-start-line="252" selection-start-column="32" selection-end-line="252" selection-end-column="32" />
                   <folding />
                 </state>
               </provider>
@@ -716,12 +837,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1472560552399</updated>
-      <workItem from="1472560554297" duration="106689000" />
+      <workItem from="1472560554297" duration="107196000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106689000" />
+    <option name="totallyTimeSpent" value="107196000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="25" width="2127" height="1382" extended-state="0" />
@@ -734,7 +855,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32945737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32945737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -1186,16 +1307,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        <state relative-caret-position="45">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/template.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="347" column="18" selection-start-line="347" selection-start-column="18" selection-end-line="347" selection-end-column="18" />
+        <state relative-caret-position="412">
+          <caret line="252" column="32" selection-start-line="252" selection-start-column="32" selection-end-line="252" selection-end-column="32" />
           <folding />
         </state>
       </provider>

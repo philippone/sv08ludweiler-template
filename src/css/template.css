@@ -2595,9 +2595,10 @@ a.section-anchor { padding-top: 128px; margin-top: -128px; display: inline-block
 
 .row-flex-wrap { display: flex; flex-direction: row; flex-wrap: wrap; margin: 50px 0; }
 
-.row-col-wrap { margin: 20px -5px 50px -5px; -webkit-column-count: 2; -moz-column-count: 2; column-count: 2; column-fill: balance; -moz-column-fill: balance; -webkit-column-fill: balance; }
-@media (max-width: 992px) { .row-col-wrap { -webkit-column-count: 1; -moz-column-count: 1; column-count: 1; } }
-.row-col-wrap .card, .row-col-wrap .highlight-top > * { -webkit-column-break-inside: avoid; page-break-inside: avoid; /* Firefox is dumb */ break-inside: avoid; -moz-column-break-inside: avoid; -webkit-column-break-inside: avoid; column-break-inside: avoid; transform: translateZ(0); margin-left: 5px; margin-right: 5px; display: inline-block; width: 100%; }
+.row-col-wrap { margin: 20px 0 50px 0; -webkit-column-count: 2; -moz-column-count: 2; column-count: 2; column-fill: balance; -moz-column-fill: balance; -webkit-column-fill: balance; }
+@media (max-width: 992px) { .row-col-wrap { -webkit-column-count: 1; -moz-column-count: 1; column-count: 1; margin: 20px -5px 50px -5px; } }
+.row-col-wrap .card, .row-col-wrap .highlight-top > * { -webkit-column-break-inside: avoid; page-break-inside: avoid; /* Firefox is dumb */ break-inside: avoid; -moz-column-break-inside: avoid; -webkit-column-break-inside: avoid; column-break-inside: avoid; transform: translateZ(0); display: inline-block; width: 100%; }
+@media (max-width: 992px) { .row-col-wrap .card, .row-col-wrap .highlight-top > * { margin-left: 5px; margin-right: 5px; } }
 .row-col-wrap .card .card-action, .row-col-wrap .highlight-top > * .card-action { background-color: unset; }
 
 .main.row { margin: 0; }
@@ -2615,7 +2616,7 @@ footer.page-footer { margin-top: 0; }
 footer .wappen { width: 200px; }
 footer a { color: white; }
 
-.highlight-top { display: flex; width: 85%; max-width: 1280px; margin: -90px auto 0 auto; }
+.highlight-top { display: flex; width: 85%; max-width: 1280px; margin: -65px auto 0 auto; }
 @media (max-width: 992px) { .highlight-top { flex-wrap: wrap; } }
 @media (max-width: 600px) { .highlight-top { width: 90%; } }
 .highlight-top > * { background-color: white; margin-left: 5px; margin-right: 5px; flex: 1 1 auto; min-height: 200px; transition: box-shadow .25s; border-radius: 2px; }
