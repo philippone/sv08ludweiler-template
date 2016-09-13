@@ -17,25 +17,32 @@ main {
     flex: 1 0 auto;
 }
 
-.teaser-big {
-    min-height: 350px;
-
-    p {
-        margin:  0;
-        padding: 0;
-    }
-}
+//.teaser-big {
+//    min-height: 350px;
+//
+//    p {
+//        margin:  0;
+//        padding: 0;
+//    }
+//}
 
 .teaser-big-container {
-    height:   450px;
+    height:   40vw;
     overflow: hidden;
 
-    @include at('medium') {
-        height: 350px;
-    }
+    //@include at('medium') {
+    //    height: 350px;
+    //}
+    //
+    //@include to('medium-up') {
+    //    height: 300px;
+    //}
 
-    @include to('medium-up') {
-        height: 300px;
+    > img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        object-position: 50% 10%;
     }
 }
 
