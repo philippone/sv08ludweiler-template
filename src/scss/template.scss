@@ -27,7 +27,7 @@ main {
 //}
 
 .teaser-big-container {
-    max-height: 40vw;
+    max-height: 35vw;
     overflow:   hidden;
 
     //@include at('medium') {
@@ -364,10 +364,12 @@ footer {
         margin-left:      5px;
         margin-right:     5px;
         flex:             1 1 auto;
-        min-height:       200px;
-
         transition:       box-shadow .25s;
         border-radius:    2px;
+
+        @include from('large') {
+            min-height:       200px;
+        }
     }
 
     p {
@@ -379,6 +381,50 @@ footer {
 //header {
 //    background-color: #E8F5E9;
 //}
+
+#jevents {
+    max-width: 1250px;
+    width: 70%;
+    margin: 0 auto;
+
+
+    .nav-items {
+
+        > div {
+            border-color: green;
+            border-radius: 0;
+
+            a {
+                &:hover {
+                    border-color: green;
+                    background-color: lightgreen;
+                }
+            }
+        }
+
+        > div.active a {
+            @extend .green, .darken-1;
+
+            &:hover {
+                border-color: green;
+                color: white;
+            }
+        }
+
+        a:hover {
+            border-color: green;
+            background-color: grey;
+        }
+    }
+
+    #jevents_body {
+        @extend .card;
+        background-color: white;
+    }
+    //a {
+    //    background-color: green;
+    //}
+}
 
 @import "blog";
 @import "fupa";
