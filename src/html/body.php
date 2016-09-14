@@ -102,6 +102,10 @@
 	<?php endif; ?>
 </main>
 
+
+<?php if ($this->countModules('sub-footer')) : ?>
+	<jdoc:include type="modules" name="sub-footer" />
+<?php endif; ?>
 <?php if ($this->countModules('footer')) : ?>
 	<footer class="page-footer green darken-4">
 		<div class="container">

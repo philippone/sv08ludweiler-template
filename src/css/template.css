@@ -2626,16 +2626,19 @@ footer a { color: white; }
 .blog .card .card-content, .blog .highlight-top > * .card-content { margin-top: 0; }
 .blog .card .card-content .page-header h2, .blog .highlight-top > * .card-content .page-header h2 { margin: 0 0 10px 0; font-size: 2rem; }
 .blog .card .card-content .page-header h2 a, .blog .highlight-top > * .card-content .page-header h2 a { color: green; }
+.blog .card .readmore, .blog .highlight-top > * .readmore { margin-top: 10px; }
+
+.blog-featured img { max-width: 100%; }
+.blog-featured h2 { margin: 0 0 10px 0; font-size: 2rem; }
+.blog-featured h2 a { color: green; }
+.blog-featured .card .readmore, .blog-featured .highlight-top > * .readmore { margin-top: 10px; }
 
 .item-page img { max-width: 100%; }
-.item-page .fulltext-container { height: 450px; overflow: hidden; }
-@media (min-width: 602px) and (max-width: 992px) { .item-page .fulltext-container { height: 350px; } }
-@media (max-width: 601px) { .item-page .fulltext-container { height: 300px; } }
+.item-page .fulltext-container { max-height: 45vw; overflow: hidden; }
 .item-page .fulltext-container-dummy { height: 270px; }
 .item-page .fulltext-container .material-placeholder { width: 100%; height: 100%; }
-.item-page .fulltext-container img { width: 100%; height: 100%; object-fit: cover; }
-.item-page .card, .item-page .highlight-top > * { margin-top: -200px; }
-@media (max-width: 600px) { .item-page .card, .item-page .highlight-top > * { margin-top: -150px; } }
+.item-page .fulltext-container img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 20%; }
+.item-page .card, .item-page .highlight-top > * { margin-top: -10vw; }
 
 dl.article-info.muted { margin: 0; -webkit-column-count: 2; /* Chrome, Safari, Opera */ -moz-column-count: 2; /* Firefox */ column-count: 2; column-fill: balance; -moz-column-fill: balance; -webkit-column-fill: balance; }
 @media (max-width: 600px) { dl.article-info.muted { -webkit-column-count: 1; /* Chrome, Safari, Opera */ -moz-column-count: 1; /* Firefox */ column-count: 1; } }
@@ -2657,3 +2660,8 @@ ul.pager.pagenav { display: flex; justify-content: space-between; }
 .highlight-top .fupa_widget > div:first-child .spielbericht_header #ergebnis { font-size: 30px; color: green; }
 .highlight-top .fupa_widget > div:first-child .live_uhrzeit input, .highlight-top .fupa_widget > div:first-child .liveticker_uhr_doppelpunkt, .highlight-top .fupa_widget > div:first-child .navileiste, .highlight-top .fupa_widget > div:first-child .navileiste_zusatz { display: none; }
 .highlight-top .fupa_widget > div:first-child .liveticker_header_leiste:nth-child(3) td:nth-child(2) { visibility: hidden; pointer-events: none; }
+
+.event { padding: 5px 10px; }
+.event .flex-row { display: flex; justify-content: space-between; }
+.event .flex { display: flex; align-items: center; }
+.event_category { padding-right: 5px; }

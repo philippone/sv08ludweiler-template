@@ -70,10 +70,11 @@ $info = $params->get('info_block_position', 0);
 
 			<?php endif; ?>
 		</div>
-		<div class="card-action">
-			<?php if ($useDefList && ($info == 1 || $info == 2)) : ?>
+		<?php if ($useDefList && ($info == 1 || $info == 2)) : ?>
+			<div class="card-action">
 				<?php echo JLayoutHelper::render('joomla.content.info_block.block', array('item' => $this->item, 'params' => $params, 'position' => 'below')); ?>
-			<?php endif; ?></div>
+			</div>
+		<?php endif; ?>
 
 		<?php if ($this->item->state == 0 || strtotime($this->item->publish_up) > strtotime(JFactory::getDate())
 		|| ((strtotime($this->item->publish_down) < strtotime(JFactory::getDate())) && $this->item->publish_down != JFactory::getDbo()->getNullDate())) : ?>

@@ -39,6 +39,7 @@
 		<position>left</position>
 		<position>right</position>
 		<position>banner</position>
+		<position>sub-footer</position>
 		<position>footer</position>
 		<position>footer-menu</position>
 	</positions>
