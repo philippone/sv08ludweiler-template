@@ -234,6 +234,10 @@ main {
         //background-color: grey lighten-5 !important;
     }
 
+    > section:last-child {
+        padding-bottom: 170px;
+    }
+
     > section iframe {
         width: 100%;
     }
@@ -368,7 +372,7 @@ footer {
     }
 
     &.page-footer {
-        margin-top: 170px;
+        margin-top: 0;
         padding:    0;
     }
 

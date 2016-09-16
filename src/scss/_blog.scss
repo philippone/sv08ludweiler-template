@@ -1,4 +1,5 @@
 .blog {
+    margin-bottom: 170px;
     img {
         max-width: 100%;
     }
@@ -34,6 +35,7 @@
 }
 
 .blog-featured {
+    margin-bottom: 170px;
     img {
         max-width: 100%;
     }
@@ -53,6 +55,7 @@
 
 // article
 .item-page {
+    margin-bottom: 170px;
     img {
         max-width: 100%;
     }
@@ -72,7 +75,7 @@
         //}
 
         &-dummy {
-            height: 270px;
+            height: 160px;
         }
 
         .material-placeholder {

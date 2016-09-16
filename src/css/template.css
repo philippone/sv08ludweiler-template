@@ -2592,6 +2592,7 @@ main { flex: 1 0 auto; }
 .row-middle { flex: 1; }
 .row-middle > section:nth-child(even) { background-color: #E8F5E9 !important; }
 .row-middle > section:nth-child(odd) { background-color: white !important; }
+.row-middle > section:last-child { padding-bottom: 170px; }
 .row-middle > section iframe { width: 100%; }
 
 .custom-sv08-section, .sv08-section { padding: 20px 0; }
@@ -2619,7 +2620,7 @@ a.section-anchor { padding-top: 128px; margin-top: -128px; display: inline-block
 
 footer { color: white; }
 footer .row { margin: 0; }
-footer.page-footer { margin-top: 170px; padding: 0; }
+footer.page-footer { margin-top: 0; padding: 0; }
 footer .wappen-container .wappen { width: 200px; margin-top: -110px; }
 footer .banner-partner { padding-bottom: 30px; margin-top: -30px; }
 footer .row-social-media { padding: 20px 0; }
@@ -2645,17 +2646,20 @@ footer a { color: white; }
 #jevents .nav-items a:hover { border-color: green; background-color: grey; }
 #jevents #jevents_body { background-color: white; }
 
+.blog { margin-bottom: 170px; }
 .blog img { max-width: 100%; }
 .blog .card .card-content, .blog .highlight-top > * .card-content, .blog #jevents #jevents_body .card-content, #jevents .blog #jevents_body .card-content { margin-top: 0; }
 .blog .card .card-content .page-header h2, .blog .highlight-top > * .card-content .page-header h2, .blog #jevents #jevents_body .card-content .page-header h2, #jevents .blog #jevents_body .card-content .page-header h2 { margin: 0 0 10px 0; font-size: 2rem; }
 .blog .card .card-content .page-header h2 a, .blog .highlight-top > * .card-content .page-header h2 a, .blog #jevents #jevents_body .card-content .page-header h2 a, #jevents .blog #jevents_body .card-content .page-header h2 a { color: green; }
 .blog .card .readmore, .blog .highlight-top > * .readmore, .blog #jevents #jevents_body .readmore, #jevents .blog #jevents_body .readmore { margin-top: 10px; }
 
+.blog-featured { margin-bottom: 170px; }
 .blog-featured img { max-width: 100%; }
 .blog-featured h2 { margin: 0 0 10px 0; font-size: 2rem; }
 .blog-featured h2 a { color: green; }
 .blog-featured .card .readmore, .blog-featured .highlight-top > * .readmore, .blog-featured #jevents #jevents_body .readmore, #jevents .blog-featured #jevents_body .readmore { margin-top: 10px; }
 
+.item-page { margin-bottom: 170px; }
 .item-page img { max-width: 100%; }
 .item-page .fulltext-container { max-height: 35vw; overflow: hidden; }
 .item-page .fulltext-container-dummy { height: 270px; }
