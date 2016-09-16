@@ -1,0 +1,4 @@
+.event { padding: 5px 10px; }
+.event .flex-row { display: flex; justify-content: space-between; }
+.event .flex { display: flex; align-items: center; }
+.event_category { padding-right: 5px; }
