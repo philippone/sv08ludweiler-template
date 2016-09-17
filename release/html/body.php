@@ -65,6 +65,13 @@
 <!--	</div>-->
 </div>
 <?php endif; ?>
+<?php if ($this->countModules('teaser-big-no-style')) : ?>
+	<div class="teaser-big-container">
+		<!--	<div class="teaser-big col s12">-->
+		<jdoc:include type="modules" name="teaser-big-no-style" style=""/>
+		<!--	</div>-->
+	</div>
+<?php endif; ?>
 <!-- sub-navbar -->
 <?php if ($this->countModules('sub-navbar')) : ?>
 	<nav class="sub-navigation col s12 green darken-3">

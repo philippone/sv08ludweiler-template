@@ -14,5 +14,6 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" name="sv08ludweiler-template node_modules" level="project" />
   </component>
 </module>

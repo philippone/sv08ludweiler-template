@@ -2662,7 +2662,7 @@ footer a { color: white; }
 .item-page { margin-bottom: 170px; }
 .item-page img { max-width: 100%; }
 .item-page .fulltext-container { max-height: 35vw; overflow: hidden; }
-.item-page .fulltext-container-dummy { height: 270px; }
+.item-page .fulltext-container-dummy { height: 12vw; }
 .item-page .fulltext-container .material-placeholder { width: 100%; height: 100%; }
 .item-page .fulltext-container img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 20%; }
 .item-page .card, .item-page .highlight-top > *, .item-page #jevents #jevents_body, #jevents .item-page #jevents_body { margin-top: -10vw; }
@@ -2675,6 +2675,8 @@ dl.article-info.muted dd a { color: green; }
 p.readmore { margin-top: 10px; }
 
 ul.pager.pagenav { display: flex; justify-content: space-between; }
+
+.sv08-article-with-teaser .fulltext-container { display: none; }
 
 .highlight-top > div > div { height: 100%; }
 .highlight-top .fupa_widget { height: 100%; }

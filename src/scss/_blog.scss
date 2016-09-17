@@ -75,7 +75,7 @@
         //}
 
         &-dummy {
-            height: 160px;
+            height: 12vw;
         }
 
         .material-placeholder {
@@ -144,4 +144,10 @@ p.readmore {
 ul.pager.pagenav {
     display:         flex;
     justify-content: space-between;
+}
+
+// extra article view
+.sv08-article-with-teaser .fulltext-container {
+    display: none;
+
 }
