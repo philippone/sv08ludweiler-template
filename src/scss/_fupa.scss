@@ -16,6 +16,10 @@
 
         .content_table_std {
             margin: 0;
+
+            tr:nth-child(4) {
+                display: none;
+            }
         }
 
         // div with content

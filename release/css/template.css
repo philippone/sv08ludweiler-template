@@ -2589,6 +2589,9 @@ main { flex: 1 0 auto; }
 .sub-navigation, .navbar-extended { z-index: 10; height: auto; }
 .sub-navigation .nav.menu, .navbar-extended .nav.menu { display: flex; flex-direction: row; flex-wrap: wrap; }
 
+@media (max-width: 600px) { .navbar-extended .container, .navbar-extended .custom-sv08-section, .navbar-extended .sv08-section { width: 100%; } }
+.navbar-extended .nav.menu { flex-wrap: nowrap; white-space: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; -ms-overflow-style: -ms-autohiding-scrollbar; }
+
 .row-middle { flex: 1; }
 .row-middle > section:nth-child(even) { background-color: #E8F5E9 !important; }
 .row-middle > section:nth-child(odd) { background-color: white !important; }
@@ -2683,6 +2686,7 @@ ul.pager.pagenav { display: flex; justify-content: space-between; }
 .highlight-top .fupa_widget a, .highlight-top .fupa_widget a:hover { color: green; }
 .highlight-top .fupa_widget > * { display: none; }
 .highlight-top .fupa_widget .content_table_std { margin: 0; }
+.highlight-top .fupa_widget .content_table_std tr:nth-child(4) { display: none; }
 .highlight-top .fupa_widget > div:first-child { height: 100%; display: block; }
 .highlight-top .fupa_widget > div:first-child table { height: 100%; }
 .highlight-top .fupa_widget > div:first-child .wappen img { width: 70%; }

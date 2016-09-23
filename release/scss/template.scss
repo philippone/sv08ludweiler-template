@@ -207,6 +207,20 @@ main {
 
 .navbar-extended {
     @extend .sub-navigation;
+
+    @include to('small') {
+        .container {
+            width: 100%;
+        }
+    }
+
+    .nav.menu {
+        flex-wrap: nowrap;
+        white-space: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
 }
 
 //.navbar .nav-wrapper ul li ul li:hover > ul li {
