@@ -1,8 +1,3 @@
-<!-- Header -->
-<!--<header class="header"-->
-<!--		role="banner">-->
-<!--</header>-->
-
 <header>
 <!-- Top Navigation -->
 <?php if ($this->countModules('navbar')) : ?>
@@ -35,7 +30,6 @@
 		</nav>
 	</div>
 <?php endif; ?>
-
 <!-- navbar-extended -->
 <?php if ($this->countModules('navbar-extended')) : ?>
 	<div class="navbar-fixed-2">
@@ -48,7 +42,6 @@
 	</nav>
 		</div>
 <?php endif; ?>
-
 <!-- Language module - if activated -->
 <?php if ($this->countModules('language')) { ?>
 	<jdoc:include type="modules"
@@ -56,29 +49,22 @@
 				  style="none"
 				  title="<?php echo JText::_('TPL_JOOMBOOT_CHOOSE_LANGUAGE'); ?>"/>
 <?php } ?>
-
 <!-- teaser-big -->
 <?php if ($this->countModules('teaser-big')) : ?>
 <div class="teaser-big-container">
-<!--	<div class="teaser-big col s12">-->
 		<jdoc:include type="modules" name="teaser-big" style="teaserbig"/>
-<!--	</div>-->
 </div>
 <?php endif; ?>
 <?php if ($this->countModules('teaser-big-no-style')) : ?>
 	<div class="teaser-big-container">
-		<!--	<div class="teaser-big col s12">-->
 		<jdoc:include type="modules" name="teaser-big-no-style" style=""/>
-		<!--	</div>-->
 	</div>
 <?php endif; ?>
 <!-- sub-navbar -->
 <?php if ($this->countModules('sub-navbar')) : ?>
 	<nav class="sub-navigation col s12 green darken-3">
 		<div class="container">
-<!--			<ul class="left">-->
 				 <jdoc:include type="modules" name="sub-navbar" style="none"/>
-<!--			</ul>-->
 		</div>
 	</nav>
 <?php endif; ?>
@@ -88,27 +74,20 @@
 		<jdoc:include type="modules" name="highlight-top"/>
 	</div>
 <?php endif;?>
-
-
 </header>
-
 <!-- Messages module -->
 <jdoc:include type="message"/>
-
 <main >
 	<?php if ($this->countModules('left')) : ?>
 		<div class="row-left"">
 			<jdoc:include type="modules" name="left"/>
 		</main>
 	<?php endif; ?>
-
 	<div class="row-middle">
-
 		<!-- sub-component-top -->
 		<?php if ($this->countModules('sub-component-top')) : ?>
 			<jdoc:include type="modules" name="sub-component-top" style="sv08section"/>
 		<?php endif; ?>
-
 		<!-- Main Content -->
 		<jdoc:include type="component"/>
 		<!-- sub-component-bottom -->
@@ -116,19 +95,15 @@
 			<jdoc:include type="modules" name="sub-component-bottom"/>
 		<?php endif; ?>
 	</div>
-
 	<?php if ($this->countModules('right')) : ?>
 		<div class="row-right">
 			<jdoc:include type="modules" name="right"/>
 		</div>
 	<?php endif; ?>
 </main>
-
-
 <?php if ($this->countModules('sub-footer')) : ?>
 	<jdoc:include type="modules" name="sub-footer" />
 <?php endif; ?>
-
 <?php if ($this->countModules('footer')) : ?>
 	<footer class="page-footer green darken-4">
 		<div class="row green darken-3">
@@ -145,7 +120,6 @@
 			</div>
 	<?php endif; ?>
 		</div>
-
 		<?php if ($this->countModules('banner-social-media')) : ?>
 			<div class="row-social-media container">
 				<a id="Social-Media" class="scrollspy"></a>
@@ -169,8 +143,5 @@
 					</div>
 				</div>
 			</div>
-
 	</footer>
 <?php endif; ?>
-
-

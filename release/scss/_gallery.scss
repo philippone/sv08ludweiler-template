@@ -1,0 +1,10 @@
+#phocagallery {
+    @extend .container, .item-page;
+
+}
+
+.com_phocagallery {
+    button:focus {
+        background-color: transparent;
+    }
+}

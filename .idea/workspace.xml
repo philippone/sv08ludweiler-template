@@ -2,9 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82a5ee48-caa3-4e8b-a34c-6cb6c9493c22" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/com_phocagallery/categories/default.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/com_phocagallery/categories/default_categories.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/com_phocagallery/categories/default_map.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/com_phocagallery/categories/default_obs_catimgdesc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/com_phocagallery/categories/default_obs_catimgdetail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/com_phocagallery/categories/default_obs_catimgdetailfloat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/com_phocagallery/categories/default_obs_catimgdetailtitleonly.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/com_phocagallery/categories/default_obs_custom.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/com_phocagallery/categories/default_obscatimg.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/com_phocagallery/categories/default_pagination.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/com_phocagallery/categories/default_rating.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/_gallery.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/js/materialize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/materialize/materialize.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/materialize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/materialize/materialize.min.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/release.zip" afterPath="$PROJECT_DIR$/release.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/release/css/template.css" afterPath="$PROJECT_DIR$/release/css/template.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/release/html/body.php" afterPath="$PROJECT_DIR$/release/html/body.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/release/index.php" afterPath="$PROJECT_DIR$/release/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/release/js/template.js" afterPath="$PROJECT_DIR$/release/js/template.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/release/scss/template.scss" afterPath="$PROJECT_DIR$/release/scss/template.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/template.css" afterPath="$PROJECT_DIR$/src/css/template.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/body.php" afterPath="$PROJECT_DIR$/src/html/body.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.php" afterPath="$PROJECT_DIR$/src/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/template.js" afterPath="$PROJECT_DIR$/src/js/template.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/template.scss" afterPath="$PROJECT_DIR$/src/scss/template.scss" />
     </list>
     <ignored path="sv08ludweiler-template.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,92 +54,45 @@
     <splitter split-orientation="horizontal" split-proportion="0.61709815">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="body.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/html/body.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="67" column="50" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="50" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Gruntfile.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/index.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="850">
-                  <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/modules/mod_fussball_results/tmpl/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="mod_fussball_results.xml" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/modules/mod_fussball_results/mod_fussball_results.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="930">
-                  <caret line="62" column="49" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="49" />
+                <state relative-caret-position="58">
+                  <caret line="91" column="28" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/modules/mod_fussball_results/tmpl/default.php">
+            <entry file="file://$PROJECT_DIR$/src/html/com_phocagallery/categories/default.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+                <state relative-caret-position="-68">
+                  <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="templateDetails.xml" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/templateDetails.xml">
+          <file leaf-file-name="default_categories.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/html/com_phocagallery/categories/default_categories.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="645">
-                  <caret line="43" column="48" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
+                <state relative-caret-position="225">
+                  <caret line="15" column="7" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="mod_rapid_contact.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/html/mod_rapid_contact/mod_rapid_contact.php">
+          <file leaf-file-name="default_pagination.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/html/com_phocagallery/categories/default_pagination.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="jevents.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/scss/jevents.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-                  <folding />
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding>
+                    <marker date="1474880190000" expanded="true" signature="1184:1190" ph=" " />
+                    <marker date="1474880190000" expanded="true" signature="1251:1257" ph=" " />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -124,18 +104,18 @@
           <file leaf-file-name="template.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/scss/template.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="472">
-                  <caret line="223" column="1" selection-start-line="223" selection-start-column="1" selection-end-line="223" selection-end-column="1" />
+                <state relative-caret-position="559">
+                  <caret line="533" column="0" selection-start-line="533" selection-start-column="0" selection-end-line="533" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_blog.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/scss/_blog.scss">
+          <file leaf-file-name="_gallery.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/scss/_gallery.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2235">
-                  <caret line="149" column="47" selection-start-line="149" selection-start-column="47" selection-end-line="149" selection-end-column="47" />
+                <state relative-caret-position="135">
+                  <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -238,17 +218,19 @@
         <option value="$PROJECT_DIR$/src/html/mod_jevents_latest/flat/latest.php" />
         <option value="$PROJECT_DIR$/src/scss/jevents.scss" />
         <option value="$PROJECT_DIR$/modules/mod_fussball_results/mod_fussball_results.xml" />
-        <option value="$PROJECT_DIR$/src/js/template.js" />
         <option value="$PROJECT_DIR$/modules/mod_fussball_results/mod_fussball_results.php" />
         <option value="$PROJECT_DIR$/modules/mod_fussball_results/tmpl/default.php" />
         <option value="$PROJECT_DIR$/src/html/mod_rapid_contact/mod_rapid_contact.php" />
-        <option value="$PROJECT_DIR$/src/html/body.php" />
         <option value="$PROJECT_DIR$/src/templateDetails.xml" />
         <option value="$PROJECT_DIR$/src/scss/_blog.scss" />
-        <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/src/scss/_fupa.scss" />
-        <option value="$PROJECT_DIR$/src/scss/template.scss" />
         <option value="$PROJECT_DIR$/src/index.php" />
+        <option value="$PROJECT_DIR$/src/html/body.php" />
+        <option value="$PROJECT_DIR$/src/js/template.js" />
+        <option value="$PROJECT_DIR$/src/scss/template.scss" />
+        <option value="$PROJECT_DIR$/src/scss/_gallery.scss" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/src/html/com_phocagallery/categories/default.php" />
       </list>
     </option>
   </component>
@@ -261,13 +243,18 @@
         <dependency value="clean" />
         <dependency value="sass" />
       </alias-task>
-      <alias-task name="release" info="Alias for &quot;default&quot;, &quot;copy:main&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
+      <alias-task name="release" info="Alias for &quot;default&quot;, &quot;cssmin&quot;, &quot;copy:main&quot;, &quot;uglify&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
         <dependency value="default" />
+        <dependency value="cssmin" />
         <dependency value="copy:main" />
+        <dependency value="uglify" />
       </alias-task>
       <alias-task name="module" info="Alias for &quot;copy:module&quot; task." file-path="$PROJECT_DIR$/Gruntfile.js">
         <dependency value="copy:module" />
       </alias-task>
+      <core-task name="uglify" info="Minify files with UglifyJS." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-uglify/tasks/uglify.js" multi="true">
+        <target value="my_target" />
+      </core-task>
       <core-task name="watch" info="Run predefined tasks whenever watched files change." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-watch/tasks/watch.js" multi="false">
         <target value="grunt" />
         <target value="sass" />
@@ -285,6 +272,9 @@
         <target value="main" />
         <target value="materialize" />
         <target value="module" />
+      </core-task>
+      <core-task name="cssmin" info="Minify CSS" file-path="$PROJECT_DIR$/node_modules/grunt-contrib-cssmin/tasks/cssmin.js" multi="true">
+        <target value="target" />
       </core-task>
     </gruntfile>
   </component>
@@ -305,9 +295,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="535" />
-    <option name="y" value="105" />
-    <option name="width" value="1973" />
+    <option name="x" value="940" />
+    <option name="y" value="109" />
+    <option name="width" value="1516" />
     <option name="height" value="1249" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -335,6 +325,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -399,6 +391,24 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sv08ludweiler-template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sv08ludweiler-template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="html" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -425,10 +435,34 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sv08ludweiler-template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sv08ludweiler-template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com_phocagallery" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="categories" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -439,21 +473,23 @@
     <property name="js.buildTools.grunt.grunt-cli.package" value="/usr/local/lib/node_modules/grunt-cli" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="SearchEverywhereHistoryKey" value="item-page&#9;null&#9;null&#10;grunt&#9;FILE&#9;file:///Users/philipp.schardt/workspace/sv08ludweiler-template/Gruntfile.js&#10;templ&#9;FILE&#9;file:///Users/philipp.schardt/workspace/sv08ludweiler-template/src/js/template.js&#10;gr&#9;FILE&#9;file:///Users/philipp.schardt/workspace/sv08ludweiler-template/Gruntfile.js&#10;materia&#9;FILE&#9;file:///Users/philipp.schardt/workspace/sv08ludweiler-template/src/materialize/materialize.css" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/html" />
+      <recent name="$PROJECT_DIR$/src/html/mod_rapid_contact" />
+      <recent name="$PROJECT_DIR$/modules" />
+      <recent name="$PROJECT_DIR$/src/html/layouts/joomla" />
+      <recent name="$PROJECT_DIR$/src/scss" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/img" />
       <recent name="$PROJECT_DIR$/src/js" />
       <recent name="$PROJECT_DIR$/src/materialize" />
       <recent name="$PROJECT_DIR$/src/html/layouts/com_content/featured" />
       <recent name="$PROJECT_DIR$/src/html/layouts" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/html/mod_rapid_contact" />
-      <recent name="$PROJECT_DIR$/modules" />
-      <recent name="$PROJECT_DIR$/src/html" />
-      <recent name="$PROJECT_DIR$/src/html/layouts/joomla" />
-      <recent name="$PROJECT_DIR$/src/scss" />
     </key>
   </component>
   <component name="RunManager">
@@ -527,26 +563,28 @@
       <workItem from="1474275354317" duration="795000" />
       <workItem from="1474290423745" duration="7000" />
       <workItem from="1474290454375" duration="5000" />
-      <workItem from="1474613342727" duration="885000" />
+      <workItem from="1474613342727" duration="1093000" />
+      <workItem from="1474727224223" duration="2978000" />
+      <workItem from="1474879502862" duration="2633000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135442000" />
+    <option name="totallyTimeSpent" value="141261000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="535" y="105" width="1973" height="1249" extended-state="0" />
+    <frame x="940" y="109" width="1516" height="1249" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14293112" sideWeight="0.4806701" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19131614" sideWeight="0.47036082" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14293112" sideWeight="0.5193299" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19131614" sideWeight="0.5296392" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32929993" sideWeight="0.5081411" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929993" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32929993" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32929993" sideWeight="0.4918589" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929993" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2445981" sideWeight="0.4972863" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -574,7 +612,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/src/html/body.php</url>
-          <line>116</line>
+          <line>95</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/modules/mod_latestarticles/tmpl/default.php</url>
@@ -583,12 +621,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/Gruntfile.js</url>
-          <line>21</line>
+          <line>23</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/Gruntfile.js</url>
-          <line>15</line>
+          <line>17</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
@@ -597,34 +635,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/html/mod_menu/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="93" column="43" selection-start-line="93" selection-start-column="43" selection-end-line="93" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/mod_menu/default_component.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mod_latestarticles/mod_latestarticles.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="48" column="40" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/com_content/category/blog_links.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/html/com_content/category/blog_children.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -823,24 +833,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/template.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="46" column="12" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/favicon.ico">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/mod_fussball_results/tmpl/index.html">
@@ -891,14 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/_blog.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2235">
-          <caret line="149" column="47" selection-start-line="149" selection-start-column="47" selection-end-line="149" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/mod_fussball_results/mod_fussball_results.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -939,26 +926,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/template.scss">
+    <entry file="file://$PROJECT_DIR$/src/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="223" column="1" selection-start-line="223" selection-start-column="1" selection-end-line="223" selection-end-column="1" />
+        <state relative-caret-position="540">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/body.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="67" column="50" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="50" />
+        <state relative-caret-position="2190">
+          <caret line="146" column="15" selection-start-line="146" selection-start-column="15" selection-end-line="146" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.php">
+    <entry file="file://$PROJECT_DIR$/src/js/template.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+        <state relative-caret-position="555">
+          <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/_blog.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="694">
+          <caret line="149" column="47" selection-start-line="149" selection-start-column="47" selection-end-line="149" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="91" column="28" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/com_phocagallery/categories/default_categories.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/com_phocagallery/categories/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/_gallery.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/com_phocagallery/categories/default_pagination.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1474880190000" expanded="true" signature="1184:1190" ph=" " />
+            <marker date="1474880190000" expanded="true" signature="1251:1257" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/template.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="533" column="0" selection-start-line="533" selection-start-column="0" selection-end-line="533" selection-end-column="0" />
           <folding />
         </state>
       </provider>

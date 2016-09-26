@@ -26,12 +26,13 @@ $sitename = $app->get('sitename');
 //JHtml::_('bootstrap.framework');
 JHtml::_('jquery.framework');
 
-$doc->addScriptVersion($this->baseurl . '/templates/' . $this->template . '/js/materialize.js');
-$doc->addScriptVersion($this->baseurl . '/templates/' . $this->template . '/js/template.js');
+//$doc->addScriptVersion($this->baseurl . '/templates/' . $this->template . '/js/materialize.js');
+//$doc->addScriptVersion($this->baseurl . '/templates/' . $this->template . '/js/template.js');
+$doc->addScriptVersion($this->baseurl . '/templates/' . $this->template . '/js/sv08ludweiler.min.js');
 
 // Add Stylesheets
-$doc->addStyleSheetVersion($this->baseurl . '/templates/' . $this->template . '/css/materialize.css');
-$doc->addStyleSheetVersion($this->baseurl . '/templates/' . $this->template . '/css/template.css');
+$doc->addStyleSheetVersion($this->baseurl . '/templates/' . $this->template . '/css/materialize.min.css');
+$doc->addStyleSheetVersion($this->baseurl . '/templates/' . $this->template . '/css/template.min.css');
 $doc->addStyleSheetVersion('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 // Use of Google Font
@@ -43,10 +44,8 @@ if ($this->params->get('googleFont'))
 		font-family: '" . str_replace('+', ' ', $this->params->get('googleFontName')) . "', sans-serif;
 	}");
 }
-
 // Load optional RTL Bootstrap CSS
 //JHtml::_('bootstrap.loadCss', false, $this->direction);
-
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $this->language; ?>"
@@ -66,20 +65,16 @@ if ($this->params->get('googleFont'))
 	?>">
 		<!-- Body -->
 		<?php require_once 'html/body.php'; ?>
-
 		<jdoc:include type="modules"
 					  name="debug"
 					  style="none"/>
 	</body>
-<!--	google analytics-->
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
 		ga('create', 'UA-44702927-1', 'auto');
 		ga('send', 'pageview');
-
 	</script>
 </html>

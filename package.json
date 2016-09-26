@@ -14,5 +14,9 @@
     "grunt-contrib-watch": "gruntjs/grunt-contrib-watch",
     "grunt-newer": "tschaub/grunt-newer",
     "grunt-contrib-copy": "1.0.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-uglify": "^2.0.0"
   }
 }

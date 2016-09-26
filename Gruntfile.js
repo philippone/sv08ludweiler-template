@@ -3,6 +3,8 @@ module.exports = function (grunt) {
     // var dest = "../../Sites/templates/joomboot";
     var dest = "release";
 
+    var destJS = dest + "/js/sv08ludweiler.js";
+
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
 
@@ -84,18 +86,45 @@ module.exports = function (grunt) {
             }
         },
 
+        uglify: {
+            my_target: {
+                files: {
+                    'release/js/sv08ludweiler.min.js': [
+                        'src/js/application.js', 'src/js/materialize.js', 'src/js/template.js'
+                    ]
+                }
+            }
+        },
+
+        cssmin: {
+            target: {
+                files: [
+                    {
+                        expand: true,
+                        src: ['src/css/*.css', 'src/css/!*.min.css'],
+                        dest: '',
+                        ext: '.min.css'
+                    }
+                ]
+            }
+        }
+        ,
+
         clean: ["src/css/**/**", "src/css/**", "release/*"]
 
-    });
+    })
+    ;
 
+    grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-newer');
     grunt.loadNpmTasks('grunt-contrib-copy');
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
 
     grunt.registerTask('default', ['clean', 'sass']);
-    grunt.registerTask('release', ['default', 'copy:main']);
+    grunt.registerTask('release', ['default', 'cssmin', 'copy:main', 'uglify']);
 
     grunt.registerTask('module', ['copy:module']);
 
