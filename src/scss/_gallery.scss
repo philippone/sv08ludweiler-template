@@ -1,5 +1,6 @@
 #phocagallery {
-    @extend .container, .item-page;
+    @extend .container;
+    margin-bottom: 150px;
 
 }
 
