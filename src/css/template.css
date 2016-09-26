@@ -2621,6 +2621,9 @@ a.section-anchor { padding-top: 128px; margin-top: -128px; display: inline-block
 .card .card-content p.article-category a, .highlight-top > * .card-content p.article-category a, #jevents #jevents_body .card-content p.article-category a { color: rgba(0, 0, 0, 0.87); }
 .card .card-content .article-info-container, .highlight-top > * .card-content .article-info-container, #jevents #jevents_body .card-content .article-info-container { padding: 10px 0; }
 
+/* >= IE10 */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { .card .article-image-container, .highlight-top > * .article-image-container, #jevents #jevents_body .article-image-container { height: auto; } }
+@supports (-ms-ime-align: auto) { .card .article-image-container, .highlight-top > * .article-image-container, #jevents #jevents_body .article-image-container { height: auto; } }
 footer { color: white; }
 footer .row { margin: 0; }
 footer.page-footer { margin-top: 0; padding: 0; }

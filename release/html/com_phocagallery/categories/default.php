@@ -2,7 +2,7 @@
 defined('_JEXEC') or die('Restricted access');
 echo '<div id="phocagallery" class="pg-categories-view'.$this->params->get( 'pageclass_sfx' ).' pg-csv">';
 if ( $this->params->get( 'show_page_heading' ) ) { 
-	echo '<div class="page-header"><h1>'. $this->escape($this->params->get('page_heading')) . '</h1></div>';
+	echo '<div class="page-header"><h3>'. $this->escape($this->params->get('page_heading')) . '</h3></div>';
 }
 
 echo '<div id="pg-icons">';
