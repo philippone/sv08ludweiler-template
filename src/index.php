@@ -28,12 +28,13 @@ JHtml::_('jquery.framework');
 
 //$doc->addScriptVersion($this->baseurl . '/templates/' . $this->template . '/js/materialize.js');
 //$doc->addScriptVersion($this->baseurl . '/templates/' . $this->template . '/js/template.js');
-$doc->addScriptVersion($this->baseurl . '/templates/' . $this->template . '/js/sv08ludweiler.min.js');
+//$doc->addScriptVersion($this->baseurl . '/templates/' . $this->template . '/js/sv08ludweiler.min.js');
+JHtml::script(JUri::base() . '/templates/' . $this->template . '/js/sv08ludweiler.min.js', false);
 
 // Add Stylesheets
-$doc->addStyleSheetVersion($this->baseurl . '/templates/' . $this->template . '/css/materialize.min.css');
-$doc->addStyleSheetVersion($this->baseurl . '/templates/' . $this->template . '/css/template.min.css');
-$doc->addStyleSheetVersion('https://fonts.googleapis.com/icon?family=Material+Icons');
+$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/materialize.min.css');
+$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/template.min.css');
+$doc->addStyleSheet('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 // Use of Google Font
 if ($this->params->get('googleFont'))
