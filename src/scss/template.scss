@@ -374,6 +374,10 @@ a.section-anchor {
         .article-info-container {
             padding: 10px 0;
         }
+
+        p {
+            margin: 10px 0;
+        }
     }
 
 }
@@ -549,6 +553,7 @@ footer {
     //    background-color: green;
     //}
 }
+
 
 @import "blog";
 @import "fupa";
