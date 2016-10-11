@@ -1,0 +1,20 @@
+.event {
+    padding: 5px 10px;
+
+    .flex-row {
+        display:         flex;
+        justify-content: space-between;
+    }
+    .flex {
+        display:     flex;
+        //justify-content: center;
+        align-items: center;
+    }
+
+    &_category {
+        padding-right: 5px;
+    }
+
+}
+
+

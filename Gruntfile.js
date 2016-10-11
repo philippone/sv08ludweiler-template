@@ -1,7 +1,7 @@
 module.exports = function (grunt) {
 
     var dest = "../../Sites/templates/joomboot";
-    //var dest = "release";
+    var dest = "release";
 
     var destJS = dest + "/js/sv08ludweiler.js";
 
@@ -89,7 +89,7 @@ module.exports = function (grunt) {
         uglify: {
             my_target: {
                 files: {
-                    '../../Sites/templates/joomboot/js/sv08ludweiler.min.js': [
+                    'release/js/sv08ludweiler.min.js': [
                         'src/js/application.js', 'src/js/materialize.js', 'src/js/template.js'
                     ]
                 }
