@@ -1,43 +1,20 @@
-.blog {
+.blog, .blog-featured {
     margin-bottom: 170px;
     img {
         max-width: 100%;
+        width:     100%;
     }
 
-    .card {
+    .img_caption {
+        width: 100%;
 
-        .card-intro {
-
+        p {
+            width:      100%;
+            text-align: center;
+            margin:     0;
+            font-size:  12px;
         }
 
-        .card-content {
-            margin-top: 0;
-
-            .page-header h2 {
-                margin:    0 0 10px 0;
-                font-size: 2rem;
-                a {
-                    color: green
-                }
-
-            }
-
-        }
-
-        .card-action {
-        }
-
-        .readmore {
-            margin-top: 10px;
-        }
-
-    }
-}
-
-.blog-featured {
-    margin-bottom: 170px;
-    img {
-        max-width: 100%;
     }
 
     h2 {
@@ -48,10 +25,72 @@
         }
     }
 
-    .card .readmore {
-        margin-top: 10px;
+    .card {
+        margin: 20px 0;
+
+        .card-intro {
+
+            .pull-left {
+
+                overflow: hidden;
+            }
+
+        }
+
+        .card-content {
+            margin-top: 0;
+
+            //.page-header h2 {
+            //    margin:    0 0 10px 0;
+            //    font-size: 2rem;
+            //    a {
+            //        color: green
+            //    }
+            //}
+
+            figure {
+                margin: 1em 0;
+            }
+
+            figcaption {
+                text-align: center;
+                font-size:  12px;
+            }
+        }
+
+        //.card-action {
+        //}
+
+        .readmore {
+            margin-top: 10px;
+        }
+
     }
 }
+
+//.blog-featured {
+//    margin-bottom: 170px;
+//    img {
+//        max-width: 100%;
+//        width:     100%;
+//    }
+//
+//    h2 {
+//        margin:    0 0 10px 0;
+//        font-size: 2rem;
+//        a {
+//            color: green
+//        }
+//    }
+//
+//    .card {
+//        margin: 20px 0;
+//        .readmore {
+//            margin-top: 10px;
+//        }
+//    }
+//
+//}
 
 // article
 .item-page {
@@ -102,6 +141,15 @@
         //@include to('small') {
         //    margin-top: -40px;
         //}
+
+        figure {
+            margin: 1em 0;
+        }
+
+        figcaption {
+            text-align: center;
+            font-size:  12px;
+        }
     }
 }
 

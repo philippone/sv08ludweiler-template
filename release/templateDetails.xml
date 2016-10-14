@@ -38,9 +38,8 @@
 		<position>teaser-small</position>
 		<position>sub-component-top</position>
 		<position>sub-component-bottom</position>
-		<position>left</position>
-		<position>right</position>
 		<position>banner-partner</position>
+		<position>banner-partner-premium</position>
 		<position>banner-social-media</position>
 		<position>sub-footer</position>
 		<position>footer</position>

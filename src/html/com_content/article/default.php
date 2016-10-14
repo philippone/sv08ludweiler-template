@@ -57,7 +57,7 @@ JHtml::_('behavior.caption');
 <!--			<div class="pull---><?php //echo htmlspecialchars($imgfloat); ?><!-- item-image">-->
 				<img class="materialboxed"
 					<?php if ($images->image_fulltext_caption):
-						echo 'data-caption="="caption materialboxed"' . ' title="' . htmlspecialchars($images->image_fulltext_caption) . '"';
+						echo 'data-caption="'. htmlspecialchars($images->image_fulltext_caption) .'"' . ' title="' . htmlspecialchars($images->image_fulltext_caption) . '"';
 					endif; ?>
 					src="<?php echo htmlspecialchars($images->image_fulltext); ?>"
 					alt="<?php echo htmlspecialchars($images->image_fulltext_alt); ?>"

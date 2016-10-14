@@ -423,37 +423,8 @@ footer {
             margin-top: -110px;
         }
     }
-
-    .banner-partner {
-        padding-bottom: 30px;
-        margin-top:     -30px;
-
-    }
-
     .row-social-media {
         padding: 20px 0;
-    }
-
-    .bannergroup {
-        display:         flex;
-        flex-wrap:       wrap;
-        align-items:     center;
-        justify-content: center;
-    }
-
-    .banneritem {
-        margin-right: 10px;
-
-        img {
-            -webkit-filter: grayscale(1);
-            filter:         grayscale(1);
-            transition:     fiter 1s ease;
-
-            &:hover {
-                -webkit-filter: grayscale(0);
-                filter:         grayscale(0);
-            }
-        }
     }
 
     .footer-menu ul.nav.menu {
@@ -469,6 +440,43 @@ footer {
 
     a {
         color: white;
+    }
+}
+
+.banner-partner {
+    padding-bottom: 30px;
+    margin-top:     -30px;
+}
+
+.banner-partner-premium {
+    margin-top:    20px;
+    margin-bottom: -10px;
+}
+
+.bannergroup {
+    display:         flex;
+    flex-wrap:       wrap;
+    align-items:     center;
+    justify-content: center;
+}
+
+.banneritem {
+    margin: 0 10px;
+
+    img {
+        -webkit-filter: grayscale(1);
+        filter:         grayscale(1);
+        transition:     fiter 1s ease;
+        height: 40px;
+
+        @include to ('small') {
+            height: 35px;
+        }
+
+        &:hover {
+            -webkit-filter: grayscale(0);
+            filter:         grayscale(0);
+        }
     }
 }
 
@@ -557,7 +565,6 @@ footer {
     //    background-color: green;
     //}
 }
-
 
 @import "blog";
 @import "fupa";

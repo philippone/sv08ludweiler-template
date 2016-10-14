@@ -77,11 +77,13 @@
 </header>
 <!-- Messages module -->
 <jdoc:include type="message"/>
-<main >
-	<?php if ($this->countModules('left')) : ?>
-		<div class="row-left"">
-			<jdoc:include type="modules" name="left"/>
-		</main>
+<main>
+	<?php if ($this->countModules('banner-partner-premium')) : ?>
+		<div class="banner-partner-premium">
+			<div class="center">
+				<jdoc:include type="modules" name="banner-partner-premium"/>
+			</div>
+		</div>
 	<?php endif; ?>
 	<div class="row-middle">
 		<!-- sub-component-top -->

@@ -1,6 +1,6 @@
 module.exports = function (grunt) {
 
-    var dest = "../../Sites/templates/joomboot";
+    // var dest = "../../Sites/templates/joomboot";
     var dest = "release";
 
     var destJS = dest + "/js/sv08ludweiler.js";
