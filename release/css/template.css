@@ -2237,7 +2237,7 @@ footer a { color: white; }
 .bannergroup { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; }
 
 .banneritem { margin: 0 10px; }
-.banneritem img { -webkit-filter: grayscale(1); filter: grayscale(1); transition: fiter 1s ease; height: 40px; }
+.banneritem img { -webkit-filter: grayscale(1); filter: grayscale(1); transition: filter .3s ease-in-out; height: 40px; }
 @media (max-width: 600px) { .banneritem img { height: 35px; } }
 .banneritem img:hover { -webkit-filter: grayscale(0); filter: grayscale(0); }
 
@@ -2290,7 +2290,7 @@ ul.pager.pagenav { display: flex; justify-content: space-between; }
 .sv08-article-with-teaser .fulltext-container { display: none; }
 
 .highlight-top > div > div { height: 100%; }
-.highlight-top .fupa_widget { height: 100%; }
+.highlight-top .fupa_widget { overflow: hidden; height: 100%; }
 .highlight-top .fupa_widget a, .highlight-top .fupa_widget a:hover { color: green; }
 .highlight-top .fupa_widget > * { display: none; }
 .highlight-top .fupa_widget .content_table_std { margin: 0; }

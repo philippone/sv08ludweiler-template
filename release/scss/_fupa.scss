@@ -4,12 +4,13 @@
         height: 100%;
     }
     .fupa_widget {
+        overflow: hidden;
 
         a, a:hover {
             color: green;
         }
 
-        height: 100%;
+        height:   100%;
         > * {
             display: none;
         }

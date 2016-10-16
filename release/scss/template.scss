@@ -466,7 +466,7 @@ footer {
     img {
         -webkit-filter: grayscale(1);
         filter:         grayscale(1);
-        transition:     fiter 1s ease;
+        transition:     filter .3s ease-in-out;
         height: 40px;
 
         @include to ('small') {
