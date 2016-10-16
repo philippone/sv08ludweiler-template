@@ -4,13 +4,13 @@
         height: 100%;
     }
     .fupa_widget {
-        overflow: hidden;
+        overflow:   hidden;
+        height:     100%;
+        max-height: 230px;
 
         a, a:hover {
             color: green;
         }
-
-        height:   100%;
         > * {
             display: none;
         }
@@ -53,6 +53,19 @@
                 }
             }
 
+        }
+
+        .front_liveticker {
+            display: none;
+        }
+
+        // liveticker
+        div#scroll_liveticker {
+            height: 10%;
+
+            + table {
+                height: 90%;
+            }
         }
     }
 }

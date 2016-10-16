@@ -467,7 +467,7 @@ footer {
         -webkit-filter: grayscale(1);
         filter:         grayscale(1);
         transition:     filter .3s ease-in-out;
-        height: 40px;
+        height:         40px;
 
         @include to ('small') {
             height: 35px;
@@ -564,6 +564,15 @@ footer {
     //a {
     //    background-color: green;
     //}
+}
+
+.mod_events_latest_table {
+    display: table;
+    @include from('large') {
+        display:    flex;
+        overflow:   auto;
+        max-height: 230px;
+    }
 }
 
 @import "blog";

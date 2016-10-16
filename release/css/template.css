@@ -2255,6 +2255,9 @@ footer a { color: white; }
 #jevents .nav-items a:hover { border-color: green; background-color: grey; }
 #jevents #jevents_body { background-color: white; }
 
+.mod_events_latest_table { display: table; }
+@media (min-width: 993px) { .mod_events_latest_table { display: flex; overflow: auto; max-height: 230px; } }
+
 .blog, .blog-featured { margin-bottom: 170px; }
 .blog img, .blog-featured img { max-width: 100%; width: 100%; }
 .blog .img_caption, .blog-featured .img_caption { width: 100%; }
@@ -2290,7 +2293,7 @@ ul.pager.pagenav { display: flex; justify-content: space-between; }
 .sv08-article-with-teaser .fulltext-container { display: none; }
 
 .highlight-top > div > div { height: 100%; }
-.highlight-top .fupa_widget { overflow: hidden; height: 100%; }
+.highlight-top .fupa_widget { overflow: hidden; height: 100%; max-height: 230px; }
 .highlight-top .fupa_widget a, .highlight-top .fupa_widget a:hover { color: green; }
 .highlight-top .fupa_widget > * { display: none; }
 .highlight-top .fupa_widget .content_table_std { margin: 0; }
@@ -2301,6 +2304,9 @@ ul.pager.pagenav { display: flex; justify-content: space-between; }
 .highlight-top .fupa_widget > div:first-child .spielbericht_header #ergebnis { font-size: 30px; color: green; }
 .highlight-top .fupa_widget > div:first-child .live_uhrzeit input, .highlight-top .fupa_widget > div:first-child .liveticker_uhr_doppelpunkt, .highlight-top .fupa_widget > div:first-child .navileiste, .highlight-top .fupa_widget > div:first-child .navileiste_zusatz { display: none; }
 .highlight-top .fupa_widget > div:first-child .liveticker_header_leiste:nth-child(3) td:nth-child(2) { visibility: hidden; pointer-events: none; }
+.highlight-top .fupa_widget .front_liveticker { display: none; }
+.highlight-top .fupa_widget div#scroll_liveticker { height: 10%; }
+.highlight-top .fupa_widget div#scroll_liveticker + table { height: 90%; }
 
 .event { padding: 5px 10px; }
 .event .flex-row { display: flex; justify-content: space-between; }
