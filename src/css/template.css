@@ -2255,8 +2255,9 @@ footer a { color: white; }
 #jevents .nav-items a:hover { border-color: green; background-color: grey; }
 #jevents #jevents_body { background-color: white; }
 
-.mod_events_latest_table { display: table; }
-@media (min-width: 993px) { .mod_events_latest_table { display: flex; overflow: auto; max-height: 230px; } }
+.mod_events_latest_table { display: flex; overflow: auto; max-height: 230px; }
+.mod_events_latest_table tbody { display: flex; flex-direction: column; width: 100%; }
+.mod_events_latest_table tbody tr td { display: flex; }
 
 .blog, .blog-featured { margin-bottom: 170px; }
 .blog img, .blog-featured img { max-width: 100%; width: 100%; }
@@ -2308,7 +2309,7 @@ ul.pager.pagenav { display: flex; justify-content: space-between; }
 .highlight-top .fupa_widget div#scroll_liveticker { height: 10%; }
 .highlight-top .fupa_widget div#scroll_liveticker + table { height: 90%; }
 
-.event { padding: 5px 10px; }
+.event { padding: 5px 10px; display: flex; flex-direction: column; width: 100%; }
 .event .flex-row { display: flex; justify-content: space-between; }
 .event .flex { display: flex; align-items: center; }
 .event_category { padding-right: 5px; }

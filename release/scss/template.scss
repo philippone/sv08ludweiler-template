@@ -567,11 +567,19 @@ footer {
 }
 
 .mod_events_latest_table {
-    display: table;
-    @include from('large') {
-        display:    flex;
-        overflow:   auto;
-        max-height: 230px;
+
+    display:    flex;
+    overflow:   auto;
+    max-height: 230px;
+
+    tbody {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        tr td {
+            display: flex;
+        }
     }
 }
 

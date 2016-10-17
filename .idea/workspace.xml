@@ -3,14 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="82a5ee48-caa3-4e8b-a34c-6cb6c9493c22" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/release/css/jevents.css" afterPath="$PROJECT_DIR$/release/css/jevents.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/release/css/jevents.min.css" afterPath="$PROJECT_DIR$/release/css/jevents.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/release/css/template.css" afterPath="$PROJECT_DIR$/release/css/template.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/release/css/template.min.css" afterPath="$PROJECT_DIR$/release/css/template.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/release/scss/_fupa.scss" afterPath="$PROJECT_DIR$/release/scss/_fupa.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/release/scss/jevents.scss" afterPath="$PROJECT_DIR$/release/scss/jevents.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/release/scss/template.scss" afterPath="$PROJECT_DIR$/release/scss/template.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/jevents.css" afterPath="$PROJECT_DIR$/src/css/jevents.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/jevents.min.css" afterPath="$PROJECT_DIR$/src/css/jevents.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/template.css" afterPath="$PROJECT_DIR$/src/css/template.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/template.min.css" afterPath="$PROJECT_DIR$/src/css/template.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/_fupa.scss" afterPath="$PROJECT_DIR$/src/scss/_fupa.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/jevents.scss" afterPath="$PROJECT_DIR$/src/scss/jevents.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/template.scss" afterPath="$PROJECT_DIR$/src/scss/template.scss" />
     </list>
@@ -135,11 +137,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="template.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="template.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/scss/template.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="691">
-                  <caret line="577" column="15" selection-start-line="577" selection-start-column="15" selection-end-line="577" selection-end-column="15" />
+                <state relative-caret-position="592">
+                  <caret line="569" column="0" selection-start-line="569" selection-start-column="0" selection-end-line="569" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -165,11 +167,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="jevents.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="jevents.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/scss/jevents.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+                <state relative-caret-position="330">
+                  <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -246,9 +248,9 @@
         <option value="$PROJECT_DIR$/src/templateDetails.xml" />
         <option value="$PROJECT_DIR$/src/html/body.php" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
-        <option value="$PROJECT_DIR$/src/scss/jevents.scss" />
         <option value="$PROJECT_DIR$/src/scss/_fupa.scss" />
         <option value="$PROJECT_DIR$/src/scss/template.scss" />
+        <option value="$PROJECT_DIR$/src/scss/jevents.scss" />
       </list>
     </option>
   </component>
@@ -581,12 +583,12 @@
       <workItem from="1476347019927" duration="716000" />
       <workItem from="1476446936643" duration="7996000" />
       <workItem from="1476611810662" duration="627000" />
-      <workItem from="1476636032125" duration="2736000" />
+      <workItem from="1476636032125" duration="3603000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165103000" />
+    <option name="totallyTimeSpent" value="165970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="649" y="23" width="1831" height="1378" extended-state="0" />
@@ -598,7 +600,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36285713" sideWeight="0.51757187" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929993" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29393467" sideWeight="0.4824281" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29393467" sideWeight="0.4824281" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18429238" sideWeight="0.48591548" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -1007,14 +1009,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/jevents.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/breakpoint-slicer-scss/src/breakpoint-slicer/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="535">
@@ -1025,8 +1019,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/template.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="577" column="15" selection-start-line="577" selection-start-column="15" selection-end-line="577" selection-end-column="15" />
+        <state relative-caret-position="592">
+          <caret line="569" column="0" selection-start-line="569" selection-start-column="0" selection-end-line="569" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/jevents.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
