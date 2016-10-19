@@ -524,9 +524,8 @@ footer {
 //}
 
 #jevents {
-    max-width: 1250px;
-    width:     70%;
-    margin:    0 auto;
+    @extend .container;
+    padding-bottom: 170px;
 
     .nav-items {
 
@@ -568,14 +567,17 @@ footer {
 
 .mod_events_latest_table {
 
-    display:    flex;
-    overflow:   auto;
-    max-height: 230px;
+    display:  flex;
+    overflow: auto;
+
+    @include from('large') {
+        max-height: 230px;
+    }
 
     tbody {
-        display: flex;
+        display:        flex;
         flex-direction: column;
-        width: 100%;
+        width:          100%;
 
         tr td {
             display: flex;

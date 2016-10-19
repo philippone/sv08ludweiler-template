@@ -1425,11 +1425,11 @@ nav ul a span.badge { position: static; margin-left: 4px; line-height: 0; }
 /* This is needed for some mobile phones to display the Google Icon font properly */
 .material-icons { text-rendering: optimizeLegibility; font-feature-settings: 'liga'; }
 
-.container, .custom-sv08-section, .sv08-section, #phocagallery { margin: 0 auto; max-width: 1280px; width: 90%; }
+.container, .custom-sv08-section, .sv08-section, #jevents, #phocagallery { margin: 0 auto; max-width: 1280px; width: 90%; }
 
-@media only screen and (min-width: 601px) { .container, .custom-sv08-section, .sv08-section, #phocagallery { width: 85%; } }
-@media only screen and (min-width: 993px) { .container, .custom-sv08-section, .sv08-section, #phocagallery { width: 70%; } }
-.container .row, .custom-sv08-section .row, .sv08-section .row, #phocagallery .row { margin-left: -0.75rem; margin-right: -0.75rem; }
+@media only screen and (min-width: 601px) { .container, .custom-sv08-section, .sv08-section, #jevents, #phocagallery { width: 85%; } }
+@media only screen and (min-width: 993px) { .container, .custom-sv08-section, .sv08-section, #jevents, #phocagallery { width: 70%; } }
+.container .row, .custom-sv08-section .row, .sv08-section .row, #jevents .row, #phocagallery .row { margin-left: -0.75rem; margin-right: -0.75rem; }
 
 .section { padding-top: 1rem; padding-bottom: 1rem; }
 .section.no-pad { padding: 0; }
@@ -2185,7 +2185,7 @@ main { flex: 1 0 auto; }
 .sub-navigation, .navbar-extended { z-index: 10; height: auto; }
 .sub-navigation .nav.menu, .navbar-extended .nav.menu { display: flex; flex-direction: row; flex-wrap: wrap; }
 
-@media (max-width: 600px) { .navbar-extended .container, .navbar-extended .custom-sv08-section, .navbar-extended .sv08-section, .navbar-extended #phocagallery { width: 100%; } }
+@media (max-width: 600px) { .navbar-extended .container, .navbar-extended .custom-sv08-section, .navbar-extended .sv08-section, .navbar-extended #jevents, .navbar-extended #phocagallery { width: 100%; } }
 .navbar-extended .nav.menu { flex-wrap: nowrap; white-space: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; -ms-overflow-style: -ms-autohiding-scrollbar; }
 
 .row-middle { flex: 1; }
@@ -2248,14 +2248,15 @@ footer a { color: white; }
 @media (min-width: 993px) { .highlight-top > * { min-height: 200px; } }
 .highlight-top p { margin: 0; padding: 0; }
 
-#jevents { max-width: 1250px; width: 70%; margin: 0 auto; }
+#jevents { padding-bottom: 170px; }
 #jevents .nav-items > div { border-color: green; border-radius: 0; }
 #jevents .nav-items > div a:hover { border-color: green; background-color: lightgreen; }
 #jevents .nav-items > div.active a:hover { border-color: green; color: white; }
 #jevents .nav-items a:hover { border-color: green; background-color: grey; }
 #jevents #jevents_body { background-color: white; }
 
-.mod_events_latest_table { display: flex; overflow: auto; max-height: 230px; }
+.mod_events_latest_table { display: flex; overflow: auto; }
+@media (min-width: 993px) { .mod_events_latest_table { max-height: 230px; } }
 .mod_events_latest_table tbody { display: flex; flex-direction: column; width: 100%; }
 .mod_events_latest_table tbody tr td { display: flex; }
 
