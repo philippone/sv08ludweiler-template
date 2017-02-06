@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="content">
+	<name>Article Report Fields</name>
+	<creationDate>24.10.2016</creationDate>
+	<author>Philipp Schardt</author>
+	<authorEmail>mail@philippschardt.net</authorEmail>
+	<authorUrl>philippschardt.net</authorUrl>
+	<copyright>Copyright</copyright>
+	<license>License, for example GNU/GPL</license>
+	<version>1.0</version>
+	<description>Adding custom fields about game report and game score to articles</description>
+	<files>
+		<filename plugin="plg_article_report">plg_article_report.php</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="league" type="text"
+					   description="Liga in der das Spiel ausgetragen wurde"
+					   label="Liga des Spiels"
+				/>
+				<field name="matchday" type="text"
+					   description="Spieltag Beschreibung, z.B. 12. Spieltag"
+					   label="Spieltag-Beschreibung"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

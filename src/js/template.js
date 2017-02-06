@@ -28,8 +28,8 @@
         // mobile navbar
         $(".button-collapse").sideNav();
         $('.materialboxed').materialbox();
-        $('.carousel.carousel-slider').carousel({full_width: true});
         init();
+        $('.carousel.carousel-slider').carousel({full_width: true});
     });
 
     var doit;
