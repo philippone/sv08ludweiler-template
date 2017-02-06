@@ -26,7 +26,10 @@
 
     $(document).ready(function () {
         // mobile navbar
-        $(".button-collapse").sideNav();
+        $(".button-collapse").sideNav({
+            closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+            draggable: false
+        });
         $('.materialboxed').materialbox();
         init();
         $('.carousel.carousel-slider').carousel({full_width: true});
