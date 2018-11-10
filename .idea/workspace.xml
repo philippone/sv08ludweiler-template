@@ -2,215 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82a5ee48-caa3-4e8b-a34c-6cb6c9493c22" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_badges.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_transitions.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/component.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/css/jevents.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/css/jevents.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/css/materialize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/css/materialize.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/css/offline.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/css/offline.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/css/print.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/css/print.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/css/template.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/css/template.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/error.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/material-design-icons/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/material-design-icons/Material-Design-Icons.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/material-design-icons/Material-Design-Icons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/material-design-icons/Material-Design-Icons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/material-design-icons/Material-Design-Icons.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Bold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Bold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Bold.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Light.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Light.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Light.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Medium.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Medium.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Medium.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Medium.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Thin.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Thin.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Thin.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/fonts/roboto/Roboto-Thin.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/body.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/article/default-20160903-144216.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/article/default.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/article/default_links-20160903-144216.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/article/default_links.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/category/blog.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/category/blog_children.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/category/blog_item.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/category/blog_links.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/category/default.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/category/default_articles.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/category/default_children.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/featured/default.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/featured/default_item.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/featured/default_links.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/featured/metadata.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/featured/tmpl/default.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/featured/tmpl/default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/featured/tmpl/default_items.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_content/featured/view.html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_jevents/icalevent/edit.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_jevents/icalevent/edit_associations.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_jevents/icalevent/edit_datetime.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_jevents/icalevent/select.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_phocagallery/categories/default.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_phocagallery/categories/default_categories.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_phocagallery/categories/default_map.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_phocagallery/categories/default_obs_catimgdesc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_phocagallery/categories/default_obs_catimgdetail.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_phocagallery/categories/default_obs_catimgdetailfloat.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_phocagallery/categories/default_obs_catimgdetailtitleonly.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_phocagallery/categories/default_obs_custom.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_phocagallery/categories/default_obscatimg.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_phocagallery/categories/default_pagination.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_phocagallery/categories/default_rating.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_phocagallery/category/default.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_phocagallery/category/default_categories.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_phocagallery/category/default_comments-fb.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_phocagallery/category/default_comments.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_phocagallery/category/default_geotagging.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_phocagallery/category/default_images.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_phocagallery/category/default_javaupload.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_phocagallery/category/default_multipleupload.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_phocagallery/category/default_newcategory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_phocagallery/category/default_pagination.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_phocagallery/category/default_rating.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_phocagallery/category/default_statistics.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_phocagallery/category/default_upload.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_phocagallery/category/default_uploadform.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/com_phocagallery/category/default_ytbupload.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/layouts/joomla/content/info_block/author.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/layouts/joomla/content/info_block/block.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/layouts/joomla/pagination/link.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/layouts/joomla/pagination/links.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/mod_articles_category/default.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/mod_jevents_latest/alternative/latest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/mod_jevents_latest/default/latest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/mod_jevents_latest/ext/latest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/mod_jevents_latest/flat/latest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/mod_jevents_latest/geraint/latest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/mod_menu/default.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/mod_menu/default_component.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/mod_menu/default_heading.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/mod_menu/default_separator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/mod_menu/default_url.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/mod_rapid_contact/mod_rapid_contact.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/modules.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/html/pagination.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/img/wappen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/js/application.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/js/materialize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/js/sv08ludweiler.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/js/template.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/language/en-GB/en-GB.tpl_joomboot.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/language/en-GB/en-GB.tpl_joomboot.sys.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/materialize/materialize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/offline.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/_blog.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/_fupa.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/_gallery.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_cards.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_carousel.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_chips.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_collapsible.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_color.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_dropdown.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_global.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_icons-material-design.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_materialbox.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_modal.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_navbar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_normalize.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_prefixer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_preloader.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_roboto.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_sideNav.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_slider.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_table_of_contents.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_tabs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_toast.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_tooltip.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_typography.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/_waves.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/date_picker/_default.date.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/date_picker/_default.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/date_picker/_default.time.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/forms/_checkboxes.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/forms/_file-input.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/forms/_forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/forms/_input-fields.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/forms/_radio-buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/forms/_range.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/forms/_select.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/components/forms/_switches.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/jevents.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/materialize.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/offline.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/print.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/scss/template.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/templateDetails.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/template_preview.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/release/template_thumbnail.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/materialize.css" afterPath="$PROJECT_DIR$/src/css/materialize.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/materialize.min.css" afterPath="$PROJECT_DIR$/src/css/materialize.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/template.css" afterPath="$PROJECT_DIR$/src/css/template.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/template.min.css" afterPath="$PROJECT_DIR$/src/css/template.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/materialize.js" afterPath="$PROJECT_DIR$/src/js/materialize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/template.js" afterPath="$PROJECT_DIR$/src/js/template.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/materialize/materialize.css" afterPath="$PROJECT_DIR$/src/materialize/materialize.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/components/_buttons.scss" afterPath="$PROJECT_DIR$/src/scss/components/_buttons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/components/_cards.scss" afterPath="$PROJECT_DIR$/src/scss/components/_cards.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/components/_carousel.scss" afterPath="$PROJECT_DIR$/src/scss/components/_carousel.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/components/_chips.scss" afterPath="$PROJECT_DIR$/src/scss/components/_chips.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/components/_collapsible.scss" afterPath="$PROJECT_DIR$/src/scss/components/_collapsible.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/components/_dropdown.scss" afterPath="$PROJECT_DIR$/src/scss/components/_dropdown.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/components/_global.scss" afterPath="$PROJECT_DIR$/src/scss/components/_global.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/components/_icons-material-design.scss" afterPath="$PROJECT_DIR$/src/scss/components/_icons-material-design.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/components/_materialbox.scss" afterPath="$PROJECT_DIR$/src/scss/components/_materialbox.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/components/_modal.scss" afterPath="$PROJECT_DIR$/src/scss/components/_modal.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/components/_navbar.scss" afterPath="$PROJECT_DIR$/src/scss/components/_navbar.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/components/_prefixer.scss" afterPath="$PROJECT_DIR$/src/scss/components/_prefixer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/components/_sideNav.scss" afterPath="$PROJECT_DIR$/src/scss/components/_sideNav.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/components/_table_of_contents.scss" afterPath="$PROJECT_DIR$/src/scss/components/_table_of_contents.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/components/_tabs.scss" afterPath="$PROJECT_DIR$/src/scss/components/_tabs.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/components/_toast.scss" afterPath="$PROJECT_DIR$/src/scss/components/_toast.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/components/_tooltip.scss" afterPath="$PROJECT_DIR$/src/scss/components/_tooltip.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/components/_typography.scss" afterPath="$PROJECT_DIR$/src/scss/components/_typography.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/components/_variables.scss" afterPath="$PROJECT_DIR$/src/scss/components/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/components/_waves.scss" afterPath="$PROJECT_DIR$/src/scss/components/_waves.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/components/date_picker/_default.date.scss" afterPath="$PROJECT_DIR$/src/scss/components/date_picker/_default.date.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/components/date_picker/_default.scss" afterPath="$PROJECT_DIR$/src/scss/components/date_picker/_default.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/components/date_picker/_default.time.scss" afterPath="$PROJECT_DIR$/src/scss/components/date_picker/_default.time.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/components/forms/_input-fields.scss" afterPath="$PROJECT_DIR$/src/scss/components/forms/_input-fields.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/components/forms/_radio-buttons.scss" afterPath="$PROJECT_DIR$/src/scss/components/forms/_radio-buttons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/components/forms/_select.scss" afterPath="$PROJECT_DIR$/src/scss/components/forms/_select.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/materialize.scss" afterPath="$PROJECT_DIR$/src/scss/materialize.scss" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sv08ludweiler-template.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sv08ludweiler-template.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/materialize.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/materialize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/materialize.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/materialize.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/template.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/template.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/template.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/template.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_fupa.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_fupa.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/template.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/template.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templateDetails.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/templateDetails.xml" afterDir="false" />
     </list>
     <ignored path="sv08ludweiler-template.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -219,58 +27,117 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="1672499237">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gitignore" value="1" />
+          <entry key="scss" value="1" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="SCSS" value="1" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="gitignore" value="21" />
+          <entry key="scss" value="76" />
+          <entry key="xml" value="21" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="21" />
+          <entry key="SCSS" value="76" />
+          <entry key="XML" value="21" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="sv08ludweiler-template" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="template.scss" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scss/template.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6705">
-              <caret line="447" column="26" selection-start-line="447" selection-start-column="26" selection-end-line="447" selection-end-column="26" />
-              <folding />
+            <state relative-caret-position="298">
+              <caret line="498" column="19" selection-start-line="498" selection-start-column="19" selection-end-line="498" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="modules.php" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/templateDetails.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/scss/_fupa.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/html/modules.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template.js" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/template.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
               <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="46" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="46" />
-              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="materialize.scss" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scss/materialize.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
               <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -280,13 +147,25 @@
   <component name="FileTemplateManagerImpl">
     <option name="SCHEME" value="Project" />
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fupa</find>
+      <find>.highlight-top</find>
+      <find>border-bottom</find>
+      <find>min-hei</find>
+      <find>min-height: 200px</find>
+      <find>version</find>
+      <find>1.1</find>
+      <find>.content_table_std</find>
+      <find>td</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/modules/mod_latestarticles/mod_latestarticles.php" />
         <option value="$PROJECT_DIR$/modules/mod_latestarticles/tmpl/default.php" />
         <option value="$PROJECT_DIR$/src/html/layouts/joomla/content/info_block/block.php" />
         <option value="$PROJECT_DIR$/modules/mod_latestarticles/helper.php" />
@@ -318,10 +197,7 @@
         <option value="$PROJECT_DIR$/src/index.php" />
         <option value="$PROJECT_DIR$/modules/mod_latestarticles/language/en-GB.mod_latestarticles.ini" />
         <option value="$PROJECT_DIR$/src/html/com_content/article/default.php" />
-        <option value="$PROJECT_DIR$/src/templateDetails.xml" />
-        <option value="$PROJECT_DIR$/src/scss/_fupa.scss" />
         <option value="$PROJECT_DIR$/src/scss/jevents.scss" />
-        <option value="$PROJECT_DIR$/src/scss/template.scss" />
         <option value="$PROJECT_DIR$/src/html/body.php" />
         <option value="$PROJECT_DIR$/src/html/modules.php" />
         <option value="$PROJECT_DIR$/src/scss/_blog.scss" />
@@ -337,6 +213,10 @@
         <option value="$PROJECT_DIR$/src/scss/components/_sideNav.scss" />
         <option value="$PROJECT_DIR$/src/scss/components/_variables.scss" />
         <option value="$PROJECT_DIR$/src/js/template.js" />
+        <option value="$PROJECT_DIR$/src/scss/template.scss" />
+        <option value="$PROJECT_DIR$/src/templateDetails.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/scss/_fupa.scss" />
       </list>
     </option>
   </component>
@@ -392,76 +272,74 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/bower_components/breakpoint-sass/package.json" />
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+  <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$USER_HOME$/Sites" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="1372" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sv08ludweiler-template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sv08ludweiler-template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sv08ludweiler-template" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="sv08ludweiler-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sv08ludweiler-template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sv08ludweiler-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sv08ludweiler-template" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sv08ludweiler-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sv08ludweiler-template" type="462c0819:PsiDirectoryNode" />
+              <item name="release" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sv08ludweiler-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sv08ludweiler-template" type="462c0819:PsiDirectoryNode" />
+              <item name="release" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sv08ludweiler-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sv08ludweiler-template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Sites" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
-    <property name="js.buildTools.grunt.grunt-cli.package" value="/usr/local/lib/node_modules/grunt-cli" />
-    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="SearchEverywhereHistoryKey" value="bower&#9;FILE&#9;file:///Users/philipp.schardt/workspace/sv08ludweiler-template/bower_components/breakpoint-sass/bower.json&#10;grunt&#9;FILE&#9;file:///Users/philipp.schardt/workspace/sv08ludweiler-template/Gruntfile.js&#10;carousel&#9;FILE&#9;file:///Users/philipp.schardt/workspace/sv08ludweiler-template/src/scss/components/_carousel.scss&#10;materia&#9;FILE&#9;file:///Users/philipp.schardt/workspace/sv08ludweiler-template/src/js/materialize.js&#10;templ&#9;FILE&#9;file:///Users/philipp.schardt/workspace/sv08ludweiler-template/src/js/template.js&#10;variables&#9;null&#9;null&#10;index&#9;FILE&#9;file:///Users/philipp.schardt/workspace/sv08ludweiler-template/src/index.php&#10;item-page&#9;null&#9;null&#10;gr&#9;FILE&#9;file:///Users/philipp.schardt/workspace/sv08ludweiler-template/Gruntfile.js" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="/usr/local/lib/node_modules/grunt-cli" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
@@ -481,28 +359,32 @@
       <recent name="$PROJECT_DIR$/src/html/com_phocagallery" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager">
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
-      <method />
-    </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
-      <BehatRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
       <node-interpreter value="project" />
       <envs />
-      <method />
+      <method v="2" />
+    </configuration>
+    <configuration name="release" type="js.build_tools.grunt" factoryName="Grunt.js" temporary="true">
+      <node-interpreter value="project" />
+      <gruntfile value="$PROJECT_DIR$/Gruntfile.js" />
+      <tasks>
+        <task value="release" />
+      </tasks>
+      <envs />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
@@ -511,31 +393,13 @@
       <tasks />
       <arguments />
       <envs />
-      <method />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui />
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
-      <method />
-    </configuration>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+    <recent_temporary>
+      <list>
+        <item itemvalue="Grunt.js.release" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -569,35 +433,41 @@
       <workItem from="1476897186819" duration="4206000" />
       <workItem from="1477569014593" duration="692000" />
       <workItem from="1486366538331" duration="2602000" />
+      <workItem from="1541853893631" duration="905000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175614000" />
+    <option name="totallyTimeSpent" value="176519000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="1372" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="0" width="2560" height="1440" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23424879" sideWeight="0.6287293" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23424879" sideWeight="0.37127072" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36285713" sideWeight="0.51757187" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281493" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29296875" sideWeight="0.4824281" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1796875" sideWeight="0.48591548" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.62757874" visible="true" weight="0.2339158" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Grunt " order="2" sideWeight="0.3724213" side_tool="true" visible="true" weight="0.2339158" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32945737" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4824281" weight="0.29270074" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.51757187" side_tool="true" weight="0.36285713" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.48591548" weight="0.25693431" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3277372" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -651,18 +521,9 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/html/com_content/category/blog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="62" column="22" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/mod_fussball_de/helper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -678,16 +539,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/mod_fussball_results/tmpl/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/mod_fussball_results/mod_fussball_results.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -774,11 +629,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/components/_materialbox.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/com_content/featured/default_item.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -802,11 +653,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/mod_menu/default_separator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/com_content/article/default.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -815,13 +662,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Sites/tmp/sportsmanagement/admin/libraries/google-php/Google/Service/Manager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="1533" column="6" selection-start-line="1533" selection-start-column="6" selection-end-line="1533" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Sites/tmp/sportsmanagement/admin/libraries/google-php/Google/Service/Manager.php" />
     <entry file="file://$PROJECT_DIR$/src/html/com_content/featured/default.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
@@ -832,14 +673,7 @@
     <entry file="file://$PROJECT_DIR$/src/scss/jevents.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/_fupa.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="826">
-          <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -850,28 +684,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/modules.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/template.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6705">
-          <caret line="447" column="26" selection-start-line="447" selection-start-column="26" selection-end-line="447" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/html/body.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="73">
           <caret line="103" column="19" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="19" />
           <folding>
-            <element signature="e#1953#1970#0#HTML" expanded="false" />
+            <element signature="e#1953#1970#0#HTML" />
           </folding>
         </state>
       </provider>
@@ -880,7 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -895,63 +712,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templateDetails.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/_blog.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="499">
-          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-          <folding />
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/breakpoint-sass/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="46" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/components/_buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/components/_global.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -959,31 +746,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/materialize/materialize.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="36" column="79" selection-start-line="36" selection-start-column="79" selection-end-line="36" selection-end-column="79" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -991,11 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
           <caret line="230" column="8018" selection-start-line="230" selection-start-column="8018" selection-end-line="230" selection-end-column="8018" />
-          <folding>
-            <marker date="1485371406000" expanded="true" signature="168269:168276" ph="..." />
-            <marker date="1485371406000" expanded="true" signature="243068:243097" ph="..." />
-            <marker date="1485371406000" expanded="true" signature="243358:243368" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1003,7 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="169" column="35" selection-start-line="169" selection-start-column="35" selection-end-line="169" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1011,23 +780,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="721">
           <caret line="318" column="33" selection-start-line="318" selection-start-column="33" selection-end-line="318" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/components/_badges.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/materialize.scss">
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-          <folding />
+        <state relative-caret-position="30">
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -1035,7 +801,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/materialize.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/modules.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/template.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="498" column="19" selection-start-line="498" selection-start-column="19" selection-end-line="498" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templateDetails.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/_fupa.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
         </state>
       </provider>
     </entry>

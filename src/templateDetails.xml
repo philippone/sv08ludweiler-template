@@ -3,8 +3,8 @@
 
 <extension version="3.3" type="template" client="site">
 	<name>SV 08 Ludweiler</name>
-	<version>1.1</version>
-	<creationDate>30/8/2016</creationDate>
+	<version>1.2</version>
+	<creationDate>10/11/2018</creationDate>
 	<author>Philipp Schardt</author>
 	<authorEmail>philipp.schardt@sv08ludweiler.de</authorEmail>
 	<copyright>Copyright (C) 2016 SV 08 Ludweiler, LLC. All rights reserved.</copyright>

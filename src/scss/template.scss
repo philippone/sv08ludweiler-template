@@ -508,9 +508,9 @@ footer {
         transition:       box-shadow .25s;
         border-radius:    2px;
 
-        @include from('large') {
-            min-height: 200px;
-        }
+        //@include from('large') {
+        //    min-height: 200px;
+        //}
     }
 
     p {
