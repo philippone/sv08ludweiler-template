@@ -3,3 +3,7 @@
 *.zip
 /release
 /release/*
+.sass-cache
+bower_components
+bower_components/
+*.zip

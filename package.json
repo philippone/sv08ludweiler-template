@@ -8,12 +8,12 @@
     "email": "philipp.schardt@sv08ludweiler.de"
   },
   "dependencies": {
-    "grunt": "1.0.1",
+    "grunt": "^1.0.4",
     "grunt-contrib-clean": "gruntjs/grunt-contrib-clean",
+    "grunt-contrib-copy": "1.0.0",
     "grunt-contrib-sass": "gruntjs/grunt-contrib-sass",
     "grunt-contrib-watch": "gruntjs/grunt-contrib-watch",
-    "grunt-newer": "tschaub/grunt-newer",
-    "grunt-contrib-copy": "1.0.0"
+    "grunt-newer": "tschaub/grunt-newer"
   },
   "devDependencies": {
     "grunt-contrib-cssmin": "^1.0.2",
